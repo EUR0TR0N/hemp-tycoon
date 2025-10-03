@@ -64,6 +64,17 @@ configuration settings:  v29g
             <alert_text>HAVE YOU BEEN GOOD THIS YEAR? HAVE YOU BEEN VERY, VERY GOOD?</alert_text>
         </event>
         <event>
+            <e_day>4</e_day><!-- 1-31, no offset needed -->
+            <e_month>10</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>money</award_type> <!--xp,money -->
+            <award_base>100</award_base>
+            <level_multiplyer>2</level_multiplyer>
+
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>TEST!</alert_title>
+            <alert_text>TEST YOU BEEN GOOD THIS YEAR? HAVE YOU BEEN VERY, VERY GOOD?</alert_text>
+        </event>
+        <event>
             <e_day>20</e_day><!-- 1-31, no offset needed -->
             <e_month>4</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
             <award_type>xp</award_type> <!--xp,money -->
