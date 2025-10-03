@@ -2832,7 +2832,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <uses>Get rich quick!</uses>
         <aoe>neighbor</aoe>
         <type>game</type>
-        <game_odds>20</game_odds>
+        <game_odds>30</game_odds>
         <num_uses>3</num_uses>
         <award_type>money</award_type>
         <award_base>500</award_base>
@@ -2862,7 +2862,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <aoe>neighbor</aoe>
 
         <type>game</type>
-        <game_odds>13</game_odds>
+        <game_odds>18</game_odds>
         <num_uses>1</num_uses>
         <award_type>money</award_type>
         <award_base>25000</award_base>
