@@ -260,7 +260,7 @@ configuration settings:  v29g
         </song>
     </jukebox>
     <xp_levels>
-        <level>
+        <level> <!-- level 1 -->
             <threshold>0</threshold>
             <water_duration>1.6</water_duration>
             <harvest_duration>2.6</harvest_duration>
@@ -275,7 +275,7 @@ configuration settings:  v29g
 			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>75</threshold>
+            <threshold>20</threshold>
             <water_duration>1.6</water_duration>
             <harvest_duration>2.5</harvest_duration>
             <walk_speed>7</walk_speed>
@@ -549,6 +549,13 @@ configuration settings:  v29g
         </level>
         <level>
             <threshold>2500000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>3000000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
@@ -2707,7 +2714,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>1500000</price>
-	    <level>40</level>
+	    <level>123</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>5500</harvest_xp>
@@ -2842,7 +2849,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <type>food</type>
         <num_uses>1</num_uses>
         <award_type>xp</award_type>
-        <award_base>2000</award_base>
+        <award_base>200000</award_base>
         <level_multiplyer>0</level_multiplyer>
 
         <alert_background>blue</alert_background>
