@@ -508,14 +508,14 @@ configuration settings:  v29g
             <walk_speed>12</walk_speed>
 			<fluids_amount>5000</fluids_amount>
         </level>
-        <level> 
+        <level>
             <threshold>780000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
 			<fluids_amount>5000</fluids_amount>
         </level>
-        <level> 
+        <level>
             <threshold>865000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
@@ -570,9 +570,9 @@ ISLAND
         <rows>
              <row>0,0,0,0,0,0</row>
              <row>0,0,0,0,0,0</row>
-             <row>0,0,0,0,0,0</row>
-             <row>0,0,0,2,0,0</row>
-             <row>0,0,0,0,0,0</row>
+             <row>0,0,1,1,1,0</row>
+             <row>0,0,1,2,1,0</row>
+             <row>0,0,1,1,1,0</row>
              <row>0,0,0,0,0,0</row>
         </rows>
         <weather_odds>0</weather_odds> <!-- 0-100, percent chance of weather, triggered when entering farm level -->
@@ -580,7 +580,7 @@ ISLAND
         <precip_length>0</precip_length> <!-- length in seconds of any precipitation -->
         <price>0</price>
         <level>1</level>
-		<plow_cost>0</plow_cost>
+		<plow_cost>1000</plow_cost>
         <displayed>true</displayed>
    </farm>
    <farm>
@@ -1571,7 +1571,7 @@ all plant types
     </seed>
     <seed>
         <name>Tri-Indigo</name>
-        <description>The leaves of this dark Indigo are usually small, but valuable for soaps and perfumes. A great plant for indoor or outdoor growth, emits a pleasant scent that doesn't become oppressive in small spaces. </description>        
+        <description>The leaves of this dark Indigo are usually small, but valuable for soaps and perfumes. A great plant for indoor or outdoor growth, emits a pleasant scent that doesn't become oppressive in small spaces. </description>
 	<framenum>9</framenum>
         <yield_type>3</yield_type>
         <yield_num>3</yield_num>
@@ -2008,7 +2008,7 @@ all plant types
         <level>16</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
-		<harvest_xp>50</harvest_xp> 
+		<harvest_xp>50</harvest_xp>
 	    <harvest_xp_bonus1>20</harvest_xp_bonus1>
         <harvest_xp_bonus2>30</harvest_xp_bonus2>
         <harvest_xp_bonus3>50</harvest_xp_bonus3>
@@ -2050,7 +2050,7 @@ all plant types
         <background_preference_yield>-4</background_preference_yield>
         <background_preference_grow_mod>-180</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
         <new_seed>false</new_seed>
-	</seed>	
+	</seed>
 	<seed>
 	    <name>Oracle</name>
 	    <description>This strange plant has deep roots and can sustain itself in almost any environment. The leaves, and especially the gnarled core, can be ground into a potent powder used for medical treatment and research.</description>
@@ -2153,7 +2153,7 @@ all plant types
         <harvest_xp_bonus3>205</harvest_xp_bonus3>
         <harvest_xp_bonus_rain>95</harvest_xp_bonus_rain>
         <new_seed>false</new_seed>
-	</seed>    
+	</seed>
 	<seed>
 	    <name>SilverStar</name>
 	    <description>The Silver Star's seeds produce a metallic, non-corrosive oil that's a key ingredient in monochromatic stainless steel alloys. A highly valuable plant, it's also strikingly beautiful.</description>
@@ -2191,7 +2191,7 @@ all plant types
         <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
         <background_preference_yield>3</background_preference_yield>
         <background_preference_grow_mod>60</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
-	</seed>	
+	</seed>
 	<seed>
 	    <name>Oily Lotus</name>
 	    <description>This plant has a light, summery fragrance that bugs find irresistible, though they tend to get stuck in its sticky excretions. The oil extracted from this plant is a powerful lubricant, used in subways and railroads.</description>
@@ -2357,7 +2357,7 @@ all plant types
         <harvest_xp_bonus_rain>100</harvest_xp_bonus_rain>
         <new_seed>true</new_seed>
 
-        <background_preference>Attic,Cave</background_preference>  
+        <background_preference>Attic,Cave</background_preference>
         <background_preference_yield>-3</background_preference_yield>
         <background_preference_grow_mod>-60</background_preference_grow_mod>
 	</seed>
@@ -2887,12 +2887,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>In addition to adding some color to the farm, these flowers smell great and attract bees and other helpful insects.</description>
         <uses>Neighboring plants grow a little more quickly.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>1</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>500</price>
         <level>4</level>
@@ -2907,12 +2907,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>Help, I'm a rock! Wow, man, it's a drag being a rock.</description>
         <uses>Neighboring plants wither a little more slowly.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>1</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>500</price>
         <level>5</level>
@@ -2927,12 +2927,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>Little guy, huge help. It often falls on garden gnomes to keep the peace in the chaos of the fields.</description>
         <uses>Neighboring plants yield a little more hemp when harvested.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>1</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>500</price>
         <level>6</level>
@@ -2947,12 +2947,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>The plants can't play, but they seem to wish they could!</description>
         <uses>Neighboring plants respond with quicker grow times.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>1</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>500</price>
         <level>7</level>    <!-- 4 -->
@@ -2995,7 +2995,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>1</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>2500</price>
         <level>8</level>
@@ -3010,12 +3010,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>Whoa, the fish just keep circling round and round... what? Oh, this pond is great for keeping the soil on the farm fertile and moist.</description>
         <uses>All plants on the farm grant a little more XP when harvested.</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
-        
+
         <harvest_xp_bonus_level>1</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>5000</price>
         <level>8</level>
@@ -3030,12 +3030,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>This ancient skeleton holds a profound symbolic significance... or maybe it just looks cool.</description>
         <uses>Neighboring plants wither more slowly.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>2</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>7500</price>
         <level>9</level>
@@ -3055,7 +3055,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>10000</price>
         <level>9</level>
@@ -3070,12 +3070,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>This hot pink flamingo knows how to keep things cool. The plants groove on his eerie vibrations!</description>
         <uses>All plants on the farm yield a little more hemp when harvested.</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>1</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>21000</price>
         <level>10</level>
@@ -3090,7 +3090,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>Water spills endlessly from the top of this statue's bowl and seeps into the soil of nearby plants.</description>
         <uses>Plants in neighboring tiles grant a lot more XP when harvested.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
@@ -3110,12 +3110,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>A niftier take on the lightbulb. Let your plants photosynthesize in style with a wave of colorful lights... and save energy, too!</description>
         <uses>Neighboring plants grow more quickly.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>2</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>19500</price>
         <level>11</level>
@@ -3135,7 +3135,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <harvest_yield_bonus_level>3</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>75000</price>
         <level>11</level>
@@ -3149,13 +3149,13 @@ durability/lifespan: lifespan of object (in days? hours?)
         <id>13</id>
         <description>Handed down through the ages, this perfectly shaped crystal is the emblem of hypnotic pleasure. It scatters refracted light all over nearby plants.</description>
         <uses>Neighboring plants wither a lot more slowly.</uses><!-- a short additional description, I guess -->
-		<aoe>neighbor</aoe>        
+		<aoe>neighbor</aoe>
 
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>3</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>60000</price>
         <level>12</level>
@@ -3170,12 +3170,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>Oh sweet, it's a Satyr playing music! He only seems to know classic show tunes, but it's better than nothing...</description>
         <uses>All plants on the farm yield more hemp when harvested.</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>100000</price>
         <level>14</level>
@@ -3190,12 +3190,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>This flexible tube is easy to use and provides great water pressure. Just turn the spigot!</description>
         <uses>Neighboring plants grant MUCH more XP when harvested.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>3</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>125000</price>
         <level>15</level>
@@ -3210,12 +3210,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>Capable of harnessing and unleashing severe concentrations of light energy. Not for the faint of heart.</description>
         <uses>Neighboring plants grow MUCH more quickly.</uses><!-- a short additional description, I guess -->
         <aoe>neighbor</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>3</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>150000</price>
         <level>16</level>
@@ -3235,7 +3235,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>225000</price>
         <level>17</level>
@@ -3250,12 +3250,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>This monolithic man serves as a communication conduit to the gods of agriculture.</description>
         <uses>Neighboring plants yield more hemp and XP.</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
-        
+
         <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>250000</price>
         <level>18</level>
@@ -3270,12 +3270,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>The rich and powerful aroma of this burning incense wafts all over the farm. It smells... like mystery!</description>
         <uses>All plants on the farm grow more quickly and wither slowly.</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
-        
+
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
         <grow_time_reduction_level>2</grow_time_reduction_level>
         <whither_extension_level>2</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>300000</price>
         <level>19</level>
@@ -3290,12 +3290,12 @@ durability/lifespan: lifespan of object (in days? hours?)
         <description>The statue of this portly, jovial god smiles fortune upon you. Rub his belly for good luck!</description>
         <uses>All plants on the farm yield more hemp and XP.</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
-        
+
         <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
         <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
-        
+
         <!-- availability thresholds -->
         <price>300000</price>
         <level>20</level>
@@ -3335,7 +3335,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <uses>Unknown, but seems to invite explorers...</uses><!-- a short additional description, I guess -->
         <aoe>farm</aoe>
 
-        <type>tool</type> 
+        <type>tool</type>
 
         <!--  note that these values will only be applied on a snow_capable farm, during winter-->
         <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
