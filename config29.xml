@@ -2893,6 +2893,37 @@ durability/lifespan: lifespan of object (in days? hours?)
         <displayed>true</displayed>
     </item>
     <item>
+       <name>HS CARDS</name>
+       <id>27</id>
+       <description>Feeling REALLY lucky? Pull out the right card and you could WIN BIG! Sure, the odds are lower than the dice, but that just makes the payout all that much sweeter, right?</description>
+       <uses>Easy money!</uses>
+       <aoe>neighbor</aoe>
+
+       <type>game</type>
+       <game_odds>50</game_odds>
+       <num_uses>1</num_uses>
+       <award_type>money</award_type>
+       <award_base>250000</award_base>
+       <level_multiplyer>0</level_multiplyer>
+
+
+       <alert_background>blue</alert_background>
+       <alert_title>GAMBLING TIME!</alert_title>
+       <alert_text>WHOA! NICE JOB! JUST DON'T GO SPENDING IT ON ANYTHING ILLEGAL.</alert_text>
+		<alert_text_lose>AW, THAT'S TOO BAD. NEXT TIME YOU'VE GOT IT FOR SURE.</alert_text_lose>
+
+       <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+       <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+       <grow_time_reduction_level>0</grow_time_reduction_level>
+       <whither_extension_level>0</whither_extension_level>
+
+       <price>50000</price>
+       <level>3</level>
+       <resale>2500</resale>
+       <gear_xp>0</gear_xp>
+       <displayed>true</displayed>
+   </item>
+    <item>
         <name>FLOWERS</name>
         <id>0</id>
         <description>In addition to adding some color to the farm, these flowers smell great and attract bees and other helpful insects.</description>
