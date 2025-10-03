@@ -1,13 +1,10 @@
 <!--
-configuration settings:  v29g
-1-17-11 - fixed typo in firefly description, changed banana, pizza, cards, dice, settings
-1-18-11 - edited multi-use items
-1-19-20 - added base-award and level_multiplyer to events and gear items that give awards
-1-19-20 - edited above, removed award_amount tags. reduced especial grow time, yield, value
-1-19-20 - edited award amounts
-1-20-11 - added zero settings to level_multipliers where appropriate (negates multiplier - uses base awards)
-1-31-11 - made snow tips winter plants, raised igloo xp
-1-31-11 - added yield to silverstar in yard
+configuration settings:  v29g, modded by:
+    ________  ______  ____  __________  ____  _   __
+   / ____/ / / / __ \/ __ \/_  __/ __ \/ __ \/ | / /
+  / __/ / / / / /_/ / / / / / / / /_/ / / / /  |/ /
+ / /___/ /_/ / _, _/ /_/ / / / / _, _/ /_/ / /|  /
+/_____/\____/_/ |_|\____/ /_/ /_/ |_|\____/_/ |_/
 -->
 <config>
     <time_server>http://www.key-east.com/time.php</time_server>
@@ -58,7 +55,6 @@ configuration settings:  v29g
             <award_type>money</award_type> <!--xp,money -->
             <award_base>100</award_base>
             <level_multiplyer>2</level_multiplyer>
-
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>HAPPY HOLIDAYS!</alert_title>
             <alert_text>HAVE YOU BEEN GOOD THIS YEAR? HAVE YOU BEEN VERY, VERY GOOD?</alert_text>
@@ -69,7 +65,6 @@ configuration settings:  v29g
             <award_type>xp</award_type> <!--xp,money -->
             <award_base>250</award_base>
             <level_multiplyer>2</level_multiplyer>
-
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>HAPPY BIRTHDAY!</alert_title>
             <alert_text>IT'S HEMPY'S BIRTHDAY! ANOTHER YEAR OLDER, ANOTHER YEAR WISER, EH BUDDY?</alert_text>
@@ -80,7 +75,6 @@ configuration settings:  v29g
             <award_type>money</award_type> <!--xp,money -->
             <award_base>100</award_base>
             <level_multiplyer>5</level_multiplyer>
-
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>HAPPY HALLOWEEN!</alert_title>
             <alert_text>ENJOY THIS TREAT - NO TRICKS INCLUDED!</alert_text>
@@ -91,10 +85,20 @@ configuration settings:  v29g
             <award_type>xp</award_type> <!--xp,money -->
             <award_base>500</award_base>
             <level_multiplyer>1</level_multiplyer>
-
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>HAPPY NEW YEAR!</alert_title>
             <alert_text>ANOTHER YEAR CLOSER TO THE GRAVE, EH BUDDY?</alert_text>
+        </event>
+        <!-- EUR0TR0N events -->
+        <event>
+            <e_day>9</e_day><!-- 1-31, no offset needed -->
+            <e_month>5</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>xp</award_type> <!--xp,money -->
+            <award_base>500</award_base>
+            <level_multiplyer>1</level_multiplyer>
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>EUROPE DAY!</alert_title>
+            <alert_text>TUNE IN TO THE EUROVISION SONG CONTEST AND CELEBRATE UNITY!</alert_text>
         </event>
     </date_events>
     <dig_events>
