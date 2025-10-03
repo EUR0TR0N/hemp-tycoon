@@ -2832,6 +2832,34 @@ durability/lifespan: lifespan of object (in days? hours?)
         <gear_xp>0</gear_xp>
         <displayed>true</displayed>
     </item>
+    <item>
+        <name>BANANAS</name>
+        <id>28</id>
+        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <uses>Munch up for an instant XP bonus.</uses>
+        <aoe>farm</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>2000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>NOM NOM!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>10000</price>
+        <level>3</level>
+        <resale>500</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
      <item>
         <name>DICE</name>
         <id>25</id>
@@ -2861,6 +2889,35 @@ durability/lifespan: lifespan of object (in days? hours?)
         <gear_xp>0</gear_xp>
         <displayed>true</displayed>
     </item>
+    <item>
+       <name>HS DICE</name>
+       <id>27</id>
+       <description>Feeling lucky? Toss some dice! You get three chances!</description>
+       <uses>Get rich quick!</uses>
+       <aoe>neighbor</aoe>
+       <type>game</type>
+       <game_odds>20</game_odds>
+       <num_uses>3</num_uses>
+       <award_type>money</award_type>
+       <award_base>50000</award_base>
+       <level_multiplyer>0</level_multiplyer>
+
+       <alert_background>blue</alert_background>
+       <alert_title>GAMBLING TIME!</alert_title>
+       <alert_text>HEY, NICE ROLL! DON'T GO SPENDING IT ALL IN ONE PLACE, NOW!</alert_text>
+		<alert_text_lose>AW, SO CLOSE! BETTER LUCK NEXT TIME!</alert_text_lose>
+
+       <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+       <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+       <grow_time_reduction_level>0</grow_time_reduction_level>
+       <whither_extension_level>0</whither_extension_level>
+
+       <price>50000</price>
+       <level>3</level>
+       <resale>80</resale>
+       <gear_xp>0</gear_xp>
+       <displayed>true</displayed>
+   </item>
      <item>
         <name>CARDS</name>
         <id>26</id>
@@ -2894,7 +2951,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     </item>
     <item>
        <name>HS CARDS</name>
-       <id>27</id>
+       <id>28</id>
        <description>Feeling REALLY lucky? Pull out the right card and you could WIN BIG! Sure, the odds are lower than the dice, but that just makes the payout all that much sweeter, right?</description>
        <uses>Easy money!</uses>
        <aoe>neighbor</aoe>
@@ -2903,7 +2960,7 @@ durability/lifespan: lifespan of object (in days? hours?)
        <game_odds>50</game_odds>
        <num_uses>1</num_uses>
        <award_type>money</award_type>
-       <award_base>250000</award_base>
+       <award_base>2500000</award_base>
        <level_multiplyer>0</level_multiplyer>
 
 
@@ -2917,7 +2974,7 @@ durability/lifespan: lifespan of object (in days? hours?)
        <grow_time_reduction_level>0</grow_time_reduction_level>
        <whither_extension_level>0</whither_extension_level>
 
-       <price>50000</price>
+       <price>500000</price>
        <level>3</level>
        <resale>2500</resale>
        <gear_xp>0</gear_xp>
