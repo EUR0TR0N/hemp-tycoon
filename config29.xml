@@ -2825,7 +2825,175 @@ durability/lifespan: lifespan of object (in days? hours?)
         <gear_xp>0</gear_xp>
         <displayed>true</displayed>
     </item>
-     <item>
+    <item>
+        <name>PIZZA</name>
+        <id>27</id>
+        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <uses>Chow down for an instant XP bonus.</uses>
+        <aoe>neighbor</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>500</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>LOVE THAT THIN CRUST!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>2500</price>
+        <level>3</level>
+        <resale>250</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>BANANAS</name>
+        <id>28</id>
+        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <uses>Munch up for an instant XP bonus.</uses>
+        <aoe>farm</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>2000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>NOM NOM!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>10000</price>
+        <level>3</level>
+        <resale>500</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>PIZZA</name>
+        <id>29</id>
+        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <uses>Chow down for an instant XP bonus.</uses>
+        <aoe>neighbor</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>5000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>LOVE THAT THIN CRUST!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>25000</price>
+        <level>3</level>
+        <resale>250</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>BANANAS</name>
+        <id>30</id>
+        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <uses>Munch up for an instant XP bonus.</uses>
+        <aoe>farm</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>20000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>NOM NOM!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>100000</price>
+        <level>3</level>
+        <resale>500</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>PIZZA</name>
+        <id>31</id>
+        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <uses>Chow down for an instant XP bonus.</uses>
+        <aoe>neighbor</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>50000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>LOVE THAT THIN CRUST!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>250000</price>
+        <level>3</level>
+        <resale>250</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>BANANAS</name>
+        <id>32</id>
+        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <uses>Munch up for an instant XP bonus.</uses>
+        <aoe>farm</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>200000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>NOM NOM!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>1000000</price>
+        <level>3</level>
+        <resale>500</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
         <name>DICE</name>
         <id>25</id>
         <description>Feeling lucky? Toss some dice! You get three chances!</description>
