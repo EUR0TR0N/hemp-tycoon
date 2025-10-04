@@ -1,8 +1,9 @@
-    ________  ______  ____  __________  ____  _   __
-   / ____/ / / / __ \/ __ \/_  __/ __ \/ __ \/ | / /
-  / __/ / / / / /_/ / / / / / / / /_/ / / / /  |/ /
- / /___/ /_/ / _, _/ /_/ / / / / _, _/ /_/ / /|  /
-/_____/\____/_/ |_|\____/ /_/ /_/ |_|\____/_/ |_/
+#EUR0TR0N
+Presents:
+
+HEMP TYCOON CONFIGURATION FILE
+
+The Hemp Tycoon Flash game needs a valid configuration file in the same folder as the .swf in order to run. Otherwise, it yields the "I/O Configuraton Error".
 
 INSTRUCTIONS:
     - Download source
