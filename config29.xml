@@ -854,188 +854,188 @@ all plant types
     <plant>
         <id>1</id>
         <color>green</color>
-        <yield_value>25</yield_value>
+        <yield_value>1</yield_value>
     </plant>
     <plant>
         <id>2</id>
         <color>red</color>
-        <yield_value>100</yield_value>
+        <yield_value>4</yield_value>
     </plant>
     <plant>
         <id>3</id>
         <color>blue</color>
-        <yield_value>200</yield_value>
+        <yield_value>8</yield_value>
     </plant>
     <plant>
         <id>4</id>
         <color>purple</color>
-        <yield_value>1000</yield_value>
+        <yield_value>40</yield_value>
     </plant>
     <plant>
         <id>5</id>
         <color>light green</color>
-        <yield_value>900</yield_value>
+        <yield_value>36</yield_value>
     </plant>
     <plant>
         <id>6</id>
         <color>rainbow</color>
-        <yield_value>3000</yield_value>
+        <yield_value>120</yield_value>
     </plant>
     <plant>
         <id>7</id>
         <color>neon</color>
-        <yield_value>2500</yield_value>
+        <yield_value>100</yield_value>
     </plant>
     <plant>
         <id>8</id>
         <color>pink</color>
-        <yield_value>400</yield_value>
+        <yield_value>16</yield_value>
     </plant>
     <plant>
         <id>9</id>
         <color>white</color>
-        <yield_value>5000</yield_value>
+        <yield_value>200</yield_value>
     </plant>
     <plant>
         <id>10</id>
         <color>orange</color>
-        <yield_value>3000</yield_value>
+        <yield_value>120</yield_value>
     </plant>
     <plant>
         <id>11</id>
         <color>flame</color>
-        <yield_value>350</yield_value>
+        <yield_value>14</yield_value>
     </plant>
     <plant>
         <id>12</id>
         <color>violet</color>
-        <yield_value>100</yield_value>
+        <yield_value>4</yield_value>
     </plant>
     <plant>
         <id>13</id>     <!-- null placeholder for old turquoise/blueberry -->
         <color>turquoise</color>
-        <yield_value>900</yield_value>
+        <yield_value>36</yield_value>
     </plant>
     <plant>
         <id>14</id>
         <color>yellow</color>
-        <yield_value>1000</yield_value>
+        <yield_value>40</yield_value>
     </plant>
     <plant>
         <id>15</id>
         <color>glowing</color>
-        <yield_value>1600</yield_value>
+        <yield_value>64</yield_value>
     </plant>
     <plant>
         <id>16</id>
         <color>snowcap</color>
-        <yield_value>100</yield_value>
+        <yield_value>4</yield_value>
     </plant>
     <plant>
         <id>17</id>
         <color>lime green</color>
-        <yield_value>400</yield_value>
+        <yield_value>16</yield_value>
     </plant>
     <plant>
         <id>18</id>
         <color>dark purple</color>
-        <yield_value>2500</yield_value>
+        <yield_value>100</yield_value>
     </plant>
     <plant>
         <id>19</id>
         <color>dark green</color>
-        <yield_value>1100</yield_value>
+        <yield_value>44</yield_value>
     </plant>
 
     <!-- new release 1 -->
     <plant>
         <id>20</id>
         <color>malibu blue</color><!-- Malibu -->
-        <yield_value>1050</yield_value>
+        <yield_value>42</yield_value>
     </plant>
     <plant>
         <id>21</id>
         <color>gumblend green</color> <!-- Gum Blend -->
-        <yield_value>4000</yield_value>
+        <yield_value>160</yield_value>
     </plant>
     <plant>
         <id>22</id>
         <color>mystic green</color><!-- Mystic -->
-        <yield_value>13500</yield_value>
+        <yield_value>540</yield_value>
     </plant>
     <plant>
         <id>23</id>
         <color>blueberry green</color> <!-- Blueberry -->
-        <yield_value>11000</yield_value>
+        <yield_value>440</yield_value>
     </plant>
     <plant>
         <id>24</id>
         <color>northern green</color> <!-- Northern -->
-        <yield_value>125000</yield_value>
+        <yield_value>5000</yield_value>
     </plant>
 
     <!-- release 2 -->
      <plant>
         <id>25</id>
         <color>Electric</color> <!-- Electric -->
-        <yield_value>110000</yield_value>
+        <yield_value>4400</yield_value>
     </plant>
      <plant>
         <id>26</id>
         <color>Especial</color> <!-- Especial -->
-        <yield_value>2020</yield_value>
+        <yield_value>81</yield_value>
     </plant>
      <plant>
         <id>27</id>
         <color>Superstar</color> <!-- Superstar -->
-        <yield_value>6000</yield_value>
+        <yield_value>240</yield_value>
     </plant>
      <plant>
         <id>28</id>
         <color>Snowflake</color> <!-- Snowflake -->
-        <yield_value>25500</yield_value>
+        <yield_value>1020</yield_value>
     </plant>
      <plant>
         <id>29</id>
         <color>Cali</color> <!-- Cali -->
-        <yield_value>1400</yield_value>
+        <yield_value>56</yield_value>
     </plant>
     <!-- r2 holiday -->
      <plant>
         <id>30</id>
         <color>Igloo</color> <!-- Igloo -->
-        <yield_value>75</yield_value>
+        <yield_value>3</yield_value>
     </plant>
      <plant>
         <id>31</id>
         <color>Holiday</color> <!-- Holiday -->
-        <yield_value>200</yield_value>
+        <yield_value>8</yield_value>
     </plant>
      <plant>
         <id>32</id>
         <color>SilverStar</color> <!-- SilverStar -->
-        <yield_value>800</yield_value>
+        <yield_value>32</yield_value>
     </plant>
      <plant>
         <id>33</id>
         <color>SweetPine</color> <!-- SweetPine -->
-        <yield_value>85</yield_value>
+        <yield_value>3</yield_value>
     </plant>
      <plant>
         <id>34</id>
         <color>Drift</color> <!-- Drift -->
-        <yield_value>550</yield_value>
+        <yield_value>22</yield_value>
     </plant>
 
     <plant>
         <id>35</id>
         <color>rareSnowtip</color> <!-- rareSnowtip -->
-        <yield_value>15000</yield_value>
+        <yield_value>600</yield_value>
     </plant>
     <plant>
         <id>36</id>
         <color>Firefly</color> <!-- Firefly -->
-        <yield_value>3900</yield_value>
+        <yield_value>156</yield_value>
     </plant>
 
 </plants> <!-- green,blue,red,purple,pink,rainbow,face,skull  -->
@@ -1046,10 +1046,10 @@ all plant types
         <description>This short, thick plant is cheap and grows quickly. A good beginner's plant! The tough, fibrous stalks can be woven into incredibly efficient and powerful ropes, used in a number of industries.</description>
         <framenum>1</framenum>
         <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
-        <yield_num>1</yield_num>
+        <yield_num>5</yield_num>
         <yield_bonus1>1</yield_bonus1>
         <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_bonus3>4</yield_bonus3>
         <grow_time>0.5</grow_time>  <!--0.5-->
         <grow_mod_level1>.4</grow_mod_level1>
         <grow_mod_level2>.3</grow_mod_level2>
@@ -1063,7 +1063,7 @@ all plant types
         <light>1.25</light>
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
-        <price>10</price> <!-- 45 -->
+        <price>2</price> <!-- 45 -->
         <level>1</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1081,10 +1081,10 @@ all plant types
         <description>Your basic small green Verde. The thick stalk and arms on this plant are often crushed and used as wood pulp.</description>
         <framenum>2</framenum>
         <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
-        <yield_num>2</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>10</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>4</yield_bonus2>
+        <yield_bonus3>8</yield_bonus3>
         <grow_time>2</grow_time>  <!--5-->
         <grow_mod_level1>1.6</grow_mod_level1>
         <grow_mod_level2>1.2</grow_mod_level2>
@@ -1098,7 +1098,7 @@ all plant types
         <light>1.25</light>
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
-        <price>25</price>
+        <price>5</price>
         <level>1</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1114,10 +1114,10 @@ all plant types
         <description>A mid-sized crop of green-leaved Verde. This star-shaped plant has a strong, deep root system and makes an efficient biofuel.</description>
         <framenum>3</framenum>
         <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
-        <yield_num>3</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>15</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>6</yield_bonus2>
+        <yield_bonus3>12</yield_bonus3>
         <grow_time>5</grow_time>  <!--5-->
         <grow_mod_level1>4</grow_mod_level1>
         <grow_mod_level2>3</grow_mod_level2>
@@ -1131,7 +1131,7 @@ all plant types
         <light>1.25</light>
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
-        <price>50</price>
+        <price>10</price>
         <level>1</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1147,10 +1147,10 @@ all plant types
         <description>A hearty crop of green-leaved Verde. This strong, resilient Verde can be used to strengthen concrete in building foundations and reinforcement bars.</description>
         <framenum>4</framenum>
         <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
-        <yield_num>4</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>20</yield_num>
+        <yield_bonus1>4</yield_bonus1>
+        <yield_bonus2>8</yield_bonus2>
+        <yield_bonus3>16</yield_bonus3>
         <grow_time>10</grow_time>  <!--5-->
         <grow_mod_level1>8</grow_mod_level1>
         <grow_mod_level2>6</grow_mod_level2>
@@ -1164,7 +1164,7 @@ all plant types
         <light>1.25</light>
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
-        <price>70</price>
+        <price>14</price>
         <level>2</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1180,10 +1180,10 @@ all plant types
         <description>This green Verde towers over its little brothers and sisters once it's fully mature! The hairy leaves on this tall plant are used to create industrial bags and consumer-grade paper and clothing.</description>
         <framenum>5</framenum>
         <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
-        <yield_num>6</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>30</yield_num>
+        <yield_bonus1>6</yield_bonus1>
+        <yield_bonus2>12</yield_bonus2>
+        <yield_bonus3>24</yield_bonus3>
         <grow_time>15</grow_time>  <!--5-->
         <grow_mod_level1>12</grow_mod_level1>
         <grow_mod_level2>9</grow_mod_level2>
@@ -1197,7 +1197,7 @@ all plant types
         <light>1.25</light>
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
-        <price>100</price>
+        <price>20</price>
         <level>3</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1213,10 +1213,10 @@ all plant types
 	    <description>The Alien is covered with a thick, viscous oil that's remarkably resistant to water. As such, it's used to make sails, water-proof ropes and even as a coating for submarines and other deep-sea equipment.</description>
 	    <framenum>27</framenum>
 	    <yield_type>12</yield_type>
-	    <yield_num>2</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+	    <yield_num>10</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>5</yield_bonus2>
+        <yield_bonus3>9</yield_bonus3>
         <grow_time>60</grow_time>
         <grow_mod_level1>48</grow_mod_level1>
         <grow_mod_level2>36</grow_mod_level2>
@@ -1230,7 +1230,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>125</price>
+	    <price>25</price>
 	    <level>3</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1246,10 +1246,10 @@ all plant types
         <description>This short, squat plant is primarily used to create a high-quality paper, which can be recycled many more times than traditional paper.</description>
         <framenum>13</framenum>
         <yield_type>2</yield_type>
-        <yield_num>1</yield_num>
+        <yield_num>5</yield_num>
         <yield_bonus1>1</yield_bonus1>
         <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_bonus3>4</yield_bonus3>
         <grow_time>5</grow_time>
         <grow_mod_level1>4</grow_mod_level1>
         <grow_mod_level2>3</grow_mod_level2>
@@ -1263,7 +1263,7 @@ all plant types
         <light>1.0</light>
         <sound>0.75</sound>
         <!-- availability thresholds -->
-        <price>75</price>
+        <price>15</price>
         <level>4</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1279,10 +1279,10 @@ all plant types
 	    <description>Snow tips are popular for being easy to grow and maintain, although they develop rather slowly. It's a tough plant that can withstand any climate. Its thick, bulky core is used in many recyclable plastics.</description>
 	    <framenum>31</framenum>
 	    <yield_type>16</yield_type>
-	    <yield_num>5</yield_num>
-        <yield_bonus1>3</yield_bonus1>
-        <yield_bonus2>4</yield_bonus2>
-        <yield_bonus3>6</yield_bonus3>
+	    <yield_num>25</yield_num>
+        <yield_bonus1>8</yield_bonus1>
+        <yield_bonus2>16</yield_bonus2>
+        <yield_bonus3>32</yield_bonus3>
 	    <grow_time>720</grow_time>   <!-- 10-->
         <grow_mod_level1>576</grow_mod_level1>
         <grow_mod_level2>432</grow_mod_level2>
@@ -1296,7 +1296,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>300</price>
+	    <price>60</price>
 	    <level>5</level>
 		<season>winter</season>
 	    <!-- store display tracking -->
@@ -1317,10 +1317,10 @@ all plant types
         <description>Your basic small red berry. The oil contained in the leaves of this profitable plant are often extracted and used to make medicines or diet supplements.</description>
         <framenum>14</framenum>
         <yield_type>2</yield_type>
-        <yield_num>2</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>10</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>4</yield_bonus2>
+        <yield_bonus3>8</yield_bonus3>
         <grow_time>20</grow_time>
         <grow_mod_level1>16</grow_mod_level1>
         <grow_mod_level2>12</grow_mod_level2>
@@ -1334,7 +1334,7 @@ all plant types
         <light>1.0</light>
         <sound>0.75</sound>
         <!-- availability thresholds -->
-        <price>120</price>
+        <price>24</price>
         <level>5</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1350,10 +1350,10 @@ all plant types
 	    <description>While Sweet Pine is commonly associated with cold weather, it's actually a hardy perennial, able to grow in a wide range of climates. Popular as a holiday decoration among bohemian types.</description>
 	    <framenum>48</framenum>
 	    <yield_type>33</yield_type>
-	    <yield_num>7</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>4</yield_bonus2>
-        <yield_bonus3>6</yield_bonus3>
+	    <yield_num>35</yield_num>
+        <yield_bonus1>10</yield_bonus1>
+        <yield_bonus2>20</yield_bonus2>
+        <yield_bonus3>40</yield_bonus3>
 	    <grow_time>120</grow_time>   <!-- 10-->
         <grow_mod_level1>96</grow_mod_level1>
         <grow_mod_level2>72</grow_mod_level2>
@@ -1367,7 +1367,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>540</price>
+	    <price>108</price>
 	    <level>6</level>
         <season>winter</season>
 	    <!-- store display tracking -->
@@ -1387,10 +1387,10 @@ all plant types
 	    <description>This hardy and aromatic plant originates from a valley in India. Its purple core in full bloom is an essential component in many heat-resistant plastics.</description>
 	    <framenum>23</framenum>
 	    <yield_type>8</yield_type>
-	    <yield_num>3</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+	    <yield_num>15</yield_num>
+        <yield_bonus1>4</yield_bonus1>
+        <yield_bonus2>8</yield_bonus2>
+        <yield_bonus3>16</yield_bonus3>
 	    <grow_time>1440</grow_time>   <!-- 10-->
         <grow_mod_level1>1152</grow_mod_level1>
         <grow_mod_level2>864</grow_mod_level2>
@@ -1404,7 +1404,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>950</price>
+	    <price>190</price>
 	    <level>6</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1423,10 +1423,10 @@ all plant types
         <description>Watch out, this green Verde is huge - and valuable - once it's fully grown! This bushy plant is used as a cooking oil and in cereals.</description>
         <framenum>6</framenum>
         <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
-        <yield_num>18</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>90</yield_num>
+        <yield_bonus1>18</yield_bonus1>
+        <yield_bonus2>36</yield_bonus2>
+        <yield_bonus3>72</yield_bonus3>
         <grow_time>30</grow_time>  <!--5-->
         <grow_mod_level1>24</grow_mod_level1>
         <grow_mod_level2>18</grow_mod_level2>
@@ -1440,7 +1440,7 @@ all plant types
         <light>1.25</light>
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
-        <price>325</price>
+        <price>65</price>
         <level>7</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1456,10 +1456,10 @@ all plant types
 	    <description>Your basic small blue indigo. This versatile plant grows quickly and is used in a number of different industries, including construction, biofuels and as a supplement in paint.</description>
 	    <framenum>7</framenum>
 	    <yield_type>3</yield_type>
-	    <yield_num>1</yield_num>
+	    <yield_num>5</yield_num>
         <yield_bonus1>2</yield_bonus1>
         <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+        <yield_bonus3>5</yield_bonus3>
 	    <grow_time>20</grow_time>   <!-- 10-->
         <grow_mod_level1>16</grow_mod_level1>
         <grow_mod_level2>12</grow_mod_level2>
@@ -1473,7 +1473,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>100</price>
+	    <price>20</price>
 	    <level>7</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1489,10 +1489,10 @@ all plant types
         <description>This tough, roughly textured plant is used to make clothing, most commonly denim jeans and gloves. Fun fact - the first American Flag was made from this strain of hemp!</description>
         <framenum>8</framenum>
         <yield_type>3</yield_type>
-        <yield_num>2</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+        <yield_num>10</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>5</yield_bonus2>
+        <yield_bonus3>9</yield_bonus3>
         <grow_time>45</grow_time>   <!-- 10-->
         <grow_mod_level1>36</grow_mod_level1>
         <grow_mod_level2>27</grow_mod_level2>
@@ -1506,7 +1506,7 @@ all plant types
         <light>1.0</light>
         <sound>1.25</sound>
         <!-- availability thresholds -->
-        <price>225</price>
+        <price>45</price>
         <level>7</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1522,10 +1522,10 @@ all plant types
         <description>This delicately fragrant plant is renowned for its antimicrobial properties and is used in a wide variety of skin and hair care products.</description>
         <framenum>15</framenum>
         <yield_type>2</yield_type>
-        <yield_num>4</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>20</yield_num>
+        <yield_bonus1>4</yield_bonus1>
+        <yield_bonus2>8</yield_bonus2>
+        <yield_bonus3>16</yield_bonus3>
         <grow_time>30</grow_time>
         <grow_mod_level1>24</grow_mod_level1>
         <grow_mod_level2>18</grow_mod_level2>
@@ -1539,7 +1539,7 @@ all plant types
         <light>1.0</light>
         <sound>0.75</sound>
         <!-- availability thresholds -->
-        <price>220</price>
+        <price>44</price>
         <level>8</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1555,10 +1555,10 @@ all plant types
 	    <description>A somewhat foul-smelling plant. Popular among landscapers, despite the odor, as its fibers and leaves can be used to make mulch.</description>
 	    <framenum>32</framenum>
 	    <yield_type>17</yield_type>
-	    <yield_num>5</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>25</yield_num>
+        <yield_bonus1>5</yield_bonus1>
+        <yield_bonus2>10</yield_bonus2>
+        <yield_bonus3>20</yield_bonus3>
 	    <grow_time>2880</grow_time>   <!-- 10-->
         <grow_mod_level1>2304</grow_mod_level1>
         <grow_mod_level2>1728</grow_mod_level2>
@@ -1572,7 +1572,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>1250</price>
+	    <price>250</price>
 	    <level>8</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1591,10 +1591,10 @@ all plant types
         <description>A large crop of red-leaved berry. Proteins found in this bushy plant can be used as a supplement in nutritious (and delicious!) cat, dog and horse food.</description>
         <framenum>16</framenum>
         <yield_type>2</yield_type>
-        <yield_num>6</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>30</yield_num>
+        <yield_bonus1>6</yield_bonus1>
+        <yield_bonus2>12</yield_bonus2>
+        <yield_bonus3>24</yield_bonus3>
         <grow_time>45</grow_time>
         <grow_mod_level1>36</grow_mod_level1>
         <grow_mod_level2>27</grow_mod_level2>
@@ -1608,7 +1608,7 @@ all plant types
         <light>1.0</light>
         <sound>0.75</sound>
         <!-- availability thresholds -->
-        <price>350</price>
+        <price>70</price>
         <level>9</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1624,10 +1624,10 @@ all plant types
         <description>The leaves of this dark Indigo are usually small, but valuable for soaps and perfumes. A great plant for indoor or outdoor growth, emits a pleasant scent that doesn't become oppressive in small spaces. </description>
 	<framenum>9</framenum>
         <yield_type>3</yield_type>
-        <yield_num>3</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+        <yield_num>15</yield_num>
+        <yield_bonus1>4</yield_bonus1>
+        <yield_bonus2>7</yield_bonus2>
+        <yield_bonus3>13</yield_bonus3>
         <grow_time>90</grow_time>   <!-- 10-->
         <grow_mod_level1>72</grow_mod_level1>
         <grow_mod_level2>54</grow_mod_level2>
@@ -1641,7 +1641,7 @@ all plant types
         <light>1.0</light>
         <sound>1.25</sound>
         <!-- availability thresholds -->
-        <price>420</price>
+        <price>84</price>
         <level>9</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1657,10 +1657,10 @@ all plant types
         <description>Though the leathery leaves on this plant are generally considered too tough to be used commercially, the dark, hard seeds can be ground up to create expensive medicines.</description>
         <framenum>17</framenum>
         <yield_type>2</yield_type>
-        <yield_num>8</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>40</yield_num>
+        <yield_bonus1>8</yield_bonus1>
+        <yield_bonus2>16</yield_bonus2>
+        <yield_bonus3>32</yield_bonus3>
         <grow_time>60</grow_time>
         <grow_mod_level1>48</grow_mod_level1>
         <grow_mod_level2>36</grow_mod_level2>
@@ -1674,7 +1674,7 @@ all plant types
         <light>1.0</light>
         <sound>0.75</sound>
         <!-- availability thresholds -->
-        <price>400</price>
+        <price>80</price>
         <level>10</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1690,10 +1690,10 @@ all plant types
 	    <description>Too fragile for use in commercial products, The Spider is highly-sought by esoteric practictioners for its (rumored) supernatural properties. It is difficult to harvest because it grows slowly but wilts quickly.</description>
 	    <framenum>33</framenum>
 	    <yield_type>18</yield_type>
-	    <yield_num>4</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>5</yield_bonus3>
+	    <yield_num>20</yield_num>
+        <yield_bonus1>5</yield_bonus1>
+        <yield_bonus2>9</yield_bonus2>
+        <yield_bonus3>18</yield_bonus3>
 	    <grow_time>1440</grow_time>   <!-- 10-->
         <grow_mod_level1>1152</grow_mod_level1>
         <grow_mod_level2>864</grow_mod_level2>
@@ -1707,7 +1707,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>8900</price>
+	    <price>1780</price>
 	    <level>10</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1723,10 +1723,10 @@ all plant types
 	    <description>The Igloo is part of a remarkable example of symbiosis, as small mammals use it for both shelter and sustenance. Native to Canada's Northwest Territories, this unusual breed has little commerical value.</description>
 	    <framenum>45</framenum>
 	    <yield_type>30</yield_type>
-	    <yield_num>12</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>7</yield_bonus2>
-        <yield_bonus3>12</yield_bonus3>
+	    <yield_num>60</yield_num>
+        <yield_bonus1>24</yield_bonus1>
+        <yield_bonus2>40</yield_bonus2>
+        <yield_bonus3>60</yield_bonus3>
 	    <grow_time>600</grow_time>   <!-- 10-->
         <grow_mod_level1>480</grow_mod_level1>
         <grow_mod_level2>360</grow_mod_level2>
@@ -1740,7 +1740,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>850</price>
+	    <price>170</price>
 	    <level>11</level>
         <season>winter</season>
 	    <!-- store display tracking -->
@@ -1760,10 +1760,10 @@ all plant types
         <description>This uncommon Indigo is noteworthy for the strange and powerful odor it emits at maturity. Harvest it soon, before it stinks up the place! Used to make health cereals, though they're not very popular...</description>
         <framenum>10</framenum>
         <yield_type>3</yield_type>
-        <yield_num>5</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+        <yield_num>25</yield_num>
+        <yield_bonus1>6</yield_bonus1>
+        <yield_bonus2>11</yield_bonus2>
+        <yield_bonus3>21</yield_bonus3>
         <grow_time>120</grow_time>   <!-- 10-->
         <grow_mod_level1>96</grow_mod_level1>
         <grow_mod_level2>72</grow_mod_level2>
@@ -1777,7 +1777,7 @@ all plant types
         <light>1.0</light>
         <sound>1.25</sound>
         <!-- availability thresholds -->
-        <price>600</price>
+        <price>120</price>
         <level>11</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1793,10 +1793,10 @@ all plant types
         <description>This giant plant is slow to grow but very valuable. It's used to create luxury fabrics and is in high demand from fashion designers around the world.</description>
         <framenum>18</framenum>
         <yield_type>2</yield_type>
-        <yield_num>10</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_num>50</yield_num>
+        <yield_bonus1>10</yield_bonus1>
+        <yield_bonus2>20</yield_bonus2>
+        <yield_bonus3>40</yield_bonus3>
         <grow_time>120</grow_time>
         <grow_mod_level1>96</grow_mod_level1>
         <grow_mod_level2>72</grow_mod_level2>
@@ -1810,7 +1810,7 @@ all plant types
         <light>1.0</light>
         <sound>0.75</sound>
         <!-- availability thresholds -->
-        <price>650</price>
+        <price>130</price>
         <level>12</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1826,10 +1826,10 @@ all plant types
 	    <description>This plant has been cultivated for hundreds, if not thousands, of years along the coasts of Africa and South America. The seeds can be ground into a rich oil, used as an anaesthetic and in religious rituals.</description>
 	    <framenum>34</framenum>
 	    <yield_type>19</yield_type>
-	    <yield_num>5</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>13</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>5</yield_bonus2>
+        <yield_bonus3>10</yield_bonus3>
 	    <grow_time>360</grow_time>   <!-- 10-->
         <grow_mod_level1>288</grow_mod_level1>
         <grow_mod_level2>216</grow_mod_level2>
@@ -1843,7 +1843,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>4490</price>
+	    <price>420</price>
 	    <level>12</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1862,10 +1862,10 @@ all plant types
 	    <description>The colorful Paradise has a remarkably short life cycle for a plant of its usefulness and profitability. Used to make a relatively light and inexpensive fuel for air and space travel.</description>
 	    <framenum>26</framenum>
 	    <yield_type>11</yield_type>
-	    <yield_num>3</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>15</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>6</yield_bonus2>
+        <yield_bonus3>12</yield_bonus3>
 	    <grow_time>10</grow_time>   <!-- 10-->
         <grow_mod_level1>8</grow_mod_level1>
         <grow_mod_level2>6</grow_mod_level2>
@@ -1879,7 +1879,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>850</price>
+	    <price>170</price>
 	    <level>13</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1898,10 +1898,10 @@ all plant types
         <description>This profitable blue indigo grows slowly, but is impressive when fully mature! The seeds and stalks of this plant are unrivaled as livestock feed and bedding.</description>
         <framenum>11</framenum>
         <yield_type>3</yield_type>
-        <yield_num>6</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+        <yield_num>30</yield_num>
+        <yield_bonus1>7</yield_bonus1>
+        <yield_bonus2>13</yield_bonus2>
+        <yield_bonus3>25</yield_bonus3>
         <grow_time>180</grow_time>   <!-- 10-->
         <grow_mod_level1>144</grow_mod_level1>
         <grow_mod_level2>108</grow_mod_level2>
@@ -1915,7 +1915,7 @@ all plant types
         <light>1.0</light>
         <sound>1.25</sound>
         <!-- availability thresholds -->
-        <price>720</price>
+        <price>144</price>
         <level>13</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -1931,7 +1931,7 @@ all plant types
 	    <description>This popular plant is characterized by its neon glow. It produces large, crystalline leaves, used in telephone wires and cellphones. They also make great decorations and gifts!</description>
 	    <framenum>22</framenum>
 	    <yield_type>7</yield_type>
-	    <yield_num>1</yield_num>
+	    <yield_num>5</yield_num>
         <yield_bonus1>1</yield_bonus1>
         <yield_bonus2>2</yield_bonus2>
         <yield_bonus3>4</yield_bonus3>
@@ -1948,7 +1948,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>1700</price>
+	    <price>340</price>
 	    <level>14</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1965,10 +1965,10 @@ all plant types
 	    <description>Cali has become a popular choice in rural regions of western North America, due to the year-round sunshine. The fibers of its stems are used in a substantial portion of commercial hemp thread and yarn.</description>
 	    <framenum>44</framenum>
 	    <yield_type>29</yield_type>
-	    <yield_num>6</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>5</yield_bonus3>
+	    <yield_num>30</yield_num>
+        <yield_bonus1>6</yield_bonus1>
+        <yield_bonus2>18</yield_bonus2>
+        <yield_bonus3>30</yield_bonus3>
 	    <grow_time>1440</grow_time>
         <grow_mod_level1>1152</grow_mod_level1>
         <grow_mod_level2>864</grow_mod_level2>
@@ -1980,7 +1980,7 @@ all plant types
         <wilt_mod_level3>1440</wilt_mod_level3>
 	    <light>1.0</light>
 	    <sound>1.25</sound>
-	    <price>6500</price>
+	    <price>1300</price>
 	    <level>15</level>
 	    <displayed>true</displayed>
 		<harvest_xp>125</harvest_xp>
@@ -1991,7 +1991,7 @@ all plant types
         <new_seed>true</new_seed>
 
         <background_preference>Attic, Cave</background_preference>
-        <background_preference_yield>-2</background_preference_yield>
+        <background_preference_yield>-10</background_preference_yield>
         <background_preference_grow_mod>0</background_preference_grow_mod>
 	</seed>
 	<seed>
@@ -1999,10 +1999,10 @@ all plant types
 	    <description>Don't let its soft exterior fool you: Drift is one of the hardiest hemp strains, able to grow in any climate. Its fibers can be woven into soft, cushiony fabric that has outscored cotton in blind tests.</description>
 	    <framenum>49</framenum>
 	    <yield_type>34</yield_type>
-	    <yield_num>10</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>50</yield_num>
+        <yield_bonus1>10</yield_bonus1>
+        <yield_bonus2>20</yield_bonus2>
+        <yield_bonus3>40</yield_bonus3>
 	    <grow_time>30</grow_time>   <!-- 10-->
         <grow_mod_level1>24</grow_mod_level1>
         <grow_mod_level2>18</grow_mod_level2>
@@ -2016,7 +2016,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>4900</price>
+	    <price>980</price>
 	    <level>15</level>
         <season>winter</season>
 	    <!-- store display tracking -->
@@ -2029,7 +2029,7 @@ all plant types
         <harvest_xp_bonus_rain>100</harvest_xp_bonus_rain>
         <new_seed>true</new_seed>
         <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
-        <background_preference_yield>1</background_preference_yield>
+        <background_preference_yield>5</background_preference_yield>
         <background_preference_grow_mod>5</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
 	</seed>
     <seed>
@@ -2037,10 +2037,10 @@ all plant types
         <description>The starch that can be extracted from this giant plant is used to create plastics. The Rare Indigo was famously used by Henry Ford to create a plastic-based car body in 1941.</description>
         <framenum>12</framenum>
         <yield_type>3</yield_type>
-        <yield_num>10</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+        <yield_num>50</yield_num>
+        <yield_bonus1>20</yield_bonus1>
+        <yield_bonus2>30</yield_bonus2>
+        <yield_bonus3>40</yield_bonus3>
         <grow_time>240</grow_time>   <!-- 10-->
         <grow_mod_level1>192</grow_mod_level1>
         <grow_mod_level2>144</grow_mod_level2>
@@ -2054,7 +2054,7 @@ all plant types
         <light>1.0</light>
         <sound>1.25</sound>
         <!-- availability thresholds -->
-        <price>1000</price>
+        <price>200</price>
         <level>16</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -2070,10 +2070,10 @@ all plant types
 	    <description>The fiber from this plant can be woven into luminescent clothing and even used to reinforce fiber-optic telecommunication networks. Native to its namesake, it's a slow growing plant that loves the sun.</description>
 	    <framenum>20</framenum>
 	    <yield_type>5</yield_type>
-	    <yield_num>12</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>5</yield_bonus3>
+	    <yield_num>60</yield_num>
+        <yield_bonus1>12</yield_bonus1>
+        <yield_bonus2>24</yield_bonus2>
+        <yield_bonus3>48</yield_bonus3>
 	    <grow_time>10080</grow_time>   <!-- 10-->
         <grow_mod_level1>8064</grow_mod_level1>
         <grow_mod_level2>6048</grow_mod_level2>
@@ -2087,7 +2087,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>4220</price>
+	    <price>844</price>
 	    <level>17</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2097,7 +2097,7 @@ all plant types
         <harvest_xp_bonus3>700</harvest_xp_bonus3>
         <harvest_xp_bonus_rain>800</harvest_xp_bonus_rain>
         <background_preference>Attic, Cave</background_preference>  <!-- Attic, Yard, Field, Island -->
-        <background_preference_yield>-4</background_preference_yield>
+        <background_preference_yield>-20</background_preference_yield>
         <background_preference_grow_mod>-180</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
         <new_seed>false</new_seed>
 	</seed>
@@ -2106,7 +2106,7 @@ all plant types
 	    <description>This strange plant has deep roots and can sustain itself in almost any environment. The leaves, and especially the gnarled core, can be ground into a potent powder used for medical treatment and research.</description>
 	    <framenum>25</framenum>
 	    <yield_type>10</yield_type>
-	    <yield_num>1</yield_num>
+	    <yield_num>5</yield_num>
         <yield_bonus1>1</yield_bonus1>
         <yield_bonus2>2</yield_bonus2>
         <yield_bonus3>4</yield_bonus3>
@@ -2123,7 +2123,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>1750</price>
+	    <price>350</price>
 	    <level>18</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2139,10 +2139,10 @@ all plant types
 	    <description>A popular cold-weather plant that has survived through the ages. It's been well documented that a half bushel of these leaves were among the lesser-known gifts of the Magi to baby Christ.</description>
 	    <framenum>46</framenum>
 	    <yield_type>31</yield_type>
-	    <yield_num>20</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>6</yield_bonus2>
-        <yield_bonus3>10</yield_bonus3>
+	    <yield_num>100</yield_num>
+        <yield_bonus1>20</yield_bonus1>
+        <yield_bonus2>40</yield_bonus2>
+        <yield_bonus3>80</yield_bonus3>
 	    <grow_time>240</grow_time>   <!-- 10-->
         <grow_mod_level1>192</grow_mod_level1>
         <grow_mod_level2>144</grow_mod_level2>
@@ -2156,7 +2156,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>2700</price>
+	    <price>540</price>
 	    <level>18</level>
         <season>winter</season>
 	    <!-- store display tracking -->
@@ -2168,7 +2168,7 @@ all plant types
         <harvest_xp_bonus_rain>70</harvest_xp_bonus_rain>
         <new_seed>true</new_seed>
         <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
-        <background_preference_yield>1</background_preference_yield>
+        <background_preference_yield>5</background_preference_yield>
         <background_preference_grow_mod>30</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
 	</seed>
 	<seed>
@@ -2176,10 +2176,10 @@ all plant types
 	    <description>This ancient strain of hemp is still in use by Aboriginal shamans. Modern medicine also has an interest in this plant, as it is a powerful pain-killer and aphrodisiac with no side effects or addictive properties.</description>
 	    <framenum>24</framenum>
 	    <yield_type>9</yield_type>
-	    <yield_num>2</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>10</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>4</yield_bonus2>
+        <yield_bonus3>8</yield_bonus3>
 	    <grow_time>1440</grow_time>   <!-- 10-->
         <grow_mod_level1>1152</grow_mod_level1>
         <grow_mod_level2>864</grow_mod_level2>
@@ -2193,7 +2193,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>5970</price>
+	    <price>1194</price>
 	    <level>19</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2209,10 +2209,10 @@ all plant types
 	    <description>The Silver Star's seeds produce a metallic, non-corrosive oil that's a key ingredient in monochromatic stainless steel alloys. A highly valuable plant, it's also strikingly beautiful.</description>
 	    <framenum>47</framenum>
 	    <yield_type>32</yield_type>
-	    <yield_num>25</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>5</yield_bonus2>
-        <yield_bonus3>10</yield_bonus3>
+	    <yield_num>125</yield_num>
+        <yield_bonus1>25</yield_bonus1>
+        <yield_bonus2>50</yield_bonus2>
+        <yield_bonus3>100</yield_bonus3>
 	    <grow_time>420</grow_time>   <!-- 10-->
         <grow_mod_level1>336</grow_mod_level1>
         <grow_mod_level2>252</grow_mod_level2>
@@ -2226,7 +2226,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>15100</price>
+	    <price>3020</price>
 	    <level>20</level>
         <season>winter</season>
 	    <!-- store display tracking -->
@@ -2247,10 +2247,10 @@ all plant types
 	    <description>This plant has a light, summery fragrance that bugs find irresistible, though they tend to get stuck in its sticky excretions. The oil extracted from this plant is a powerful lubricant, used in subways and railroads.</description>
 	    <framenum>19</framenum>
 	    <yield_type>4</yield_type>
-	    <yield_num>7</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>35</yield_num>
+        <yield_bonus1>7</yield_bonus1>
+        <yield_bonus2>14</yield_bonus2>
+        <yield_bonus3>28</yield_bonus3>
 	    <grow_time>60</grow_time>   <!-- 10-->
         <grow_mod_level1>48</grow_mod_level1>
         <grow_mod_level2>36</grow_mod_level2>
@@ -2264,7 +2264,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>5000</price>
+	    <price>1000</price>
 	    <level>20</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2282,10 +2282,10 @@ all plant types
 	    <description>The waxy outer layer of this prismatic plant is often noticed for its foul scent and variety of vivid hues. The odor is lost in processing, leaving this strain a perfect ingredient in non-toxic paints and crayons.</description>
 	    <framenum>42</framenum>
 	    <yield_type>27</yield_type>
-	    <yield_num>3</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>15</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>6</yield_bonus2>
+        <yield_bonus3>12</yield_bonus3>
 	    <grow_time>360</grow_time>
         <grow_mod_level1>288</grow_mod_level1>
         <grow_mod_level2>216</grow_mod_level2>
@@ -2297,7 +2297,7 @@ all plant types
         <wilt_mod_level3>480</wilt_mod_level3>
 	    <light>1.0</light>
 	    <sound>1.25</sound>
-	    <price>11000</price>
+	    <price>2200</price>
 	    <level>21</level>
 	    <displayed>true</displayed>
 		<harvest_xp>275</harvest_xp>
@@ -2313,10 +2313,10 @@ all plant types
 	    <description>This radiant plant is its own light source. It's a common component in solar panels, flashlights and rechargable batteries... or even just as a decoration!</description>
 	    <framenum>29</framenum>
 	    <yield_type>14</yield_type>
-	    <yield_num>5</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>4</yield_bonus2>
-        <yield_bonus3>9</yield_bonus3>
+	    <yield_num>25</yield_num>
+        <yield_bonus1>10</yield_bonus1>
+        <yield_bonus2>20</yield_bonus2>
+        <yield_bonus3>45</yield_bonus3>
 	    <grow_time>360</grow_time>   <!-- 10-->
         <grow_mod_level1>288</grow_mod_level1>
         <grow_mod_level2>216</grow_mod_level2>
@@ -2330,7 +2330,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>2800</price>
+	    <price>560</price>
 	    <level>22</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2346,10 +2346,10 @@ all plant types
 	    <description>This plant requires careful attention, but excels under the right conditions. It grows slowly and produces huge, bulbous crystals that are used for psychic healing and in hexacore microprocessors.</description>
 	    <framenum>30</framenum>
 	    <yield_type>15</yield_type>
-	    <yield_num>12</yield_num>
-        <yield_bonus1>3</yield_bonus1>
-        <yield_bonus2>5</yield_bonus2>
-        <yield_bonus3>12</yield_bonus3>
+	    <yield_num>60</yield_num>
+        <yield_bonus1>12</yield_bonus1>
+        <yield_bonus2>30</yield_bonus2>
+        <yield_bonus3>60</yield_bonus3>
 	    <grow_time>1440</grow_time>   <!-- 10-->
         <grow_mod_level1>1152</grow_mod_level1>
         <grow_mod_level2>864</grow_mod_level2>
@@ -2363,7 +2363,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>9750</price>
+	    <price>1950</price>
 	    <level>23</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2382,10 +2382,10 @@ all plant types
 	    <description>Native to eastern Hawaii. Its flower features prominently in ancient Polynesian texts, possibly as an object of worship. Recently its oil was discovered to be one of the world's most efficient biofuels.</description>
 	    <framenum>41</framenum>
 	    <yield_type>26</yield_type>
-	    <yield_num>25</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>125</yield_num>
+        <yield_bonus1>25</yield_bonus1>
+        <yield_bonus2>50</yield_bonus2>
+        <yield_bonus3>100</yield_bonus3>
 	    <grow_time>30</grow_time>
         <grow_mod_level1>24</grow_mod_level1>
         <grow_mod_level2>18</grow_mod_level2>
@@ -2397,7 +2397,7 @@ all plant types
         <wilt_mod_level3>45</wilt_mod_level3>
 	    <light>1.0</light>
 	    <sound>1.25</sound>
-	    <price>49000</price>
+	    <price>9800</price>
 	    <level>24</level>
 	    <displayed>true</displayed>
 		<harvest_xp>100</harvest_xp>
@@ -2408,7 +2408,7 @@ all plant types
         <new_seed>true</new_seed>
 
         <background_preference>Attic,Cave</background_preference>
-        <background_preference_yield>-3</background_preference_yield>
+        <background_preference_yield>-15</background_preference_yield>
         <background_preference_grow_mod>-60</background_preference_grow_mod>
 	</seed>
 
@@ -2417,10 +2417,10 @@ all plant types
 	    <description>A rare seed, the Rainbow's eye-catching leaves are a key component in modern, high resolution LCD screens and touchscreens.</description>
 	    <framenum>21</framenum>
 	    <yield_type>6</yield_type>
-	    <yield_num>15</yield_num>
-        <yield_bonus1>3</yield_bonus1>
-        <yield_bonus2>5</yield_bonus2>
-        <yield_bonus3>8</yield_bonus3>
+	    <yield_num>75</yield_num>
+        <yield_bonus1>15</yield_bonus1>
+        <yield_bonus2>30</yield_bonus2>
+        <yield_bonus3>60</yield_bonus3>
 	    <grow_time>2880</grow_time>   <!-- 10-->
         <grow_mod_level1>2304</grow_mod_level1>
         <grow_mod_level2>1728</grow_mod_level2>
@@ -2434,7 +2434,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>16000</price>
+	    <price>3200</price>
 	    <level>25</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2452,10 +2452,10 @@ all plant types
 	    <description>This hybrid is the result of a Rare Berry cross-bred with Aqua P-14. As one might expect, it's used to create durable, flexible plastics that are soft and smooth.</description>
 	    <framenum>36</framenum>
 	    <yield_type>21</yield_type>
-	    <yield_num>10</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>4</yield_bonus3>
+	    <yield_num>50</yield_num>
+        <yield_bonus1>11</yield_bonus1>
+        <yield_bonus2>22</yield_bonus2>
+        <yield_bonus3>44</yield_bonus3>
 	    <grow_time>720</grow_time>
         <grow_mod_level1>576</grow_mod_level1>
         <grow_mod_level2>432</grow_mod_level2>
@@ -2469,7 +2469,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>27500</price>
+	    <price>5500</price>
 	    <level>26</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2485,10 +2485,10 @@ all plant types
 	    <description>Traditionally used in the production of illuminated manuscripts, the Mystic is still in demand by a number of esoteric churches and gnostic movements. It is unknown to what ends these groups use this plant.</description>
 	    <framenum>37</framenum>
 	    <yield_type>22</yield_type>
-	    <yield_num>3</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>15</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>6</yield_bonus2>
+        <yield_bonus3>12</yield_bonus3>
 	    <grow_time>4320</grow_time>   <!-- 10-->
         <grow_mod_level1>3456</grow_mod_level1>
         <grow_mod_level2>2592</grow_mod_level2>
@@ -2502,7 +2502,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>33000</price>
+	    <price>6600</price>
 	    <level>27</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2518,10 +2518,10 @@ all plant types
 	    <description>A fast-growing seed that hails from its namesake, Malibu California. Generally grown in bulk and used as mulch for flowers, or even for more valuable hemp!</description>
 	    <framenum>35</framenum>
 	    <yield_type>20</yield_type>
-	    <yield_num>10</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>50</yield_num>
+        <yield_bonus1>10</yield_bonus1>
+        <yield_bonus2>20</yield_bonus2>
+        <yield_bonus3>40</yield_bonus3>
 	    <grow_time>1</grow_time>   <!-- 10-->
         <grow_mod_level1>.8</grow_mod_level1>
         <grow_mod_level2>.6</grow_mod_level2>
@@ -2535,7 +2535,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>10000</price>
+	    <price>2000</price>
 	    <level>28</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2551,10 +2551,10 @@ all plant types
 	    <description>The Blueberry is popular among farmers for its pleasing smell and unusual appearance. It's well-loved by rabbits, foxes and other pests as well! The plant is used to make rich, vibrant dyes and ink.</description>
 	    <framenum>38</framenum>
 	    <yield_type>23</yield_type>
-	    <yield_num>6</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>30</yield_num>
+        <yield_bonus1>6</yield_bonus1>
+        <yield_bonus2>12</yield_bonus2>
+        <yield_bonus3>24</yield_bonus3>
 	    <grow_time>60</grow_time>   <!-- 10-->
         <grow_mod_level1>48</grow_mod_level1>
         <grow_mod_level2>36</grow_mod_level2>
@@ -2568,7 +2568,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>60000</price>
+	    <price>12000</price>
 	    <level>29</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2584,10 +2584,10 @@ all plant types
 	    <description>This innocuous-looking plant is one of the most bizarre species known to man. The slow-growing Northern is 99% crystal and 1% organic matter. Too delicate for practical use, it is prized by collectors.</description>
 	    <framenum>39</framenum>
 	    <yield_type>24</yield_type>
-	    <yield_num>1</yield_num>
+	    <yield_num>5</yield_num>
         <yield_bonus1>1</yield_bonus1>
         <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_bonus3>4</yield_bonus3>
 	    <grow_time>20160</grow_time>   <!-- 10-->
         <grow_mod_level1>16128</grow_mod_level1>
         <grow_mod_level2>12096</grow_mod_level2>
@@ -2601,7 +2601,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>100000</price>
+	    <price>20000</price>
 	    <level>30</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2620,10 +2620,10 @@ all plant types
 	    <description>An unlikely mutation of Snow Tips that grows slowly, but wilts within just minutes of blossoming. Beware! This strain's short maturity phase also makes it almost impossible to properly research and reproduce.</description>
 	    <framenum>50</framenum>
 	    <yield_type>35</yield_type>
-	    <yield_num>14</yield_num>
-        <yield_bonus1>2</yield_bonus1>
-        <yield_bonus2>3</yield_bonus2>
-        <yield_bonus3>5</yield_bonus3>
+	    <yield_num>70</yield_num>
+        <yield_bonus1>14</yield_bonus1>
+        <yield_bonus2>28</yield_bonus2>
+        <yield_bonus3>56</yield_bonus3>
 	    <grow_time>7200</grow_time>
         <grow_mod_level1>5760</grow_mod_level1>
         <grow_mod_level2>4320</grow_mod_level2>
@@ -2635,7 +2635,7 @@ all plant types
         <wilt_mod_level3>90</wilt_mod_level3>
 	    <light>1.0</light>
 	    <sound>1.25</sound>
-	    <price>82000</price>
+	    <price>16400</price>
 	    <level>31</level>
 		<season>winter</season>
 	    <displayed>true</displayed>
@@ -2647,7 +2647,7 @@ all plant types
         <new_seed>true</new_seed>
 
         <background_preference>Yard</background_preference>
-        <background_preference_yield>2</background_preference_yield>
+        <background_preference_yield>10</background_preference_yield>
         <background_preference_grow_mod>0</background_preference_grow_mod>
 	</seed>
     <seed>
@@ -2655,10 +2655,10 @@ all plant types
 	    <description>The Snowflake's complex leaf structure is so unique, no two look alike. Its thick cellulose fibres can be used to create flexible, porous material with the strength of plastic. Thrives when out of the sun.</description>
 	    <framenum>43</framenum>
 	    <yield_type>28</yield_type>
-	    <yield_num>22</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>110</yield_num>
+        <yield_bonus1>22</yield_bonus1>
+        <yield_bonus2>44</yield_bonus2>
+        <yield_bonus3>88</yield_bonus3>
 	    <grow_time>1440</grow_time>   <!-- 10-->
         <grow_mod_level1>1152</grow_mod_level1>
         <grow_mod_level2>864</grow_mod_level2>
@@ -2672,7 +2672,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>555000</price>
+	    <price>111000</price>
 	    <level>33</level>
 		<season>winter</season>
 	    <!-- store display tracking -->
@@ -2685,7 +2685,7 @@ all plant types
         <new_seed>true</new_seed>
 
         <background_preference>Attic,Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
-        <background_preference_yield>4</background_preference_yield>
+        <background_preference_yield>20</background_preference_yield>
         <background_preference_grow_mod>0</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
 	</seed>
      <seed>
@@ -2693,10 +2693,10 @@ all plant types
 	    <description>Firefly leaves contain a chemical compound that's sensitive to light and moisture levels. Studies published by agicultural institutes in India suggest this plant achieves best results in dark subterranean settings.</description>
 	    <framenum>51</framenum>
 	    <yield_type>36</yield_type>
-	    <yield_num>1</yield_num>
+	    <yield_num>5</yield_num>
         <yield_bonus1>1</yield_bonus1>
         <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+        <yield_bonus3>4</yield_bonus3>
 	    <grow_time>480</grow_time>
         <grow_mod_level1>384</grow_mod_level1>
         <grow_mod_level2>288</grow_mod_level2>
@@ -2708,7 +2708,7 @@ all plant types
         <wilt_mod_level3>360</wilt_mod_level3>
 	    <light>1.0</light>
 	    <sound>1.25</sound>
-	    <price>8500</price>
+	    <price>1700</price>
 	    <level>35</level>
 	    <displayed>true</displayed>
 		<harvest_xp>400</harvest_xp>
@@ -2719,7 +2719,7 @@ all plant types
         <new_seed>true</new_seed>
 
         <background_preference>Cave</background_preference>
-        <background_preference_yield>6</background_preference_yield>
+        <background_preference_yield>30</background_preference_yield>
         <background_preference_grow_mod>0</background_preference_grow_mod>
 	</seed>
 	<!-- new release 2 -->
@@ -2728,10 +2728,10 @@ all plant types
 	    <description>A recently-discovered and extremely rare mutation of the Neon strain. Currently in demand by high-tech research labs who believe proper cultures may create the ideal battery source for electric-powered cars.</description>
 	    <framenum>40</framenum>
 	    <yield_type>25</yield_type>
-	    <yield_num>14</yield_num>
-        <yield_bonus1>1</yield_bonus1>
-        <yield_bonus2>2</yield_bonus2>
-        <yield_bonus3>3</yield_bonus3>
+	    <yield_num>70</yield_num>
+        <yield_bonus1>14</yield_bonus1>
+        <yield_bonus2>28</yield_bonus2>
+        <yield_bonus3>56</yield_bonus3>
 	    <grow_time>25920</grow_time>   <!-- 10-->
         <grow_mod_level1>20736</grow_mod_level1>
         <grow_mod_level2>15552</grow_mod_level2>
@@ -2745,7 +2745,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
-	    <price>1500000</price>
+	    <price>300000</price>
 	    <level>40</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2837,9 +2837,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>250</price>
+        <price>50</price>
         <level>3</level>
-        <resale>250</resale>
+        <resale>50</resale>
         <gear_xp>0</gear_xp>
         <displayed>true</displayed>
     </item>
@@ -2865,9 +2865,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>1000</price>
+        <price>200</price>
         <level>3</level>
-        <resale>500</resale>
+        <resale>100</resale>
         <gear_xp>0</gear_xp>
         <displayed>true</displayed>
     </item>
@@ -2893,7 +2893,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>2500</price>
+        <price>500</price>
         <level>3</level>
         <resale>250</resale>
         <gear_xp>0</gear_xp>
@@ -2921,7 +2921,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>10000</price>
+        <price>2000</price>
         <level>3</level>
         <resale>500</resale>
         <gear_xp>0</gear_xp>
@@ -2949,7 +2949,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>25000</price>
+        <price>5000</price>
         <level>3</level>
         <resale>250</resale>
         <gear_xp>0</gear_xp>
@@ -2977,7 +2977,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>100000</price>
+        <price>20000</price>
         <level>3</level>
         <resale>500</resale>
         <gear_xp>0</gear_xp>
@@ -3005,7 +3005,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>250000</price>
+        <price>50000</price>
         <level>3</level>
         <resale>250</resale>
         <gear_xp>0</gear_xp>
@@ -3033,7 +3033,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>1000000</price>
+        <price>200000</price>
         <level>3</level>
         <resale>500</resale>
         <gear_xp>0</gear_xp>
@@ -3049,7 +3049,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>30</game_odds>
         <num_uses>3</num_uses>
         <award_type>money</award_type>
-        <award_base>100</award_base>
+        <award_base>20</award_base>
         <level_multiplyer>0</level_multiplyer>
 
         <alert_background>blue</alert_background>
@@ -3062,7 +3062,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>100</price>
+        <price>20</price>
         <level>3</level>
         <resale>80</resale>
         <gear_xp>0</gear_xp>
@@ -3079,7 +3079,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>18</game_odds>
         <num_uses>1</num_uses>
         <award_type>money</award_type>
-        <award_base>2500</award_base>
+        <award_base>500</award_base>
         <level_multiplyer>0</level_multiplyer>
 
 
@@ -3093,7 +3093,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>500</price>
+        <price>100</price>
         <level>3</level>
         <resale>250</resale>
         <gear_xp>0</gear_xp>
@@ -3109,7 +3109,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>30</game_odds>
         <num_uses>3</num_uses>
         <award_type>money</award_type>
-        <award_base>1000</award_base>
+        <award_base>200</award_base>
         <level_multiplyer>0</level_multiplyer>
 
         <alert_background>blue</alert_background>
@@ -3122,7 +3122,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>1000</price>
+        <price>200</price>
         <level>3</level>
         <resale>500</resale>
         <gear_xp>0</gear_xp>
@@ -3139,7 +3139,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>18</game_odds>
         <num_uses>1</num_uses>
         <award_type>money</award_type>
-        <award_base>25000</award_base>
+        <award_base>5000</award_base>
         <level_multiplyer>0</level_multiplyer>
 
 
@@ -3153,7 +3153,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>5000</price>
+        <price>1000</price>
         <level>3</level>
         <resale>2500</resale>
         <gear_xp>0</gear_xp>
@@ -3169,7 +3169,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>30</game_odds>
         <num_uses>3</num_uses>
         <award_type>money</award_type>
-        <award_base>10000</award_base>
+        <award_base>2000</award_base>
         <level_multiplyer>0</level_multiplyer>
 
         <alert_background>blue</alert_background>
@@ -3182,7 +3182,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>10000</price>
+        <price>2000</price>
         <level>3</level>
         <resale>80</resale>
         <gear_xp>0</gear_xp>
@@ -3199,7 +3199,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>18</game_odds>
         <num_uses>1</num_uses>
         <award_type>money</award_type>
-        <award_base>250000</award_base>
+        <award_base>50000</award_base>
         <level_multiplyer>0</level_multiplyer>
 
 
@@ -3213,7 +3213,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>50000</price>
+        <price>10000</price>
         <level>3</level>
         <resale>2500</resale>
         <gear_xp>0</gear_xp>
@@ -3229,7 +3229,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>30</game_odds>
         <num_uses>3</num_uses>
         <award_type>money</award_type>
-        <award_base>100000</award_base>
+        <award_base>20000</award_base>
         <level_multiplyer>0</level_multiplyer>
 
         <alert_background>blue</alert_background>
@@ -3242,7 +3242,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>100000</price>
+        <price>20000</price>
         <level>3</level>
         <resale>80</resale>
         <gear_xp>0</gear_xp>
@@ -3259,7 +3259,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <game_odds>18</game_odds>
         <num_uses>1</num_uses>
         <award_type>money</award_type>
-        <award_base>2500000</award_base>
+        <award_base>500000</award_base>
         <level_multiplyer>0</level_multiplyer>
 
 
@@ -3273,7 +3273,7 @@ durability/lifespan: lifespan of object (in days? hours?)
         <grow_time_reduction_level>0</grow_time_reduction_level>
         <whither_extension_level>0</whither_extension_level>
 
-        <price>500000</price>
+        <price>100000</price>
         <level>3</level>
         <resale>2500</resale>
         <gear_xp>0</gear_xp>
@@ -3292,9 +3292,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>500</price>
+        <price>100</price>
         <level>4</level>
-        <resale>250</resale><!-- resale value in dollars -->
+        <resale>50</resale><!-- resale value in dollars -->
         <gear_xp>15</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3312,9 +3312,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>1</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>500</price>
+        <price>100</price>
         <level>5</level>
-        <resale>250</resale><!-- resale value in dollars -->
+        <resale>50</resale><!-- resale value in dollars -->
         <gear_xp>15</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3332,9 +3332,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>500</price>
+        <price>100</price>
         <level>6</level>
-        <resale>300</resale><!-- resale value in dollars -->
+        <resale>60</resale><!-- resale value in dollars -->
         <gear_xp>25</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3352,9 +3352,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>500</price>
+        <price>100</price>
         <level>7</level>    <!-- 4 -->
-        <resale>250</resale><!-- resale value in dollars -->
+        <resale>50</resale><!-- resale value in dollars -->
         <gear_xp>25</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3375,9 +3375,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>500</price>
+        <price>100</price>
         <level>8</level>
-        <resale>250</resale><!-- resale value in dollars -->
+        <resale>50</resale><!-- resale value in dollars -->
         <gear_xp>25</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3395,9 +3395,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>1</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>2500</price>
+        <price>500</price>
         <level>8</level>
-        <resale>1250</resale><!-- resale value in dollars -->
+        <resale>250</resale><!-- resale value in dollars -->
         <gear_xp>50</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3415,9 +3415,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>5000</price>
+        <price>1000</price>
         <level>8</level>
-        <resale>2500</resale><!-- resale value in dollars -->
+        <resale>500</resale><!-- resale value in dollars -->
         <gear_xp>55</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3435,9 +3435,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>2</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>7500</price>
+        <price>2500</price>
         <level>9</level>
-        <resale>3750</resale><!-- resale value in dollars -->
+        <resale>1250</resale><!-- resale value in dollars -->
         <gear_xp>55</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3455,9 +3455,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>10000</price>
+        <price>2000</price>
         <level>9</level>
-        <resale>7500</resale>
+        <resale>1500</resale>
         <gear_xp>65</gear_xp>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3475,9 +3475,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>21000</price>
+        <price>4200</price>
         <level>10</level>
-        <resale>10500</resale><!-- resale value in dollars -->
+        <resale>2100</resale><!-- resale value in dollars -->
         <gear_xp>65</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3495,9 +3495,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>25000</price>
+        <price>5000</price>
         <level>10</level>
-        <resale>12500</resale><!-- resale value in dollars -->
+        <resale>2500</resale><!-- resale value in dollars -->
         <gear_xp>70</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3515,9 +3515,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>19500</price>
+        <price>4000</price>
         <level>11</level>
-        <resale>9750</resale><!-- resale value in dollars -->
+        <resale>2000</resale><!-- resale value in dollars -->
         <gear_xp>70</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3535,9 +3535,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>75000</price>
+        <price>15000</price>
         <level>11</level>
-        <resale>37500</resale>
+        <resale>8000</resale>
         <gear_xp>80</gear_xp>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3555,9 +3555,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>3</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>60000</price>
+        <price>12000</price>
         <level>12</level>
-        <resale>30000</resale><!-- resale value in dollars -->
+        <resale>6000</resale><!-- resale value in dollars -->
         <gear_xp>85</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3575,9 +3575,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>100000</price>
+        <price>20000</price>
         <level>14</level>
-        <resale>50000</resale><!-- resale value in dollars -->
+        <resale>10000</resale><!-- resale value in dollars -->
         <gear_xp>100</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3595,9 +3595,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>125000</price>
+        <price>25000</price>
         <level>15</level>
-        <resale>100000</resale><!-- resale value in dollars -->
+        <resale>20000</resale><!-- resale value in dollars -->
         <gear_xp>105</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3615,9 +3615,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>150000</price>
+        <price>30000</price>
         <level>16</level>
-        <resale>100000</resale><!-- resale value in dollars -->
+        <resale>20000</resale><!-- resale value in dollars -->
         <gear_xp>120</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3635,9 +3635,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>225000</price>
+        <price>45000</price>
         <level>17</level>
-        <resale>125000</resale>
+        <resale>25000</resale>
         <gear_xp>125</gear_xp>
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3655,9 +3655,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>250000</price>
+        <price>50000</price>
         <level>18</level>
-        <resale>112500</resale><!-- resale value in dollars -->
+        <resale>25000</resale><!-- resale value in dollars -->
         <gear_xp>150</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3675,9 +3675,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>2</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>300000</price>
+        <price>60000</price>
         <level>19</level>
-        <resale>150000</resale><!-- resale value in dollars -->
+        <resale>30000</resale><!-- resale value in dollars -->
         <gear_xp>200</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3695,9 +3695,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>300000</price>
+        <price>60000</price>
         <level>20</level>
-        <resale>150000</resale><!-- resale value in dollars -->
+        <resale>30000</resale><!-- resale value in dollars -->
         <gear_xp>500</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3716,9 +3716,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>500000</price>
+        <price>100000</price>
         <level>25</level>
-        <resale>250000</resale><!-- resale value in dollars -->
+        <resale>50000</resale><!-- resale value in dollars -->
         <gear_xp>1000</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
@@ -3742,9 +3742,9 @@ durability/lifespan: lifespan of object (in days? hours?)
         <whither_extension_level>0</whither_extension_level>
 
         <!-- availability thresholds -->
-        <price>1000000</price>   <!-- 1000000 -->
+        <price>200000</price>   <!-- 1000000 -->
         <level>35</level>  <!--35-->
-        <resale>500000</resale><!-- resale value in dollars -->
+        <resale>100000</resale><!-- resale value in dollars -->
         <gear_xp>10000</gear_xp> <!-- immediate xp added when placed in cell -->
         <!-- store display tracking -->
         <displayed>true</displayed>
