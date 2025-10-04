@@ -2818,7 +2818,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>PIZZA</name>
         <id>24</id>
-        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <description>A cheap Margherita pizza from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
         <uses>Chow down for an instant XP bonus.</uses>
         <aoe>neighbor</aoe>
 
@@ -2846,7 +2846,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>BANANAS</name>
         <id>23</id>
-        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <description>A single banana. Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
         <uses>Munch up for an instant XP bonus.</uses>
         <aoe>farm</aoe>
 
@@ -2874,7 +2874,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>PIZZA</name>
         <id>27</id>
-        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <description>A New York style pepperoni pizza from the same local pizzeria, slightly spicy and flavouful. Better than deep-dish!</description>
         <uses>Chow down for an instant XP bonus.</uses>
         <aoe>neighbor</aoe>
 
@@ -2902,7 +2902,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>BANANAS</name>
         <id>28</id>
-        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <description>A bunch of bananas. Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
         <uses>Munch up for an instant XP bonus.</uses>
         <aoe>farm</aoe>
 
@@ -2930,7 +2930,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>PIZZA</name>
         <id>29</id>
-        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <description>A delicious Hawaiian pizza. Not your first choice, generally, but the munchies are one hell of a beast and tasting this controversial pie, you feel like you learn to be more understandable and loving.</description>
         <uses>Chow down for an instant XP bonus.</uses>
         <aoe>neighbor</aoe>
 
@@ -2958,7 +2958,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>BANANAS</name>
         <id>30</id>
-        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <description>A crate of bananas. Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
         <uses>Munch up for an instant XP bonus.</uses>
         <aoe>farm</aoe>
 
@@ -2986,7 +2986,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>PIZZA</name>
         <id>31</id>
-        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <description>The most delicious Quattro Stagioni, split in four to represent the four seasons. Time is a flat circle, and so is a pizza. Deep!</description>
         <uses>Chow down for an instant XP bonus.</uses>
         <aoe>neighbor</aoe>
 
@@ -3014,7 +3014,7 @@ durability/lifespan: lifespan of object (in days? hours?)
     <item>
         <name>BANANAS</name>
         <id>32</id>
-        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <description>A container of bananas. Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
         <uses>Munch up for an instant XP bonus.</uses>
         <aoe>farm</aoe>
 
