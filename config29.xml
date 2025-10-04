@@ -100,6 +100,16 @@ configuration settings:  v29g, modded by:
             <alert_title>EUROPE DAY!</alert_title>
             <alert_text>TUNE IN TO THE EUROVISION SONG CONTEST AND CELEBRATE UNITY!</alert_text>
         </event>
+        <event>
+            <e_day>11</e_day><!-- 1-31, no offset needed -->
+            <e_month>11</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>xp</award_type> <!--xp,money -->
+            <award_base>400</award_base>
+            <level_multiplyer>1</level_multiplyer>
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>REMEMBERANCE DAY!</alert_title>
+            <alert_text>YOU REFLECT ON HOW HEMP WOULD'VE MADE THE WORLD A MORE PEACEFUL PLACE AND BECOME WISER.</alert_text>
+        </event>
     </date_events>
     <dig_events>
         <odds>125</odds><!-- 1 in 125 -->
@@ -150,12 +160,48 @@ configuration settings:  v29g, modded by:
         </event>
         <event>
             <award_type>money</award_type>
+            <award_base>100</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A JAR OF OLD ROMAN BRONZE COINS...</alert_text>
+        </event>
+        <event>
+            <award_type>money</award_type>
             <award_base>500</award_base>
             <level_multiplyer>3</level_multiplyer>
 
             <alert_background>blue</alert_background>
             <alert_title>WHOA!</alert_title>
-            <alert_text>YOU FOUND A TIME CAPSULE, AND IT'S FULL OF OLD BASEBALL CARDS! DON'T CHEW THE GUM...</alert_text>
+            <alert_text>YOU FOUND AN OLD ROMAN SILVER COIN...</alert_text>
+        </event>
+        <event>
+            <award_type>money</award_type>
+            <award_base>1000</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND AN OLD ROMAN GOLD COIN...</alert_text>
+        </event>
+        <event>
+            <award_type>xp</award_type>
+            <award_base>200</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND SOME OLD OUT OF CIRCULATION CURRENCY! COOL, BUT WORTHLESS...</alert_text>
+        </event>
+        <event>
+            <award_type>xp</award_type>
+            <award_base>-100</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>OUCH!</alert_title>
+            <alert_text>YOU FOUND SOME UNEXPLODED WORLD WARS BOMB. THE SAFE DISPOSAL TOOK A WHILE...</alert_text>
         </event>
         <event>
             <award_type>xp</award_type>
