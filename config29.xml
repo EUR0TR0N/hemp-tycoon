@@ -1099,7 +1099,7 @@ all plant types
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
         <price>5</price>
-        <level>1</level>
+        <level>2</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
         <harvest_xp>5</harvest_xp>
@@ -1132,7 +1132,7 @@ all plant types
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
         <price>10</price>
-        <level>1</level>
+        <level>2</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
         <harvest_xp>10</harvest_xp>
@@ -1165,7 +1165,7 @@ all plant types
         <sound>0.75</sound> <!--0.75 -->
         <!-- availability thresholds -->
         <price>14</price>
-        <level>2</level>
+        <level>3</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
         <harvest_xp>15</harvest_xp>
@@ -1231,7 +1231,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>25</price>
-	    <level>3</level>
+	    <level>4</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>35</harvest_xp>
@@ -1507,7 +1507,7 @@ all plant types
         <sound>1.25</sound>
         <!-- availability thresholds -->
         <price>45</price>
-        <level>7</level>
+        <level>8</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>35</harvest_xp>
@@ -1573,7 +1573,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>250</price>
-	    <level>8</level>
+	    <level>9</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>120</harvest_xp>
@@ -1642,7 +1642,7 @@ all plant types
         <sound>1.25</sound>
         <!-- availability thresholds -->
         <price>84</price>
-        <level>9</level>
+        <level>10</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>35</harvest_xp>
@@ -1675,7 +1675,7 @@ all plant types
         <sound>0.75</sound>
         <!-- availability thresholds -->
         <price>80</price>
-        <level>10</level>
+        <level>11</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>20</harvest_xp>
@@ -1708,7 +1708,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>1780</price>
-	    <level>10</level>
+	    <level>12</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>150</harvest_xp>
@@ -1741,7 +1741,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>170</price>
-	    <level>11</level>
+	    <level>13</level>
         <season>winter</season>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -1778,7 +1778,7 @@ all plant types
         <sound>1.25</sound>
         <!-- availability thresholds -->
         <price>120</price>
-        <level>11</level>
+        <level>14</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>40</harvest_xp>
@@ -1811,7 +1811,7 @@ all plant types
         <sound>0.75</sound>
         <!-- availability thresholds -->
         <price>130</price>
-        <level>12</level>
+        <level>15</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>20</harvest_xp>
@@ -1844,7 +1844,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>420</price>
-	    <level>12</level>
+	    <level>16</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>180</harvest_xp>
@@ -1880,7 +1880,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>170</price>
-	    <level>13</level>
+	    <level>17</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>30</harvest_xp>
@@ -1916,7 +1916,7 @@ all plant types
         <sound>1.25</sound>
         <!-- availability thresholds -->
         <price>144</price>
-        <level>13</level>
+        <level>18</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>45</harvest_xp>
@@ -1949,7 +1949,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>340</price>
-	    <level>14</level>
+	    <level>19</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>150</harvest_xp>
@@ -1981,7 +1981,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <price>1300</price>
-	    <level>15</level>
+	    <level>20</level>
 	    <displayed>true</displayed>
 		<harvest_xp>125</harvest_xp>
         <harvest_xp_bonus1>50</harvest_xp_bonus1>
@@ -2017,7 +2017,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>980</price>
-	    <level>15</level>
+	    <level>21</level>
         <season>winter</season>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2055,7 +2055,7 @@ all plant types
         <sound>1.25</sound>
         <!-- availability thresholds -->
         <price>200</price>
-        <level>16</level>
+        <level>22</level>
         <!-- store display tracking -->
         <displayed>true</displayed>
 		<harvest_xp>50</harvest_xp>
@@ -2088,7 +2088,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>844</price>
-	    <level>17</level>
+	    <level>23</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>800</harvest_xp>
@@ -2124,7 +2124,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>350</price>
-	    <level>18</level>
+	    <level>24</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>90</harvest_xp>
@@ -2157,7 +2157,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>540</price>
-	    <level>18</level>
+	    <level>25</level>
         <season>winter</season>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2194,7 +2194,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>1194</price>
-	    <level>19</level>
+	    <level>26</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>95</harvest_xp>
@@ -2227,7 +2227,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>3020</price>
-	    <level>20</level>
+	    <level>27</level>
         <season>winter</season>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2265,7 +2265,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>1000</price>
-	    <level>20</level>
+	    <level>28</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>100</harvest_xp>
@@ -2298,7 +2298,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <price>2200</price>
-	    <level>21</level>
+	    <level>29</level>
 	    <displayed>true</displayed>
 		<harvest_xp>275</harvest_xp>
         <harvest_xp_bonus1>175</harvest_xp_bonus1>
@@ -2331,7 +2331,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>560</price>
-	    <level>22</level>
+	    <level>30</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>150</harvest_xp>
@@ -2364,7 +2364,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>1950</price>
-	    <level>23</level>
+	    <level>31</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>250</harvest_xp>
@@ -2398,7 +2398,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <price>9800</price>
-	    <level>24</level>
+	    <level>32</level>
 	    <displayed>true</displayed>
 		<harvest_xp>100</harvest_xp>
         <harvest_xp_bonus1>150</harvest_xp_bonus1>
@@ -2435,7 +2435,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>3200</price>
-	    <level>25</level>
+	    <level>33</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>750</harvest_xp>
@@ -2470,7 +2470,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>5500</price>
-	    <level>26</level>
+	    <level>34</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>500</harvest_xp>
@@ -2503,7 +2503,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>6600</price>
-	    <level>27</level>
+	    <level>35</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>250</harvest_xp>
@@ -2536,7 +2536,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>2000</price>
-	    <level>28</level>
+	    <level>36</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>25</harvest_xp>
@@ -2569,7 +2569,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>12000</price>
-	    <level>29</level>
+	    <level>37</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>300</harvest_xp>
@@ -2602,7 +2602,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>20000</price>
-	    <level>30</level>
+	    <level>38</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>5000</harvest_xp>
@@ -2636,7 +2636,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <price>16400</price>
-	    <level>31</level>
+	    <level>39</level>
 		<season>winter</season>
 	    <displayed>true</displayed>
 		<harvest_xp>5000</harvest_xp>
@@ -2673,7 +2673,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>111000</price>
-	    <level>33</level>
+	    <level>40</level>
 		<season>winter</season>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
@@ -2709,7 +2709,7 @@ all plant types
 	    <light>1.0</light>
 	    <sound>1.25</sound>
 	    <price>1700</price>
-	    <level>35</level>
+	    <level>41</level>
 	    <displayed>true</displayed>
 		<harvest_xp>400</harvest_xp>
         <harvest_xp_bonus1>50</harvest_xp_bonus1>
@@ -2746,7 +2746,7 @@ all plant types
 	    <sound>1.25</sound>
 	    <!-- availability thresholds -->
 	    <price>300000</price>
-	    <level>40</level>
+	    <level>42</level>
 	    <!-- store display tracking -->
 	    <displayed>true</displayed>
 		<harvest_xp>5500</harvest_xp>
