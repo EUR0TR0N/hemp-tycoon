@@ -15,3 +15,5 @@ EDITIONS:
     - Default: the default, unmodded game file
     - EUR0TR0N: new, improved edition with additional content and re-balance and slower progression
     - Cheat: the default, unmodded edition with money cheat
+
+<img width="810" height="609" alt="s1" src="https://github.com/user-attachments/assets/58bc53c0-ee06-4e31-b0c3-41ebec716887" />
