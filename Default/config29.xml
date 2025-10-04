@@ -1,0 +1,3456 @@
+<!--
+configuration settings:  v29g, brought to you by:
+    ________  ______  ____  __________  ____  _   __
+   / ____/ / / / __ \/ __ \/_  __/ __ \/ __ \/ | / /
+  / __/ / / / / /_/ / / / / / / / /_/ / / / /  |/ /
+ / /___/ /_/ / _, _/ /_/ / / / / _, _/ /_/ / /|  /
+/_____/\____/_/ |_|\____/ /_/ /_/ |_|\____/_/ |_/
+EUR0[bbfc19f0-803a-42f7-ad58-f644305ad3f3]
+1-17-11 - fixed typo in firefly description, changed banana, pizza, cards, dice, settings
+1-18-11 - edited multi-use items
+1-19-20 - added base-award and level_multiplyer to events and gear items that give awards
+1-19-20 - edited above, removed award_amount tags. reduced especial grow time, yield, value
+1-19-20 - edited award amounts
+1-20-11 - added zero settings to level_multipliers where appropriate (negates multiplier - uses base awards)
+1-31-11 - made snow tips winter plants, raised igloo xp
+1-31-11 - added yield to silverstar in yard
+-->
+<config>
+    <time_server>http://www.key-east.com/time.php</time_server>
+    <cheats_enabled>false</cheats_enabled>
+    <specials_displayed>true</specials_displayed>
+    <hempy>
+        <walk_speed>7</walk_speed>
+        <bored_time>10</bored_time>  <!-- timeout in seconds -->
+        <stand_sleep_time>20</stand_sleep_time>
+        <lie_sleep_time>40</lie_sleep_time>
+    </hempy>
+    <money>200</money>
+    <DOUBLE_CLICK_SPEED>300</DOUBLE_CLICK_SPEED><!-- click speed timeout for couble click detection, in 1/1000 of a second -->
+    <seasons><!-- season parsing currently hard-wired in the game, below settings are ignored -->
+        <season>
+            <name>winter</name>
+            <start_date>1</start_date>
+            <start_month>12</start_month>
+            <end_date>1</end_date>
+            <end_month>3</end_month>
+        </season>
+        <season>
+            <name>spring</name>
+            <start_date>1</start_date>
+            <start_month>3</start_month>
+            <end_date>1</end_date>
+            <end_month>6</end_month>
+        </season>
+        <season>
+            <name>summer</name>
+            <start_date>1</start_date>
+            <start_month>6</start_month>
+            <end_date>1</end_date>
+            <end_month>9</end_month>
+        </season>
+        <season>
+            <name>fall</name>
+            <start_date>1</start_date>
+            <start_month>9</start_month>
+            <end_date>1</end_date>
+            <end_month>12</end_month>
+        </season>
+    </seasons>
+    <date_events>
+        <event>
+            <e_day>25</e_day><!-- 1-31, no offset needed -->
+            <e_month>12</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>money</award_type> <!--xp,money -->
+            <award_base>100</award_base>
+            <level_multiplyer>2</level_multiplyer>
+
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>HAPPY HOLIDAYS!</alert_title>
+            <alert_text>HAVE YOU BEEN GOOD THIS YEAR? HAVE YOU BEEN VERY, VERY GOOD?</alert_text>
+        </event>
+        <event>
+            <e_day>20</e_day><!-- 1-31, no offset needed -->
+            <e_month>4</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>xp</award_type> <!--xp,money -->
+            <award_base>250</award_base>
+            <level_multiplyer>2</level_multiplyer>
+
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>HAPPY BIRTHDAY!</alert_title>
+            <alert_text>IT'S HEMPY'S BIRTHDAY! ANOTHER YEAR OLDER, ANOTHER YEAR WISER, EH BUDDY?</alert_text>
+        </event>
+        <event>
+            <e_day>31</e_day><!-- 1-31, no offset needed -->
+            <e_month>10</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>money</award_type> <!--xp,money -->
+            <award_base>100</award_base>
+            <level_multiplyer>5</level_multiplyer>
+
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>HAPPY HALLOWEEN!</alert_title>
+            <alert_text>ENJOY THIS TREAT - NO TRICKS INCLUDED!</alert_text>
+        </event>
+        <event>
+            <e_day>1</e_day><!-- 1-31, no offset needed -->
+            <e_month>1</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
+            <award_type>xp</award_type> <!--xp,money -->
+            <award_base>500</award_base>
+            <level_multiplyer>1</level_multiplyer>
+
+            <alert_background>blue</alert_background><!-- which color background should we use?-->
+            <alert_title>HAPPY NEW YEAR!</alert_title>
+            <alert_text>ANOTHER YEAR CLOSER TO THE GRAVE, EH BUDDY?</alert_text>
+        </event>
+    </date_events>
+    <dig_events>
+        <odds>125</odds><!-- 1 in 125 -->
+         <event>
+            <award_type>money</award_type>
+            <award_base>250</award_base>
+            <level_multiplyer>1.5</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A SHOEBOX FULL OF CASH! IT'S ONLY A LITTLE SOGGY...</alert_text>
+        </event>
+         <event>
+            <award_type>money</award_type>
+            <award_base>50</award_base>
+            <level_multiplyer>1.5</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A DINOSAUR TAILBONE... BUT ITS NOT IN VERY GOOD CONDITION.</alert_text>
+        </event>
+         <event>
+            <award_type>money</award_type>
+            <award_base>1000</award_base>
+            <level_multiplyer>2</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A DINOSAUR TAILBONE... AND IT'S IN GREAT CONDITION!</alert_text>
+        </event>
+         <event>
+            <award_type>xp</award_type>
+            <award_base>-25</award_base>
+            <level_multiplyer>0</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>OUCH!</alert_title>
+            <alert_text>YOU STUBBED YOUR TOE...</alert_text>
+        </event>
+         <event>
+            <award_type>xp</award_type>
+            <award_base>-25</award_base>
+            <level_multiplyer>2</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>OUCH!</alert_title>
+            <alert_text>SOMETHING BIT YOU! IT BURNS! WHAT WAS THAT?!</alert_text>
+        </event>
+        <event>
+            <award_type>money</award_type>
+            <award_base>500</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A TIME CAPSULE, AND IT'S FULL OF OLD BASEBALL CARDS! DON'T CHEW THE GUM...</alert_text>
+        </event>
+        <event>
+            <award_type>xp</award_type>
+            <award_base>250</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>A GNOME WAS MEDITATING IN THE DIRT! HE WINKED AT YOU! YOU FEEL A LITTLE WISER...</alert_text>
+        </event>
+        <event>
+            <award_type>xp</award_type>
+            <award_base>-50</award_base>
+            <level_multiplyer>3</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>OUCH!</alert_title>
+            <alert_text>A GNOME WAS SLEEPING IN THE DIRT! HE'S CRANKY! HE GAVE YOU THE EVIL EYE...</alert_text>
+        </event>
+         <event>
+            <award_type>money</award_type>
+            <award_base>1</award_base>
+            <level_multiplyer>0</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A DOLLAR BILL NESTLED BETWEEN TWO PIECES OF DIRT!</alert_text>
+        </event>
+         <event>
+            <award_type>money</award_type>
+            <award_base>1000</award_base>
+            <level_multiplyer>1</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>YOU FOUND A SMALL METEORITE! THERE'S A VEIN OF GLOWING METAL RUNNING THROUGH IT...</alert_text>
+        </event>
+         <event>
+            <award_type>xp</award_type>
+            <award_base>100</award_base>
+            <level_multiplyer>1.25</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>AS YOU STAND UP, A SMALL MOUSE WITH A CAPE TIED TO ITS NECK RUNS BY! THAT WAS WEIRD!</alert_text>
+        </event>
+         <event>
+            <award_type>money</award_type>
+            <award_base>50</award_base>
+            <level_multiplyer>2.5</level_multiplyer>
+
+            <alert_background>blue</alert_background>
+            <alert_title>WHOA!</alert_title>
+            <alert_text>WORMS ARE CRAWLING IN THE DIRT! THEY'VE INGESTED PLANTS SO YOU SOLD THEM AS FISH BAIT!</alert_text>
+        </event>
+    </dig_events>
+    <jukebox>
+    <!--
+      mistletoe ina babylon (jam21_holiday.aif)
+      hemptown rock
+      hempy conqueror
+      farm vibrations
+      jah water it
+      harvest dub
+      greenthumb dub
+
+    -->
+        <song>
+            <title>Hemptown Rock</title>
+            <artist>The Hemp Knots</artist>
+        </song>
+        <song>
+            <title>Hempy Conqueror</title>
+            <artist>The Hemp Knots</artist>
+        </song>
+        <song>
+            <title>Farm Vibrations</title>
+            <artist>The Hemp Knots</artist>
+        </song>
+        <song>
+            <title>Jah Water It</title>
+            <artist>The Hemp Knots</artist>
+        </song>
+        <song>
+            <title>Harvest Dub</title>
+            <artist>The Hemp Knots</artist>
+        </song>
+        <song>
+            <title>Greenthumb Dub</title>
+            <artist>The Hemp Knots</artist>
+        </song>
+        <song>
+            <title>Mistletoe Ina Babylon</title> <!-- Hemptown Rock, reverting to holiday track for now-->
+            <artist>The Hemp Knots</artist>
+        </song>
+    </jukebox>
+    <xp_levels>
+        <level>
+            <threshold>0</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.6</harvest_duration>
+            <walk_speed>5</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+         <level>
+            <threshold>10</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.5</harvest_duration>
+            <walk_speed>6</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>75</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.5</harvest_duration>
+            <walk_speed>7</walk_speed>
+			<fluids_amount>250</fluids_amount>
+        </level>
+        <level>
+            <threshold>250</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.4</harvest_duration>
+            <walk_speed>7</walk_speed>
+			<fluids_amount>500</fluids_amount>
+        </level>
+        <level>
+            <threshold>500</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.3</harvest_duration>
+            <walk_speed>7</walk_speed>
+			<fluids_amount>600</fluids_amount>
+        </level>
+        <level>
+            <threshold>1000</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.2</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>700</fluids_amount>
+        </level>
+        <level>
+            <threshold>1750</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>2</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>800</fluids_amount>
+        </level>
+        <level>
+            <threshold>2500</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.8</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>900</fluids_amount>
+        </level>
+        <level>
+            <threshold>3500</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.8</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>900</fluids_amount>
+        </level>
+        <level> <!-- level 10 -->
+            <threshold>5000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.6</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>1000</fluids_amount>
+        </level>
+        <level>
+            <threshold>7000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.6</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>1100</fluids_amount>
+        </level>
+        <level>
+            <threshold>10000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>1200</fluids_amount>
+        </level>
+        <level>
+            <threshold>14000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>9</walk_speed>
+			<fluids_amount>1300</fluids_amount>
+        </level>
+        <level>
+            <threshold>19000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>9</walk_speed>
+			<fluids_amount>1400</fluids_amount>
+        </level>
+        <level>
+            <threshold>25000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>9</walk_speed>
+			<fluids_amount>1500</fluids_amount>
+        </level>
+        <level>
+            <threshold>32000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>10</walk_speed>
+			<fluids_amount>1600</fluids_amount>
+        </level>
+        <level>
+            <threshold>40000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>10</walk_speed>
+			<fluids_amount>1700</fluids_amount>
+        </level>
+        <level>
+            <threshold>49000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>10</walk_speed>
+			<fluids_amount>1800</fluids_amount>
+        </level>
+        <level>
+            <threshold>59000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>11</walk_speed>
+			<fluids_amount>1900</fluids_amount>
+        </level>
+        <level>  <!-- level 20 -->
+            <threshold>70000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>11</walk_speed>
+			<fluids_amount>2000</fluids_amount>
+        </level>
+        <level>
+            <threshold>82000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>11</walk_speed>
+			<fluids_amount>2100</fluids_amount>
+        </level>
+        <level>
+            <threshold>95000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2200</fluids_amount>
+        </level>
+        <level>
+            <threshold>110000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2300</fluids_amount>
+        </level>
+        <level>
+            <threshold>130000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2400</fluids_amount>
+        </level>
+        <level>  <!-- level 25 -->
+            <threshold>160000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>190000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>220000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>250000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>285000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>    <!-- level 30 -->
+            <threshold>320000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>360000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>405000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>455500</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level>
+            <threshold>506500</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>2500</fluids_amount>
+        </level>
+        <level> <!-- level 35 -->
+            <threshold>570000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>635000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>705000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>780000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>865000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level> <!-- level 40 -->
+            <threshold>1000000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>1500000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+        <level>
+            <threshold>2500000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>5000</fluids_amount>
+        </level>
+    </xp_levels>
+    <tile_width>126</tile_width>
+    <tile_height>64</tile_height>
+<!--
+FARMS: these are the level gamespaces.
+we will be using a default 6x6 grid because it fits the gamespace, but each cell will be definable
+in this config to be 'locked' or 'unlocked' 0 or 1;
+//0 = out of play
+//1 = locked, but in play
+//2 = in play and dirt by default
+
+ATTIC
+YARD
+FIELD
+ISLAND
+
+-->
+
+<farms>
+   <farm>
+        <name>Attic</name>
+        <framenum>1</framenum>
+        <startx>400</startx>
+        <starty>75</starty>
+        <rows>
+             <row>0,0,0,0,0,0</row>
+             <row>0,0,0,0,0,0</row>
+             <row>0,0,0,0,0,0</row>
+             <row>0,0,0,2,0,0</row>
+             <row>0,0,0,0,0,0</row>
+             <row>0,0,0,0,0,0</row>
+        </rows>
+        <weather_odds>0</weather_odds> <!-- 0-100, percent chance of weather, triggered when entering farm level -->
+        <weather_snow>false</weather_snow><!-- true/false, is this lavel cpable of having snow? -->
+        <precip_length>0</precip_length> <!-- length in seconds of any precipitation -->
+        <price>0</price>
+        <level>1</level>
+		<plow_cost>0</plow_cost>
+        <displayed>true</displayed>
+   </farm>
+   <farm>
+        <name>Yard</name>
+        <framenum>2</framenum>
+        <startx>400</startx>
+        <starty>75</starty>
+        <rows>
+             <row>0,0,0,0,0,0</row>
+             <row>0,0,1,1,0,0</row>
+             <row>0,1,2,2,1,0</row>
+             <row>0,1,2,2,1,0</row>
+             <row>0,0,1,1,0,0</row>
+             <row>0,0,0,0,0,0</row>
+        </rows>
+        <weather_odds>100</weather_odds> <!-- 10 -->
+        <weather_snow>true</weather_snow>
+        <precip_length>240</precip_length>
+        <price>0</price>
+        <level>2</level>    <!-- 2 -->
+		<plow_cost>150</plow_cost>
+        <displayed>false</displayed>
+   </farm>
+   <farm>
+        <name>Field</name>
+        <framenum>3</framenum>
+        <startx>400</startx>
+        <starty>75</starty>
+        <rows>
+             <row>0,0,1,1,0,0</row>
+             <row>0,1,1,1,1,0</row>
+             <row>1,1,2,2,1,1</row>
+             <row>1,1,2,2,1,1</row>
+             <row>0,1,1,1,1,0</row>
+             <row>0,0,1,1,0,0</row>
+        </rows>
+        <weather_odds>5</weather_odds>
+        <weather_snow>false</weather_snow>
+        <precip_length>1800</precip_length>
+		<price>0</price>
+        <plow_cost>2500</plow_cost>  <!-- 2500 -->
+        <level>10</level>    <!-- 10 -->
+        <displayed>false</displayed>
+   </farm>
+
+   <farm>
+        <name>Island</name>
+        <framenum>4</framenum>
+        <startx>400</startx>
+        <starty>75</starty>
+        <rows>
+             <row>0,0,1,1,0,0</row>
+             <row>0,1,1,1,1,0</row>
+             <row>1,1,2,2,1,1</row>
+             <row>1,1,2,2,1,1</row>
+             <row>0,1,1,1,1,0</row>
+             <row>0,0,1,1,0,0</row>
+        </rows>
+        <weather_odds>90</weather_odds>   <!-- 10 -->
+        <weather_snow>false</weather_snow>
+        <precip_length>7200</precip_length>  <!-- 240 -->
+		<price>0</price>
+        <plow_cost>10000</plow_cost>   <!-- 10000 -->
+        <level>20</level>  <!-- 20 -->
+        <displayed>false</displayed>
+   </farm>
+   <farm>
+        <name>Cave</name>
+        <framenum>5</framenum>
+        <startx>400</startx>
+        <starty>75</starty>
+        <rows>
+             <row>0,0,1,1,0,0</row>
+             <row>0,1,1,1,1,0</row>
+             <row>1,1,2,2,1,1</row>
+             <row>1,1,2,2,1,1</row>
+             <row>0,1,1,1,1,0</row>
+             <row>0,0,1,1,0,0</row>
+        </rows>
+        <weather_odds>0</weather_odds>
+        <weather_snow>false</weather_snow>
+        <precip_length>0</precip_length>
+		<price>0</price>
+        <plow_cost>500000</plow_cost>   <!-- 10000 -->
+        <level>1</level>  <!-- 20 -->
+        <displayed>false</displayed>
+   </farm>
+</farms>
+
+<!--
+ACTIONS:
+these are default times/durations for non-custom actions perfromed by Hempy
+note that Plant-Specific durations will override defaults twhen specified in the Plant configs below
+duration is in seconds
+xp is a number value to XP point awraded for action
+persistance is a Booleand value (0 or 1) that relates to whether I store this action as a default or not
+display_type refers to how we display the duration's time passage ("bar","alert","none") - not implemented yet!
+-->
+<actions>
+    <action>
+        <name>water</name>
+        <duration>1.5</duration>
+        <xp>1</xp>
+        <persistance>1</persistance>
+        <display_type>bar</display_type>
+    </action>
+    <action>
+        <name>harvest</name>
+        <duration>1</duration>
+        <xp>1</xp>
+        <persistance>1</persistance>
+        <display_type>bar</display_type>
+    </action>
+    <action>
+        <name>wilt</name>
+        <duration>200</duration>
+        <xp>1</xp>
+        <persistance>1</persistance>
+        <display_type>bar</display_type>
+    </action>
+    <action>
+        <name>stand</name>
+        <duration>0</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>laugh</name>
+        <duration>0.01</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>jump</name>
+        <duration>0.01</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>add_plant</name><!-- this combined both dig and seed action -->
+        <duration>.8</duration>
+        <xp>5</xp>
+        <persistance>1</persistance>
+        <display_type>bar</display_type>
+    </action>
+    <action>
+        <name>add_gear</name>
+        <duration>0.01</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>remove</name>
+        <duration>0.01</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>unlock</name>
+        <duration>0.01</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>eat_banana</name>
+        <duration>2.1</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+    <action>
+        <name>eat_pizza</name>
+        <duration>2.1</duration>
+        <xp>0</xp>
+        <persistance>1</persistance>
+        <display_type>none</display_type>
+    </action>
+</actions>
+<!--
+SEEDS and PLANT TYPES
+id: corresponds to store image, seed type
+color: determines what kind(s?) of hemp this plant can yield
+yield: determines amount of hemp this plant can yield
+duration: time it takes for the plant to grow to full size, when not affected by gear, in minutes.
+duration_min: minimum possible duration, after gear effects
+light: effect of light gear on this plant. the amount of hemp a plant provides = gear effectiveness*(yield * light).
+sound: effect of sound gear on this plant. the time it takes for a plant to reach maturity = gear effectiveness*(duration (or min_duration) * sound)
+-->
+<!--
+all plant types
+
+
+- GREEN
+- BLUE
+- RED
+- PURPLE
+- LIGHT GREEN
+- RAINBOW
+- NEON
+- PINK
+- WHITE
+- ORANGE
+- FLAME
+- VIOLET
+- TURQUOISE
+- YELLOW
+- GLOWING
+- SNOWCAP
+- LIME GREEN
+- DARK PURPLE
+- DARK GREEN
+
+-->
+<plants>
+    <plant>
+        <id>1</id>
+        <color>green</color>
+        <yield_value>25</yield_value>
+    </plant>
+    <plant>
+        <id>2</id>
+        <color>red</color>
+        <yield_value>100</yield_value>
+    </plant>
+    <plant>
+        <id>3</id>
+        <color>blue</color>
+        <yield_value>200</yield_value>
+    </plant>
+    <plant>
+        <id>4</id>
+        <color>purple</color>
+        <yield_value>1000</yield_value>
+    </plant>
+    <plant>
+        <id>5</id>
+        <color>light green</color>
+        <yield_value>900</yield_value>
+    </plant>
+    <plant>
+        <id>6</id>
+        <color>rainbow</color>
+        <yield_value>3000</yield_value>
+    </plant>
+    <plant>
+        <id>7</id>
+        <color>neon</color>
+        <yield_value>2500</yield_value>
+    </plant>
+    <plant>
+        <id>8</id>
+        <color>pink</color>
+        <yield_value>400</yield_value>
+    </plant>
+    <plant>
+        <id>9</id>
+        <color>white</color>
+        <yield_value>5000</yield_value>
+    </plant>
+    <plant>
+        <id>10</id>
+        <color>orange</color>
+        <yield_value>3000</yield_value>
+    </plant>
+    <plant>
+        <id>11</id>
+        <color>flame</color>
+        <yield_value>350</yield_value>
+    </plant>
+    <plant>
+        <id>12</id>
+        <color>violet</color>
+        <yield_value>100</yield_value>
+    </plant>
+    <plant>
+        <id>13</id>     <!-- null placeholder for old turquoise/blueberry -->
+        <color>turquoise</color>
+        <yield_value>900</yield_value>
+    </plant>
+    <plant>
+        <id>14</id>
+        <color>yellow</color>
+        <yield_value>1000</yield_value>
+    </plant>
+    <plant>
+        <id>15</id>
+        <color>glowing</color>
+        <yield_value>1600</yield_value>
+    </plant>
+    <plant>
+        <id>16</id>
+        <color>snowcap</color>
+        <yield_value>100</yield_value>
+    </plant>
+    <plant>
+        <id>17</id>
+        <color>lime green</color>
+        <yield_value>400</yield_value>
+    </plant>
+    <plant>
+        <id>18</id>
+        <color>dark purple</color>
+        <yield_value>2500</yield_value>
+    </plant>
+    <plant>
+        <id>19</id>
+        <color>dark green</color>
+        <yield_value>1100</yield_value>
+    </plant>
+
+    <!-- new release 1 -->
+    <plant>
+        <id>20</id>
+        <color>malibu blue</color><!-- Malibu -->
+        <yield_value>1050</yield_value>
+    </plant>
+    <plant>
+        <id>21</id>
+        <color>gumblend green</color> <!-- Gum Blend -->
+        <yield_value>4000</yield_value>
+    </plant>
+    <plant>
+        <id>22</id>
+        <color>mystic green</color><!-- Mystic -->
+        <yield_value>13500</yield_value>
+    </plant>
+    <plant>
+        <id>23</id>
+        <color>blueberry green</color> <!-- Blueberry -->
+        <yield_value>11000</yield_value>
+    </plant>
+    <plant>
+        <id>24</id>
+        <color>northern green</color> <!-- Northern -->
+        <yield_value>125000</yield_value>
+    </plant>
+
+    <!-- release 2 -->
+     <plant>
+        <id>25</id>
+        <color>Electric</color> <!-- Electric -->
+        <yield_value>110000</yield_value>
+    </plant>
+     <plant>
+        <id>26</id>
+        <color>Especial</color> <!-- Especial -->
+        <yield_value>2020</yield_value>
+    </plant>
+     <plant>
+        <id>27</id>
+        <color>Superstar</color> <!-- Superstar -->
+        <yield_value>6000</yield_value>
+    </plant>
+     <plant>
+        <id>28</id>
+        <color>Snowflake</color> <!-- Snowflake -->
+        <yield_value>25500</yield_value>
+    </plant>
+     <plant>
+        <id>29</id>
+        <color>Cali</color> <!-- Cali -->
+        <yield_value>1400</yield_value>
+    </plant>
+    <!-- r2 holiday -->
+     <plant>
+        <id>30</id>
+        <color>Igloo</color> <!-- Igloo -->
+        <yield_value>75</yield_value>
+    </plant>
+     <plant>
+        <id>31</id>
+        <color>Holiday</color> <!-- Holiday -->
+        <yield_value>200</yield_value>
+    </plant>
+     <plant>
+        <id>32</id>
+        <color>SilverStar</color> <!-- SilverStar -->
+        <yield_value>800</yield_value>
+    </plant>
+     <plant>
+        <id>33</id>
+        <color>SweetPine</color> <!-- SweetPine -->
+        <yield_value>85</yield_value>
+    </plant>
+     <plant>
+        <id>34</id>
+        <color>Drift</color> <!-- Drift -->
+        <yield_value>550</yield_value>
+    </plant>
+
+    <plant>
+        <id>35</id>
+        <color>rareSnowtip</color> <!-- rareSnowtip -->
+        <yield_value>15000</yield_value>
+    </plant>
+    <plant>
+        <id>36</id>
+        <color>Firefly</color> <!-- Firefly -->
+        <yield_value>3900</yield_value>
+    </plant>
+
+</plants> <!-- green,blue,red,purple,pink,rainbow,face,skull  -->
+<seeds>
+    <!-- yield types are green,yellow,red; referred to by ids 1,2,3 as listed above-->
+    <seed>
+        <name>Baby Sativo</name>
+        <description>This short, thick plant is cheap and grows quickly. A good beginner's plant! The tough, fibrous stalks can be woven into incredibly efficient and powerful ropes, used in a number of industries.</description>
+        <framenum>1</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>1</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>0.5</grow_time>  <!--0.5-->
+        <grow_mod_level1>.4</grow_mod_level1>
+        <grow_mod_level2>.3</grow_mod_level2>
+        <grow_mod_level3>.25</grow_mod_level3>
+        <grow_time_min>.25</grow_time_min> <!-- 2 -->
+        <wilt_time>5</wilt_time>  <!-- 5 -->
+        <wilt_mod_level1>10</wilt_mod_level1>
+        <wilt_mod_level2>15</wilt_mod_level2>
+        <wilt_mod_level3>30</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>10</price> <!-- 45 -->
+        <level>1</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>5</harvest_xp><!-- this is new... plant specific xp bonus? -->
+        <harvest_xp_bonus1>1</harvest_xp_bonus1>
+        <harvest_xp_bonus2>2</harvest_xp_bonus2>
+        <harvest_xp_bonus3>3</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>5</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+        <season></season>
+        <quantity>0</quantity>
+    </seed>
+    <seed>
+        <name>Sativo</name>
+        <description>Your basic small green Verde. The thick stalk and arms on this plant are often crushed and used as wood pulp.</description>
+        <framenum>2</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>2</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>2</grow_time>  <!--5-->
+        <grow_mod_level1>1.6</grow_mod_level1>
+        <grow_mod_level2>1.2</grow_mod_level2>
+        <grow_mod_level3>1</grow_mod_level3>
+        <grow_time_min>1</grow_time_min> <!-- 2 -->
+        <wilt_time>30</wilt_time>  <!-- 10 -->
+        <wilt_mod_level1>15</wilt_mod_level1>
+        <wilt_mod_level2>30</wilt_mod_level2>
+        <wilt_mod_level3>60</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>25</price>
+        <level>1</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>5</harvest_xp>
+        <harvest_xp_bonus1>5</harvest_xp_bonus1>
+        <harvest_xp_bonus2>10</harvest_xp_bonus2>
+        <harvest_xp_bonus3>15</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>5</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Tri-Sativo</name>
+        <description>A mid-sized crop of green-leaved Verde. This star-shaped plant has a strong, deep root system and makes an efficient biofuel.</description>
+        <framenum>3</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>3</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>5</grow_time>  <!--5-->
+        <grow_mod_level1>4</grow_mod_level1>
+        <grow_mod_level2>3</grow_mod_level2>
+        <grow_mod_level3>2.5</grow_mod_level3>
+        <grow_time_min>2.5</grow_time_min> <!-- 2 -->
+        <wilt_time>30</wilt_time>  <!-- 10 -->
+        <wilt_mod_level1>45</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>90</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>50</price>
+        <level>1</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>10</harvest_xp>
+        <harvest_xp_bonus1>5</harvest_xp_bonus1>
+        <harvest_xp_bonus2>10</harvest_xp_bonus2>
+        <harvest_xp_bonus3>15</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>10</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Full Sativo</name>
+        <description>A hearty crop of green-leaved Verde. This strong, resilient Verde can be used to strengthen concrete in building foundations and reinforcement bars.</description>
+        <framenum>4</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>4</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>10</grow_time>  <!--5-->
+        <grow_mod_level1>8</grow_mod_level1>
+        <grow_mod_level2>6</grow_mod_level2>
+        <grow_mod_level3>5</grow_mod_level3>
+        <grow_time_min>5</grow_time_min> <!-- 2 -->
+        <wilt_time>60</wilt_time>  <!-- 10 -->
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>70</price>
+        <level>2</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>15</harvest_xp>
+        <harvest_xp_bonus1>5</harvest_xp_bonus1>
+        <harvest_xp_bonus2>10</harvest_xp_bonus2>
+        <harvest_xp_bonus3>15</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>15</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Big Sativo</name>
+        <description>This green Verde towers over its little brothers and sisters once it's fully mature! The hairy leaves on this tall plant are used to create industrial bags and consumer-grade paper and clothing.</description>
+        <framenum>5</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>6</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>15</grow_time>  <!--5-->
+        <grow_mod_level1>12</grow_mod_level1>
+        <grow_mod_level2>9</grow_mod_level2>
+        <grow_mod_level3>7.5</grow_mod_level3>
+        <grow_time_min>7.5</grow_time_min> <!-- 2 -->
+        <wilt_time>120</wilt_time>  <!-- 10 -->
+        <wilt_mod_level1>45</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>120</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>100</price>
+        <level>3</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>15</harvest_xp>
+        <harvest_xp_bonus1>5</harvest_xp_bonus1>
+        <harvest_xp_bonus2>10</harvest_xp_bonus2>
+        <harvest_xp_bonus3>15</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>15</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Alien</name>
+	    <description>The Alien is covered with a thick, viscous oil that's remarkably resistant to water. As such, it's used to make sails, water-proof ropes and even as a coating for submarines and other deep-sea equipment.</description>
+	    <framenum>27</framenum>
+	    <yield_type>12</yield_type>
+	    <yield_num>2</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+        <grow_time>60</grow_time>
+        <grow_mod_level1>48</grow_mod_level1>
+        <grow_mod_level2>36</grow_mod_level2>
+        <grow_mod_level3>30</grow_mod_level3>
+	    <grow_time_min>15</grow_time_min>     <!-- 2-->
+	    <wilt_time>120</wilt_time>
+        <wilt_mod_level1>30</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>90</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>125</price>
+	    <level>3</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>35</harvest_xp>
+        <harvest_xp_bonus1>25</harvest_xp_bonus1>
+        <harvest_xp_bonus2>50</harvest_xp_bonus2>
+        <harvest_xp_bonus3>75</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>35</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+        <name>Baby Berry</name>
+        <description>This short, squat plant is primarily used to create a high-quality paper, which can be recycled many more times than traditional paper.</description>
+        <framenum>13</framenum>
+        <yield_type>2</yield_type>
+        <yield_num>1</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>5</grow_time>
+        <grow_mod_level1>4</grow_mod_level1>
+        <grow_mod_level2>3</grow_mod_level2>
+        <grow_mod_level3>2.5</grow_mod_level3>
+        <grow_time_min>4</grow_time_min>
+        <wilt_time>15</wilt_time>
+        <wilt_mod_level1>20</wilt_mod_level1>
+        <wilt_mod_level2>45</wilt_mod_level2>
+        <wilt_mod_level3>90</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>0.75</sound>
+        <!-- availability thresholds -->
+        <price>75</price>
+        <level>4</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>15</harvest_xp>
+        <harvest_xp_bonus1>5</harvest_xp_bonus1>
+        <harvest_xp_bonus2>10</harvest_xp_bonus2>
+        <harvest_xp_bonus3>15</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>15</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Snowcap</name>
+	    <description>Snow tips are popular for being easy to grow and maintain, although they develop rather slowly. It's a tough plant that can withstand any climate. Its thick, bulky core is used in many recyclable plastics.</description>
+	    <framenum>31</framenum>
+	    <yield_type>16</yield_type>
+	    <yield_num>5</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>4</yield_bonus2>
+        <yield_bonus3>6</yield_bonus3>
+	    <grow_time>720</grow_time>   <!-- 10-->
+        <grow_mod_level1>576</grow_mod_level1>
+        <grow_mod_level2>432</grow_mod_level2>
+        <grow_mod_level3>360</grow_mod_level3>
+	    <grow_time_min>120</grow_time_min>     <!-- 2-->
+	    <wilt_time>720</wilt_time>
+        <wilt_mod_level1>840</wilt_mod_level1>
+        <wilt_mod_level2>960</wilt_mod_level2>
+        <wilt_mod_level3>1440</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>300</price>
+	    <level>5</level>
+		<season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>50</harvest_xp>
+        <harvest_xp_bonus1>25</harvest_xp_bonus1>
+        <harvest_xp_bonus2>50</harvest_xp_bonus2>
+        <harvest_xp_bonus3>100</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>50</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+
+        <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>1</background_preference_yield>
+        <background_preference_grow_mod>60</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+    <seed>
+        <name>Berry</name>
+        <description>Your basic small red berry. The oil contained in the leaves of this profitable plant are often extracted and used to make medicines or diet supplements.</description>
+        <framenum>14</framenum>
+        <yield_type>2</yield_type>
+        <yield_num>2</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>20</grow_time>
+        <grow_mod_level1>16</grow_mod_level1>
+        <grow_mod_level2>12</grow_mod_level2>
+        <grow_mod_level3>10</grow_mod_level3>
+        <grow_time_min>7</grow_time_min>
+        <wilt_time>30</wilt_time>
+        <wilt_mod_level1>30</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>180</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>0.75</sound>
+        <!-- availability thresholds -->
+        <price>120</price>
+        <level>5</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>20</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>30</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>20</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+	    <name>SweetPine</name>
+	    <description>While Sweet Pine is commonly associated with cold weather, it's actually a hardy perennial, able to grow in a wide range of climates. Popular as a holiday decoration among bohemian types.</description>
+	    <framenum>48</framenum>
+	    <yield_type>33</yield_type>
+	    <yield_num>7</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>4</yield_bonus2>
+        <yield_bonus3>6</yield_bonus3>
+	    <grow_time>120</grow_time>   <!-- 10-->
+        <grow_mod_level1>96</grow_mod_level1>
+        <grow_mod_level2>72</grow_mod_level2>
+        <grow_mod_level3>60</grow_mod_level3>
+	    <grow_time_min>60</grow_time_min>     <!-- 2-->
+	    <wilt_time>240</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>180</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>540</price>
+	    <level>6</level>
+        <season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>30</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>30</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+        <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>1</background_preference_yield>
+        <background_preference_grow_mod>15</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+	<seed>
+	    <name>Aqua P-14</name>
+	    <description>This hardy and aromatic plant originates from a valley in India. Its purple core in full bloom is an essential component in many heat-resistant plastics.</description>
+	    <framenum>23</framenum>
+	    <yield_type>8</yield_type>
+	    <yield_num>3</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+	    <grow_time>1440</grow_time>   <!-- 10-->
+        <grow_mod_level1>1152</grow_mod_level1>
+        <grow_mod_level2>864</grow_mod_level2>
+        <grow_mod_level3>720</grow_mod_level3>
+	    <grow_time_min>720</grow_time_min>     <!-- 2-->
+	    <wilt_time>1440</wilt_time>
+        <wilt_mod_level1>1080</wilt_mod_level1>
+        <wilt_mod_level2>1440</wilt_mod_level2>
+        <wilt_mod_level3>2880</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>950</price>
+	    <level>6</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>75</harvest_xp>
+        <harvest_xp_bonus1>25</harvest_xp_bonus1>
+        <harvest_xp_bonus2>50</harvest_xp_bonus2>
+        <harvest_xp_bonus3>75</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>75</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+        <background_preference>Island</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>0</background_preference_yield>
+        <background_preference_grow_mod>-720</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+    <seed>
+        <name>Rare Sativo</name>
+        <description>Watch out, this green Verde is huge - and valuable - once it's fully grown! This bushy plant is used as a cooking oil and in cereals.</description>
+        <framenum>6</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>18</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>30</grow_time>  <!--5-->
+        <grow_mod_level1>24</grow_mod_level1>
+        <grow_mod_level2>18</grow_mod_level2>
+        <grow_mod_level3>15</grow_mod_level3>
+        <grow_time_min>15</grow_time_min> <!-- 2 -->
+        <wilt_time>60</wilt_time>  <!-- 10 -->
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>90</wilt_mod_level2>
+        <wilt_mod_level3>120</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>325</price>
+        <level>7</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>5</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>30</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>5</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Mini Indigo</name>
+	    <description>Your basic small blue indigo. This versatile plant grows quickly and is used in a number of different industries, including construction, biofuels and as a supplement in paint.</description>
+	    <framenum>7</framenum>
+	    <yield_type>3</yield_type>
+	    <yield_num>1</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+	    <grow_time>20</grow_time>   <!-- 10-->
+        <grow_mod_level1>16</grow_mod_level1>
+        <grow_mod_level2>12</grow_mod_level2>
+        <grow_mod_level3>10</grow_mod_level3>
+	    <grow_time_min>3</grow_time_min>     <!-- 2-->
+	    <wilt_time>40</wilt_time>
+        <wilt_mod_level1>20</wilt_mod_level1>
+        <wilt_mod_level2>45</wilt_mod_level2>
+        <wilt_mod_level3>60</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>100</price>
+	    <level>7</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+	    <harvest_xp>35</harvest_xp>
+        <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>35</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>35</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+        <name>Indigo</name>
+        <description>This tough, roughly textured plant is used to make clothing, most commonly denim jeans and gloves. Fun fact - the first American Flag was made from this strain of hemp!</description>
+        <framenum>8</framenum>
+        <yield_type>3</yield_type>
+        <yield_num>2</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+        <grow_time>45</grow_time>   <!-- 10-->
+        <grow_mod_level1>36</grow_mod_level1>
+        <grow_mod_level2>27</grow_mod_level2>
+        <grow_mod_level3>22</grow_mod_level3>
+        <grow_time_min>5</grow_time_min>     <!-- 2-->
+        <wilt_time>90</wilt_time>
+        <wilt_mod_level1>45</wilt_mod_level1>
+        <wilt_mod_level2>90</wilt_mod_level2>
+        <wilt_mod_level3>180</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>1.25</sound>
+        <!-- availability thresholds -->
+        <price>225</price>
+        <level>7</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>35</harvest_xp>
+        <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>35</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>35</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Tri-Berry</name>
+        <description>This delicately fragrant plant is renowned for its antimicrobial properties and is used in a wide variety of skin and hair care products.</description>
+        <framenum>15</framenum>
+        <yield_type>2</yield_type>
+        <yield_num>4</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>30</grow_time>
+        <grow_mod_level1>24</grow_mod_level1>
+        <grow_mod_level2>18</grow_mod_level2>
+        <grow_mod_level3>15</grow_mod_level3>
+        <grow_time_min>7</grow_time_min>
+        <wilt_time>60</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>90</wilt_mod_level2>
+        <wilt_mod_level3>180</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>0.75</sound>
+        <!-- availability thresholds -->
+        <price>220</price>
+        <level>8</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>20</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>30</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>20</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Desert Palm</name>
+	    <description>A somewhat foul-smelling plant. Popular among landscapers, despite the odor, as its fibers and leaves can be used to make mulch.</description>
+	    <framenum>32</framenum>
+	    <yield_type>17</yield_type>
+	    <yield_num>5</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>2880</grow_time>   <!-- 10-->
+        <grow_mod_level1>2304</grow_mod_level1>
+        <grow_mod_level2>1728</grow_mod_level2>
+        <grow_mod_level3>1440</grow_mod_level3>
+	    <grow_time_min>1440</grow_time_min>     <!-- 2-->
+	    <wilt_time>2880</wilt_time>
+        <wilt_mod_level1>960</wilt_mod_level1>
+        <wilt_mod_level2>1200</wilt_mod_level2>
+        <wilt_mod_level3>2880</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>1250</price>
+	    <level>8</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>120</harvest_xp>
+        <harvest_xp_bonus1>60</harvest_xp_bonus1>
+        <harvest_xp_bonus2>80</harvest_xp_bonus2>
+        <harvest_xp_bonus3>120</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>120</harvest_xp_bonus_rain>
+        <background_preference>Island</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>0</background_preference_yield>
+        <background_preference_grow_mod>-720</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+        <name>Full Berry</name>
+        <description>A large crop of red-leaved berry. Proteins found in this bushy plant can be used as a supplement in nutritious (and delicious!) cat, dog and horse food.</description>
+        <framenum>16</framenum>
+        <yield_type>2</yield_type>
+        <yield_num>6</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>45</grow_time>
+        <grow_mod_level1>36</grow_mod_level1>
+        <grow_mod_level2>27</grow_mod_level2>
+        <grow_mod_level3>22</grow_mod_level3>
+        <grow_time_min>60</grow_time_min>
+        <wilt_time>45</wilt_time>
+        <wilt_mod_level1>36</wilt_mod_level1>
+        <wilt_mod_level2>27</wilt_mod_level2>
+        <wilt_mod_level3>22</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>0.75</sound>
+        <!-- availability thresholds -->
+        <price>350</price>
+        <level>9</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>20</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>30</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>20</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Tri-Indigo</name>
+        <description>The leaves of this dark Indigo are usually small, but valuable for soaps and perfumes. A great plant for indoor or outdoor growth, emits a pleasant scent that doesn't become oppressive in small spaces. </description>
+	<framenum>9</framenum>
+        <yield_type>3</yield_type>
+        <yield_num>3</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+        <grow_time>90</grow_time>   <!-- 10-->
+        <grow_mod_level1>72</grow_mod_level1>
+        <grow_mod_level2>54</grow_mod_level2>
+        <grow_mod_level3>45</grow_mod_level3>
+        <grow_time_min>30</grow_time_min>     <!-- 2-->
+        <wilt_time>180</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>1.25</sound>
+        <!-- availability thresholds -->
+        <price>420</price>
+        <level>9</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>35</harvest_xp>
+        <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>35</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>35</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Big Berry</name>
+        <description>Though the leathery leaves on this plant are generally considered too tough to be used commercially, the dark, hard seeds can be ground up to create expensive medicines.</description>
+        <framenum>17</framenum>
+        <yield_type>2</yield_type>
+        <yield_num>8</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>60</grow_time>
+        <grow_mod_level1>48</grow_mod_level1>
+        <grow_mod_level2>36</grow_mod_level2>
+        <grow_mod_level3>30</grow_mod_level3>
+        <grow_time_min>25</grow_time_min>
+        <wilt_time>120</wilt_time>
+        <wilt_mod_level1>30</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>90</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>0.75</sound>
+        <!-- availability thresholds -->
+        <price>400</price>
+        <level>10</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>20</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>30</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>20</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Spider</name>
+	    <description>Too fragile for use in commercial products, The Spider is highly-sought by esoteric practictioners for its (rumored) supernatural properties. It is difficult to harvest because it grows slowly but wilts quickly.</description>
+	    <framenum>33</framenum>
+	    <yield_type>18</yield_type>
+	    <yield_num>4</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>5</yield_bonus3>
+	    <grow_time>1440</grow_time>   <!-- 10-->
+        <grow_mod_level1>1152</grow_mod_level1>
+        <grow_mod_level2>864</grow_mod_level2>
+        <grow_mod_level3>720</grow_mod_level3>
+	    <grow_time_min>1440</grow_time_min>     <!-- 2-->
+	    <wilt_time>60</wilt_time>
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>150</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>8900</price>
+	    <level>10</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>150</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>100</harvest_xp_bonus2>
+        <harvest_xp_bonus3>150</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>150</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+	    <name>Igloo</name>
+	    <description>The Igloo is part of a remarkable example of symbiosis, as small mammals use it for both shelter and sustenance. Native to Canada's Northwest Territories, this unusual breed has little commerical value.</description>
+	    <framenum>45</framenum>
+	    <yield_type>30</yield_type>
+	    <yield_num>12</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>7</yield_bonus2>
+        <yield_bonus3>12</yield_bonus3>
+	    <grow_time>600</grow_time>   <!-- 10-->
+        <grow_mod_level1>480</grow_mod_level1>
+        <grow_mod_level2>360</grow_mod_level2>
+        <grow_mod_level3>300</grow_mod_level3>
+	    <grow_time_min>300</grow_time_min>     <!-- 2-->
+	    <wilt_time>300</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>850</price>
+	    <level>11</level>
+        <season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>150</harvest_xp>
+        <harvest_xp_bonus1>25</harvest_xp_bonus1>
+        <harvest_xp_bonus2>50</harvest_xp_bonus2>
+        <harvest_xp_bonus3>100</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>25</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+        <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>1</background_preference_yield>
+        <background_preference_grow_mod>60</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+    <seed>
+	    <name>Sour Indigo</name>
+        <description>This uncommon Indigo is noteworthy for the strange and powerful odor it emits at maturity. Harvest it soon, before it stinks up the place! Used to make health cereals, though they're not very popular...</description>
+        <framenum>10</framenum>
+        <yield_type>3</yield_type>
+        <yield_num>5</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+        <grow_time>120</grow_time>   <!-- 10-->
+        <grow_mod_level1>96</grow_mod_level1>
+        <grow_mod_level2>72</grow_mod_level2>
+        <grow_mod_level3>60</grow_mod_level3>
+        <grow_time_min>45</grow_time_min>     <!-- 2-->
+        <wilt_time>240</wilt_time>
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>180</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>1.25</sound>
+        <!-- availability thresholds -->
+        <price>600</price>
+        <level>11</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>40</harvest_xp>
+        <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>35</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>40</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
+        <name>Rare Berry</name>
+        <description>This giant plant is slow to grow but very valuable. It's used to create luxury fabrics and is in high demand from fashion designers around the world.</description>
+        <framenum>18</framenum>
+        <yield_type>2</yield_type>
+        <yield_num>10</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+        <grow_time>120</grow_time>
+        <grow_mod_level1>96</grow_mod_level1>
+        <grow_mod_level2>72</grow_mod_level2>
+        <grow_mod_level3>60</grow_mod_level3>
+        <grow_time_min>45</grow_time_min>
+        <wilt_time>180</wilt_time>
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>360</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>0.75</sound>
+        <!-- availability thresholds -->
+        <price>650</price>
+        <level>12</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>20</harvest_xp>
+        <harvest_xp_bonus1>10</harvest_xp_bonus1>
+        <harvest_xp_bonus2>20</harvest_xp_bonus2>
+        <harvest_xp_bonus3>30</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>20</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Mayan</name>
+	    <description>This plant has been cultivated for hundreds, if not thousands, of years along the coasts of Africa and South America. The seeds can be ground into a rich oil, used as an anaesthetic and in religious rituals.</description>
+	    <framenum>34</framenum>
+	    <yield_type>19</yield_type>
+	    <yield_num>5</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>360</grow_time>   <!-- 10-->
+        <grow_mod_level1>288</grow_mod_level1>
+        <grow_mod_level2>216</grow_mod_level2>
+        <grow_mod_level3>180</grow_mod_level3>
+	    <grow_time_min>180</grow_time_min>     <!-- 2-->
+	    <wilt_time>720</wilt_time>
+        <wilt_mod_level1>180</wilt_mod_level1>
+        <wilt_mod_level2>240</wilt_mod_level2>
+        <wilt_mod_level3>360</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>4490</price>
+	    <level>12</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>180</harvest_xp>
+        <harvest_xp_bonus1>90</harvest_xp_bonus1>
+        <harvest_xp_bonus2>120</harvest_xp_bonus2>
+        <harvest_xp_bonus3>180</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>180</harvest_xp_bonus_rain>
+        <background_preference>Island</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>2</background_preference_yield>
+        <background_preference_grow_mod>0</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+        <new_seed>false</new_seed>
+	</seed>
+	<seed>
+	    <name>Paradise</name>
+	    <description>The colorful Paradise has a remarkably short life cycle for a plant of its usefulness and profitability. Used to make a relatively light and inexpensive fuel for air and space travel.</description>
+	    <framenum>26</framenum>
+	    <yield_type>11</yield_type>
+	    <yield_num>3</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>10</grow_time>   <!-- 10-->
+        <grow_mod_level1>8</grow_mod_level1>
+        <grow_mod_level2>6</grow_mod_level2>
+        <grow_mod_level3>5</grow_mod_level3>
+	    <grow_time_min>2.5</grow_time_min>     <!-- 2-->
+	    <wilt_time>15</wilt_time>
+        <wilt_mod_level1>30</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>120</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>850</price>
+	    <level>13</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>30</harvest_xp>
+        <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>40</harvest_xp_bonus2>
+        <harvest_xp_bonus3>70</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>30</harvest_xp_bonus_rain>
+        <background_preference>Island</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>0</background_preference_yield>
+        <background_preference_grow_mod>-1</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+        <name>Big Indigo</name>
+        <description>This profitable blue indigo grows slowly, but is impressive when fully mature! The seeds and stalks of this plant are unrivaled as livestock feed and bedding.</description>
+        <framenum>11</framenum>
+        <yield_type>3</yield_type>
+        <yield_num>6</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+        <grow_time>180</grow_time>   <!-- 10-->
+        <grow_mod_level1>144</grow_mod_level1>
+        <grow_mod_level2>108</grow_mod_level2>
+        <grow_mod_level3>90</grow_mod_level3>
+        <grow_time_min>60</grow_time_min>     <!-- 2-->
+        <wilt_time>360</wilt_time>
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>1.25</sound>
+        <!-- availability thresholds -->
+        <price>720</price>
+        <level>13</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>45</harvest_xp>
+	    <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>35</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>45</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+	<seed>
+	    <name>Neon</name>
+	    <description>This popular plant is characterized by its neon glow. It produces large, crystalline leaves, used in telephone wires and cellphones. They also make great decorations and gifts!</description>
+	    <framenum>22</framenum>
+	    <yield_type>7</yield_type>
+	    <yield_num>1</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+	    <grow_time>720</grow_time>   <!-- 10-->
+        <grow_mod_level1>576</grow_mod_level1>
+        <grow_mod_level2>504</grow_mod_level2>
+        <grow_mod_level3>360</grow_mod_level3>
+	    <grow_time_min>720</grow_time_min>     <!-- 2-->
+	    <wilt_time>720</wilt_time>
+        <wilt_mod_level1>420</wilt_mod_level1>
+        <wilt_mod_level2>480</wilt_mod_level2>
+        <wilt_mod_level3>720</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>1700</price>
+	    <level>14</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>150</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>125</harvest_xp_bonus2>
+        <harvest_xp_bonus3>250</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>150</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+	<!-- new release 2 -->
+    <seed>
+	    <name>Cali</name>
+	    <description>Cali has become a popular choice in rural regions of western North America, due to the year-round sunshine. The fibers of its stems are used in a substantial portion of commercial hemp thread and yarn.</description>
+	    <framenum>44</framenum>
+	    <yield_type>29</yield_type>
+	    <yield_num>6</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>5</yield_bonus3>
+	    <grow_time>1440</grow_time>
+        <grow_mod_level1>1152</grow_mod_level1>
+        <grow_mod_level2>864</grow_mod_level2>
+        <grow_mod_level3>720</grow_mod_level3>
+	    <grow_time_min>576</grow_time_min>
+	    <wilt_time>1440</wilt_time>
+        <wilt_mod_level1>360</wilt_mod_level1>
+        <wilt_mod_level2>720</wilt_mod_level2>
+        <wilt_mod_level3>1440</wilt_mod_level3>
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <price>6500</price>
+	    <level>15</level>
+	    <displayed>true</displayed>
+		<harvest_xp>125</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>100</harvest_xp_bonus2>
+        <harvest_xp_bonus3>175</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>125</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference>Attic, Cave</background_preference>
+        <background_preference_yield>-2</background_preference_yield>
+        <background_preference_grow_mod>0</background_preference_grow_mod>
+	</seed>
+	<seed>
+		<name>Drift</name>
+	    <description>Don't let its soft exterior fool you: Drift is one of the hardiest hemp strains, able to grow in any climate. Its fibers can be woven into soft, cushiony fabric that has outscored cotton in blind tests.</description>
+	    <framenum>49</framenum>
+	    <yield_type>34</yield_type>
+	    <yield_num>10</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>30</grow_time>   <!-- 10-->
+        <grow_mod_level1>24</grow_mod_level1>
+        <grow_mod_level2>18</grow_mod_level2>
+        <grow_mod_level3>15</grow_mod_level3>
+	    <grow_time_min>15</grow_time_min>     <!-- 2-->
+	    <wilt_time>60</wilt_time>
+        <wilt_mod_level1>30</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>90</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>4900</price>
+	    <level>15</level>
+        <season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+
+		<harvest_xp>100</harvest_xp>
+        <harvest_xp_bonus1>500</harvest_xp_bonus1>
+        <harvest_xp_bonus2>1000</harvest_xp_bonus2>
+        <harvest_xp_bonus3>1500</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>100</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+        <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>1</background_preference_yield>
+        <background_preference_grow_mod>5</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+    <seed>
+        <name>Rare Indigo</name>
+        <description>The starch that can be extracted from this giant plant is used to create plastics. The Rare Indigo was famously used by Henry Ford to create a plastic-based car body in 1941.</description>
+        <framenum>12</framenum>
+        <yield_type>3</yield_type>
+        <yield_num>10</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+        <grow_time>240</grow_time>   <!-- 10-->
+        <grow_mod_level1>192</grow_mod_level1>
+        <grow_mod_level2>144</grow_mod_level2>
+        <grow_mod_level3>120</grow_mod_level3>
+        <grow_time_min>120</grow_time_min>     <!-- 2-->
+        <wilt_time>480</wilt_time>
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.0</light>
+        <sound>1.25</sound>
+        <!-- availability thresholds -->
+        <price>1000</price>
+        <level>16</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+		<harvest_xp>50</harvest_xp>
+	    <harvest_xp_bonus1>20</harvest_xp_bonus1>
+        <harvest_xp_bonus2>30</harvest_xp_bonus2>
+        <harvest_xp_bonus3>50</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>50</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+   </seed>
+	<seed>
+	    <name>Hawaiian</name>
+	    <description>The fiber from this plant can be woven into luminescent clothing and even used to reinforce fiber-optic telecommunication networks. Native to its namesake, it's a slow growing plant that loves the sun.</description>
+	    <framenum>20</framenum>
+	    <yield_type>5</yield_type>
+	    <yield_num>12</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>5</yield_bonus3>
+	    <grow_time>10080</grow_time>   <!-- 10-->
+        <grow_mod_level1>8064</grow_mod_level1>
+        <grow_mod_level2>6048</grow_mod_level2>
+        <grow_mod_level3>5040</grow_mod_level3>
+	    <grow_time_min>5040</grow_time_min>     <!-- 2-->
+	    <wilt_time>10080</wilt_time>
+        <wilt_mod_level1>2880</wilt_mod_level1>
+        <wilt_mod_level2>4320</wilt_mod_level2>
+        <wilt_mod_level3>5760</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>4220</price>
+	    <level>17</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>800</harvest_xp>
+        <harvest_xp_bonus1>200</harvest_xp_bonus1>
+        <harvest_xp_bonus2>450</harvest_xp_bonus2>
+        <harvest_xp_bonus3>700</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>800</harvest_xp_bonus_rain>
+        <background_preference>Attic, Cave</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>-4</background_preference_yield>
+        <background_preference_grow_mod>-180</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+        <new_seed>false</new_seed>
+	</seed>
+	<seed>
+	    <name>Oracle</name>
+	    <description>This strange plant has deep roots and can sustain itself in almost any environment. The leaves, and especially the gnarled core, can be ground into a potent powder used for medical treatment and research.</description>
+	    <framenum>25</framenum>
+	    <yield_type>10</yield_type>
+	    <yield_num>1</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+	    <grow_time>360</grow_time>   <!-- 10-->
+        <grow_mod_level1>288</grow_mod_level1>
+        <grow_mod_level2>216</grow_mod_level2>
+        <grow_mod_level3>180</grow_mod_level3>
+	    <grow_time_min>60</grow_time_min>     <!-- 2-->
+	    <wilt_time>360</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>360</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>1750</price>
+	    <level>18</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>90</harvest_xp>
+        <harvest_xp_bonus1>110</harvest_xp_bonus1>
+        <harvest_xp_bonus2>210</harvest_xp_bonus2>
+        <harvest_xp_bonus3>310</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>90</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+	    <name>Holiday</name>
+	    <description>A popular cold-weather plant that has survived through the ages. It's been well documented that a half bushel of these leaves were among the lesser-known gifts of the Magi to baby Christ.</description>
+	    <framenum>46</framenum>
+	    <yield_type>31</yield_type>
+	    <yield_num>20</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>6</yield_bonus2>
+        <yield_bonus3>10</yield_bonus3>
+	    <grow_time>240</grow_time>   <!-- 10-->
+        <grow_mod_level1>192</grow_mod_level1>
+        <grow_mod_level2>144</grow_mod_level2>
+        <grow_mod_level3>120</grow_mod_level3>
+	    <grow_time_min>120</grow_time_min>     <!-- 2-->
+	    <wilt_time>240</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>2700</price>
+	    <level>18</level>
+        <season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>70</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>180</harvest_xp_bonus2>
+        <harvest_xp_bonus3>280</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>70</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+        <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>1</background_preference_yield>
+        <background_preference_grow_mod>30</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+	<seed>
+	    <name>Bone Seed</name>
+	    <description>This ancient strain of hemp is still in use by Aboriginal shamans. Modern medicine also has an interest in this plant, as it is a powerful pain-killer and aphrodisiac with no side effects or addictive properties.</description>
+	    <framenum>24</framenum>
+	    <yield_type>9</yield_type>
+	    <yield_num>2</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>1440</grow_time>   <!-- 10-->
+        <grow_mod_level1>1152</grow_mod_level1>
+        <grow_mod_level2>864</grow_mod_level2>
+        <grow_mod_level3>720</grow_mod_level3>
+	    <grow_time_min>720</grow_time_min>     <!-- 2-->
+	    <wilt_time>1440</wilt_time>
+        <wilt_mod_level1>840</wilt_mod_level1>
+        <wilt_mod_level2>1200</wilt_mod_level2>
+        <wilt_mod_level3>2880</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>5970</price>
+	    <level>19</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>95</harvest_xp>
+        <harvest_xp_bonus1>45</harvest_xp_bonus1>
+        <harvest_xp_bonus2>105</harvest_xp_bonus2>
+        <harvest_xp_bonus3>205</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>95</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+	<seed>
+	    <name>SilverStar</name>
+	    <description>The Silver Star's seeds produce a metallic, non-corrosive oil that's a key ingredient in monochromatic stainless steel alloys. A highly valuable plant, it's also strikingly beautiful.</description>
+	    <framenum>47</framenum>
+	    <yield_type>32</yield_type>
+	    <yield_num>25</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>5</yield_bonus2>
+        <yield_bonus3>10</yield_bonus3>
+	    <grow_time>420</grow_time>   <!-- 10-->
+        <grow_mod_level1>336</grow_mod_level1>
+        <grow_mod_level2>252</grow_mod_level2>
+        <grow_mod_level3>210</grow_mod_level3>
+	    <grow_time_min>180</grow_time_min>     <!-- 2-->
+	    <wilt_time>420</wilt_time>
+        <wilt_mod_level1>120</wilt_mod_level1>
+        <wilt_mod_level2>180</wilt_mod_level2>
+        <wilt_mod_level3>360</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>15100</price>
+	    <level>20</level>
+        <season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>125</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>125</harvest_xp_bonus2>
+        <harvest_xp_bonus3>175</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>125</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference>Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>3</background_preference_yield>
+        <background_preference_grow_mod>60</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+	<seed>
+	    <name>Oily Lotus</name>
+	    <description>This plant has a light, summery fragrance that bugs find irresistible, though they tend to get stuck in its sticky excretions. The oil extracted from this plant is a powerful lubricant, used in subways and railroads.</description>
+	    <framenum>19</framenum>
+	    <yield_type>4</yield_type>
+	    <yield_num>7</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>60</grow_time>   <!-- 10-->
+        <grow_mod_level1>48</grow_mod_level1>
+        <grow_mod_level2>36</grow_mod_level2>
+        <grow_mod_level3>30</grow_mod_level3>
+	    <grow_time_min>30</grow_time_min>     <!-- 2-->
+	    <wilt_time>60</wilt_time>
+        <wilt_mod_level1>90</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>240</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>5000</price>
+	    <level>20</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>100</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>125</harvest_xp_bonus2>
+        <harvest_xp_bonus3>250</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>100</harvest_xp_bonus_rain>
+
+        <new_seed>false</new_seed>
+	</seed>
+	<!-- new release 2 -->
+    <seed>
+	    <name>Superstar</name>
+	    <description>The waxy outer layer of this prismatic plant is often noticed for its foul scent and variety of vivid hues. The odor is lost in processing, leaving this strain a perfect ingredient in non-toxic paints and crayons.</description>
+	    <framenum>42</framenum>
+	    <yield_type>27</yield_type>
+	    <yield_num>3</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>360</grow_time>
+        <grow_mod_level1>288</grow_mod_level1>
+        <grow_mod_level2>216</grow_mod_level2>
+        <grow_mod_level3>180</grow_mod_level3>
+	    <grow_time_min>150</grow_time_min>
+	    <wilt_time>360</wilt_time>
+        <wilt_mod_level1>120</wilt_mod_level1>
+        <wilt_mod_level2>240</wilt_mod_level2>
+        <wilt_mod_level3>480</wilt_mod_level3>
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <price>11000</price>
+	    <level>21</level>
+	    <displayed>true</displayed>
+		<harvest_xp>275</harvest_xp>
+        <harvest_xp_bonus1>175</harvest_xp_bonus1>
+        <harvest_xp_bonus2>225</harvest_xp_bonus2>
+        <harvest_xp_bonus3>325</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>275</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+	</seed>
+
+	<seed>
+	    <name>Golden</name>
+	    <description>This radiant plant is its own light source. It's a common component in solar panels, flashlights and rechargable batteries... or even just as a decoration!</description>
+	    <framenum>29</framenum>
+	    <yield_type>14</yield_type>
+	    <yield_num>5</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>4</yield_bonus2>
+        <yield_bonus3>9</yield_bonus3>
+	    <grow_time>360</grow_time>   <!-- 10-->
+        <grow_mod_level1>288</grow_mod_level1>
+        <grow_mod_level2>216</grow_mod_level2>
+        <grow_mod_level3>180</grow_mod_level3>
+	    <grow_time_min>120</grow_time_min>     <!-- 2-->
+	    <wilt_time>360</wilt_time>
+        <wilt_mod_level1>240</wilt_mod_level1>
+        <wilt_mod_level2>300</wilt_mod_level2>
+        <wilt_mod_level3>360</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>2800</price>
+	    <level>22</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>150</harvest_xp>
+        <harvest_xp_bonus1>125</harvest_xp_bonus1>
+        <harvest_xp_bonus2>150</harvest_xp_bonus2>
+        <harvest_xp_bonus3>175</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>150</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+	<seed>
+	    <name>Magic</name>
+	    <description>This plant requires careful attention, but excels under the right conditions. It grows slowly and produces huge, bulbous crystals that are used for psychic healing and in hexacore microprocessors.</description>
+	    <framenum>30</framenum>
+	    <yield_type>15</yield_type>
+	    <yield_num>12</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>5</yield_bonus2>
+        <yield_bonus3>12</yield_bonus3>
+	    <grow_time>1440</grow_time>   <!-- 10-->
+        <grow_mod_level1>1152</grow_mod_level1>
+        <grow_mod_level2>864</grow_mod_level2>
+        <grow_mod_level3>720</grow_mod_level3>
+	    <grow_time_min>720</grow_time_min>     <!-- 2-->
+	    <wilt_time>1440</wilt_time>
+        <wilt_mod_level1>1080</wilt_mod_level1>
+        <wilt_mod_level2>1440</wilt_mod_level2>
+        <wilt_mod_level3>2880</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>9750</price>
+	    <level>23</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>250</harvest_xp>
+        <harvest_xp_bonus1>250</harvest_xp_bonus1>
+        <harvest_xp_bonus2>500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>750</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>250</harvest_xp_bonus_rain>
+
+        <new_seed>false</new_seed>
+	</seed>
+    <!-- new release 2 -->
+
+	<seed>
+	    <name>Especial</name>
+	    <description>Native to eastern Hawaii. Its flower features prominently in ancient Polynesian texts, possibly as an object of worship. Recently its oil was discovered to be one of the world's most efficient biofuels.</description>
+	    <framenum>41</framenum>
+	    <yield_type>26</yield_type>
+	    <yield_num>25</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>30</grow_time>
+        <grow_mod_level1>24</grow_mod_level1>
+        <grow_mod_level2>18</grow_mod_level2>
+        <grow_mod_level3>15</grow_mod_level3>
+	    <grow_time_min>15</grow_time_min>
+	    <wilt_time>15</wilt_time>
+        <wilt_mod_level1>20</wilt_mod_level1>
+        <wilt_mod_level2>30</wilt_mod_level2>
+        <wilt_mod_level3>45</wilt_mod_level3>
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <price>49000</price>
+	    <level>24</level>
+	    <displayed>true</displayed>
+		<harvest_xp>100</harvest_xp>
+        <harvest_xp_bonus1>150</harvest_xp_bonus1>
+        <harvest_xp_bonus2>400</harvest_xp_bonus2>
+        <harvest_xp_bonus3>900</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>100</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference>Attic,Cave</background_preference>
+        <background_preference_yield>-3</background_preference_yield>
+        <background_preference_grow_mod>-60</background_preference_grow_mod>
+	</seed>
+
+	<seed>
+	    <name>Rainbow</name>
+	    <description>A rare seed, the Rainbow's eye-catching leaves are a key component in modern, high resolution LCD screens and touchscreens.</description>
+	    <framenum>21</framenum>
+	    <yield_type>6</yield_type>
+	    <yield_num>15</yield_num>
+        <yield_bonus1>3</yield_bonus1>
+        <yield_bonus2>5</yield_bonus2>
+        <yield_bonus3>8</yield_bonus3>
+	    <grow_time>2880</grow_time>   <!-- 10-->
+        <grow_mod_level1>2304</grow_mod_level1>
+        <grow_mod_level2>1728</grow_mod_level2>
+        <grow_mod_level3>1440</grow_mod_level3>
+	    <grow_time_min>1440</grow_time_min>     <!-- 2-->
+	    <wilt_time>2880</wilt_time>
+        <wilt_mod_level1>960</wilt_mod_level1>
+        <wilt_mod_level2>1200</wilt_mod_level2>
+        <wilt_mod_level3>2880</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>16000</price>
+	    <level>25</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>750</harvest_xp>
+        <harvest_xp_bonus1>250</harvest_xp_bonus1>
+        <harvest_xp_bonus2>500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>750</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>750</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+
+    <!-- new releases 1 -->
+    <seed>
+	    <name>Gum Blend</name>
+	    <description>This hybrid is the result of a Rare Berry cross-bred with Aqua P-14. As one might expect, it's used to create durable, flexible plastics that are soft and smooth.</description>
+	    <framenum>36</framenum>
+	    <yield_type>21</yield_type>
+	    <yield_num>10</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>4</yield_bonus3>
+	    <grow_time>720</grow_time>
+        <grow_mod_level1>576</grow_mod_level1>
+        <grow_mod_level2>432</grow_mod_level2>
+        <grow_mod_level3>360</grow_mod_level3>
+	    <grow_time_min>120</grow_time_min>
+	    <wilt_time>720</wilt_time>
+        <wilt_mod_level1>840</wilt_mod_level1>
+        <wilt_mod_level2>960</wilt_mod_level2>
+        <wilt_mod_level3>1440</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>27500</price>
+	    <level>26</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>500</harvest_xp>
+        <harvest_xp_bonus1>250</harvest_xp_bonus1>
+        <harvest_xp_bonus2>500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>750</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>500</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+	    <name>Mystic</name>
+	    <description>Traditionally used in the production of illuminated manuscripts, the Mystic is still in demand by a number of esoteric churches and gnostic movements. It is unknown to what ends these groups use this plant.</description>
+	    <framenum>37</framenum>
+	    <yield_type>22</yield_type>
+	    <yield_num>3</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>4320</grow_time>   <!-- 10-->
+        <grow_mod_level1>3456</grow_mod_level1>
+        <grow_mod_level2>2592</grow_mod_level2>
+        <grow_mod_level3>2160</grow_mod_level3>
+	    <grow_time_min>1440</grow_time_min>     <!-- 2-->
+	    <wilt_time>4320</wilt_time>
+        <wilt_mod_level1>3456</wilt_mod_level1>
+        <wilt_mod_level2>2592</wilt_mod_level2>
+        <wilt_mod_level3>2160</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>33000</price>
+	    <level>27</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>250</harvest_xp>
+        <harvest_xp_bonus1>750</harvest_xp_bonus1>
+        <harvest_xp_bonus2>1250</harvest_xp_bonus2>
+        <harvest_xp_bonus3>2250</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>250</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+	    <name>Malibu</name>
+	    <description>A fast-growing seed that hails from its namesake, Malibu California. Generally grown in bulk and used as mulch for flowers, or even for more valuable hemp!</description>
+	    <framenum>35</framenum>
+	    <yield_type>20</yield_type>
+	    <yield_num>10</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>1</grow_time>   <!-- 10-->
+        <grow_mod_level1>.8</grow_mod_level1>
+        <grow_mod_level2>.6</grow_mod_level2>
+        <grow_mod_level3>.5</grow_mod_level3>
+	    <grow_time_min>.5</grow_time_min>     <!-- 2-->
+	    <wilt_time>1</wilt_time>
+        <wilt_mod_level1>1</wilt_mod_level1>
+        <wilt_mod_level2>2</wilt_mod_level2>
+        <wilt_mod_level3>3</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>10000</price>
+	    <level>28</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>25</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>75</harvest_xp_bonus2>
+        <harvest_xp_bonus3>125</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>25</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+	    <name>Blueberry</name>
+	    <description>The Blueberry is popular among farmers for its pleasing smell and unusual appearance. It's well-loved by rabbits, foxes and other pests as well! The plant is used to make rich, vibrant dyes and ink.</description>
+	    <framenum>38</framenum>
+	    <yield_type>23</yield_type>
+	    <yield_num>6</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>60</grow_time>   <!-- 10-->
+        <grow_mod_level1>48</grow_mod_level1>
+        <grow_mod_level2>36</grow_mod_level2>
+        <grow_mod_level3>30</grow_mod_level3>
+	    <grow_time_min>15</grow_time_min>     <!-- 2-->
+	    <wilt_time>60</wilt_time>
+        <wilt_mod_level1>15</wilt_mod_level1>
+        <wilt_mod_level2>30</wilt_mod_level2>
+        <wilt_mod_level3>45</wilt_mod_level3>
+	    <!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>60000</price>
+	    <level>29</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>300</harvest_xp>
+        <harvest_xp_bonus1>400</harvest_xp_bonus1>
+        <harvest_xp_bonus2>500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>700</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>300</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+    <seed>
+	    <name>Northern</name>
+	    <description>This innocuous-looking plant is one of the most bizarre species known to man. The slow-growing Northern is 99% crystal and 1% organic matter. Too delicate for practical use, it is prized by collectors.</description>
+	    <framenum>39</framenum>
+	    <yield_type>24</yield_type>
+	    <yield_num>1</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>20160</grow_time>   <!-- 10-->
+        <grow_mod_level1>16128</grow_mod_level1>
+        <grow_mod_level2>12096</grow_mod_level2>
+        <grow_mod_level3>10080</grow_mod_level3>
+	    <grow_time_min>10080</grow_time_min>     <!-- 2-->
+	    <wilt_time>10080</wilt_time>
+        <wilt_mod_level1>2880</wilt_mod_level1>
+        <wilt_mod_level2>4320</wilt_mod_level2>
+        <wilt_mod_level3>5760</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>100000</price>
+	    <level>30</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>5000</harvest_xp>
+        <harvest_xp_bonus1>2500</harvest_xp_bonus1>
+        <harvest_xp_bonus2>5000</harvest_xp_bonus2>
+        <harvest_xp_bonus3>10000</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>5000</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+	</seed>
+
+    <!-- end new releases 1 -->
+
+     <seed>
+	    <name>rareSnowtip</name>
+	    <description>An unlikely mutation of Snow Tips that grows slowly, but wilts within just minutes of blossoming. Beware! This strain's short maturity phase also makes it almost impossible to properly research and reproduce.</description>
+	    <framenum>50</framenum>
+	    <yield_type>35</yield_type>
+	    <yield_num>14</yield_num>
+        <yield_bonus1>2</yield_bonus1>
+        <yield_bonus2>3</yield_bonus2>
+        <yield_bonus3>5</yield_bonus3>
+	    <grow_time>7200</grow_time>
+        <grow_mod_level1>5760</grow_mod_level1>
+        <grow_mod_level2>4320</grow_mod_level2>
+        <grow_mod_level3>3600</grow_mod_level3>
+	    <grow_time_min>576</grow_time_min>
+	    <wilt_time>30</wilt_time>
+        <wilt_mod_level1>30</wilt_mod_level1>
+        <wilt_mod_level2>60</wilt_mod_level2>
+        <wilt_mod_level3>90</wilt_mod_level3>
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <price>82000</price>
+	    <level>31</level>
+		<season>winter</season>
+	    <displayed>true</displayed>
+		<harvest_xp>5000</harvest_xp>
+        <harvest_xp_bonus1>1000</harvest_xp_bonus1>
+        <harvest_xp_bonus2>2500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>4000</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>1000</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference>Yard</background_preference>
+        <background_preference_yield>2</background_preference_yield>
+        <background_preference_grow_mod>0</background_preference_grow_mod>
+	</seed>
+    <seed>
+	    <name>Snowflake</name>
+	    <description>The Snowflake's complex leaf structure is so unique, no two look alike. Its thick cellulose fibres can be used to create flexible, porous material with the strength of plastic. Thrives when out of the sun.</description>
+	    <framenum>43</framenum>
+	    <yield_type>28</yield_type>
+	    <yield_num>22</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>1440</grow_time>   <!-- 10-->
+        <grow_mod_level1>1152</grow_mod_level1>
+        <grow_mod_level2>864</grow_mod_level2>
+        <grow_mod_level3>720</grow_mod_level3>
+	    <grow_time_min>640</grow_time_min>     <!-- 2-->
+	    <wilt_time>640</wilt_time>
+        <wilt_mod_level1>240</wilt_mod_level1>
+        <wilt_mod_level2>360</wilt_mod_level2>
+        <wilt_mod_level3>720</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>555000</price>
+	    <level>33</level>
+		<season>winter</season>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>2500</harvest_xp>
+        <harvest_xp_bonus1>1500</harvest_xp_bonus1>
+        <harvest_xp_bonus2>2500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>5000</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>2500</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference>Attic,Yard</background_preference>  <!-- Attic, Yard, Field, Island -->
+        <background_preference_yield>4</background_preference_yield>
+        <background_preference_grow_mod>0</background_preference_grow_mod>  <!-- this should be a time that gets SUBTRACTED from the normal base time or mod time -->
+	</seed>
+     <seed>
+	    <name>Firefly</name>
+	    <description>Firefly leaves contain a chemical compound that's sensitive to light and moisture levels. Studies published by agicultural institutes in India suggest this plant achieves best results in dark subterranean settings.</description>
+	    <framenum>51</framenum>
+	    <yield_type>36</yield_type>
+	    <yield_num>1</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>480</grow_time>
+        <grow_mod_level1>384</grow_mod_level1>
+        <grow_mod_level2>288</grow_mod_level2>
+        <grow_mod_level3>240</grow_mod_level3>
+	    <grow_time_min>240</grow_time_min>
+	    <wilt_time>360</wilt_time>
+        <wilt_mod_level1>60</wilt_mod_level1>
+        <wilt_mod_level2>120</wilt_mod_level2>
+        <wilt_mod_level3>360</wilt_mod_level3>
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <price>8500</price>
+	    <level>35</level>
+	    <displayed>true</displayed>
+		<harvest_xp>400</harvest_xp>
+        <harvest_xp_bonus1>50</harvest_xp_bonus1>
+        <harvest_xp_bonus2>100</harvest_xp_bonus2>
+        <harvest_xp_bonus3>200</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>0</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference>Cave</background_preference>
+        <background_preference_yield>6</background_preference_yield>
+        <background_preference_grow_mod>0</background_preference_grow_mod>
+	</seed>
+	<!-- new release 2 -->
+    <seed>
+	    <name>Electric</name>
+	    <description>A recently-discovered and extremely rare mutation of the Neon strain. Currently in demand by high-tech research labs who believe proper cultures may create the ideal battery source for electric-powered cars.</description>
+	    <framenum>40</framenum>
+	    <yield_type>25</yield_type>
+	    <yield_num>14</yield_num>
+        <yield_bonus1>1</yield_bonus1>
+        <yield_bonus2>2</yield_bonus2>
+        <yield_bonus3>3</yield_bonus3>
+	    <grow_time>25920</grow_time>   <!-- 10-->
+        <grow_mod_level1>20736</grow_mod_level1>
+        <grow_mod_level2>15552</grow_mod_level2>
+        <grow_mod_level3>10368</grow_mod_level3>
+	    <grow_time_min>10368</grow_time_min>     <!-- 2-->
+	    <wilt_time>10368</wilt_time>
+        <wilt_mod_level1>2880</wilt_mod_level1>
+        <wilt_mod_level2>4320</wilt_mod_level2>
+        <wilt_mod_level3>5760</wilt_mod_level3>
+		<!-- effects of gear on this plant -->
+	    <light>1.0</light>
+	    <sound>1.25</sound>
+	    <!-- availability thresholds -->
+	    <price>1500000</price>
+	    <level>40</level>
+	    <!-- store display tracking -->
+	    <displayed>true</displayed>
+		<harvest_xp>5500</harvest_xp>
+        <harvest_xp_bonus1>500</harvest_xp_bonus1>
+        <harvest_xp_bonus2>4500</harvest_xp_bonus2>
+        <harvest_xp_bonus3>9500</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>5500</harvest_xp_bonus_rain>
+        <new_seed>true</new_seed>
+
+        <background_preference></background_preference>
+        <background_preference_yield>0</background_preference_yield>
+        <background_preference_grow_mod>0</background_preference_grow_mod>
+	</seed>
+</seeds>
+<!--
+
+all plant names
+
+Baby Berry
+Tiny Berry
+Tri-Berry
+Hardy Berry
+Big Berry
+Bushy Berry
+
+Baby Sativo
+Tiny Sativo
+Tri-Sativo
+Hardy Sativo
+Big Sativo
+Bushy Sativo
+
+Baby Indigo
+Tiny Indigo
+Tri-Indigo
+Hardy Indigo
+Big Indigo
+Bushy Indigo
+
+Oily Lotus
+Hawaiian
+Rainbow
+Neon
+Aqua P-14
+Bone  Seed
+Oracle
+Paradise
+Alien
+Blueberry
+Golden
+Magic
+Snowcap
+Desert Palm
+Spider
+Mayan
+
+-->
+
+<!--
+GEAR
+id: corresponds to store image
+aoe: determines area of effect
+type: determines type of effect produced. light gear increases yield, sound increases growth speed and water increases both.
+price: determines price
+effectiveness/efficacy: multiplier applied to the effect the gear has on plants.
+durability/lifespan: lifespan of object (in days? hours?)
+-->
+<gear>
+    <item>
+        <name>PIZZA</name>
+        <id>24</id>
+        <description>A delicious pie from the local pizzeria, prepared with love and seasoned with garlic powder, pepper flakes, oregano and cigarette smoke. Be careful not to burn the roof of your mouth!</description>
+        <uses>Chow down for an instant XP bonus.</uses>
+        <aoe>neighbor</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>50</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>LOVE THAT THIN CRUST!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>250</price>
+        <level>3</level>
+        <resale>250</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>BANANAS</name>
+        <id>23</id>
+        <description>Some claim that the humble banana is proof of the existence of a divine creator. After all, who else could have designed such a convenient, delicious, individually wrapped fruit?</description>
+        <uses>Munch up for an instant XP bonus.</uses>
+        <aoe>farm</aoe>
+
+        <type>food</type>
+        <num_uses>1</num_uses>
+        <award_type>xp</award_type>
+        <award_base>200</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>YUM!</alert_title>
+        <alert_text>NOM NOM!</alert_text>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>1000</price>
+        <level>3</level>
+        <resale>500</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+     <item>
+        <name>DICE</name>
+        <id>25</id>
+        <description>Feeling lucky? Toss some dice! You get three chances!</description>
+        <uses>Get rich quick!</uses>
+        <aoe>neighbor</aoe>
+        <type>game</type>
+        <game_odds>20</game_odds>
+        <num_uses>3</num_uses>
+        <award_type>money</award_type>
+        <award_base>500</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+        <alert_background>blue</alert_background>
+        <alert_title>GAMBLING TIME!</alert_title>
+        <alert_text>HEY, NICE ROLL! DON'T GO SPENDING IT ALL IN ONE PLACE, NOW!</alert_text>
+		<alert_text_lose>AW, SO CLOSE! BETTER LUCK NEXT TIME!</alert_text_lose>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>500</price>
+        <level>3</level>
+        <resale>80</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+     <item>
+        <name>CARDS</name>
+        <id>26</id>
+        <description>Feeling REALLY lucky? Pull out the right card and you could WIN BIG! Sure, the odds are lower than the dice, but that just makes the payout all that much sweeter, right?</description>
+        <uses>Easy money!</uses>
+        <aoe>neighbor</aoe>
+
+        <type>game</type>
+        <game_odds>13</game_odds>
+        <num_uses>1</num_uses>
+        <award_type>money</award_type>
+        <award_base>25000</award_base>
+        <level_multiplyer>0</level_multiplyer>
+
+
+        <alert_background>blue</alert_background>
+        <alert_title>GAMBLING TIME!</alert_title>
+        <alert_text>WHOA! NICE JOB! JUST DON'T GO SPENDING IT ON ANYTHING ILLEGAL.</alert_text>
+		<alert_text_lose>AW, THAT'S TOO BAD. NEXT TIME YOU'VE GOT IT FOR SURE.</alert_text_lose>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <price>5000</price>
+        <level>3</level>
+        <resale>2500</resale>
+        <gear_xp>0</gear_xp>
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>FLOWERS</name>
+        <id>0</id>
+        <description>In addition to adding some color to the farm, these flowers smell great and attract bees and other helpful insects.</description>
+        <uses>Neighboring plants grow a little more quickly.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>1</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>500</price>
+        <level>4</level>
+        <resale>250</resale><!-- resale value in dollars -->
+        <gear_xp>15</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>ROCKS</name>
+        <id>1</id>
+        <description>Help, I'm a rock! Wow, man, it's a drag being a rock.</description>
+        <uses>Neighboring plants wither a little more slowly.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>1</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>500</price>
+        <level>5</level>
+        <resale>250</resale><!-- resale value in dollars -->
+        <gear_xp>15</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>GNOME</name>
+        <id>2</id>
+        <description>Little guy, huge help. It often falls on garden gnomes to keep the peace in the chaos of the fields.</description>
+        <uses>Neighboring plants yield a little more hemp when harvested.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>1</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>500</price>
+        <level>6</level>
+        <resale>300</resale><!-- resale value in dollars -->
+        <gear_xp>25</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>HORSESHOES</name>
+        <id>3</id>
+        <description>The plants can't play, but they seem to wish they could!</description>
+        <uses>Neighboring plants respond with quicker grow times.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>1</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>500</price>
+        <level>7</level>    <!-- 4 -->
+        <resale>250</resale><!-- resale value in dollars -->
+        <gear_xp>25</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>HYDRANT</name>
+        <id>4</id>
+        <description>Hot plants love a refreshing blast from this iconic hydrant.</description>
+        <uses>Neighboring plants grant a little more XP when harvested.</uses><!-- a short additional description, I guess -->
+		<aoe>neighbor</aoe>
+
+        <!-- each item will have levesl for each type of bonus
+        we are not restricted to a single type of bonus per item,
+        but actual effect is statically pre-determined in the seed config -->
+        <harvest_xp_bonus_level>1</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>500</price>
+        <level>8</level>
+        <resale>250</resale><!-- resale value in dollars -->
+        <gear_xp>25</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>PEACE SIGN</name>
+        <id>5</id>
+        <description>The peace sign was designed in 1958 to represent the nuclear disarmament movement. Nukes are still around, but so is this ubiquitous symbol!</description>
+        <uses>All plants on the farm wither a little more slowly.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>1</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>2500</price>
+        <level>8</level>
+        <resale>1250</resale><!-- resale value in dollars -->
+        <gear_xp>50</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>POND</name>
+        <id>6</id>
+        <description>Whoa, the fish just keep circling round and round... what? Oh, this pond is great for keeping the soil on the farm fertile and moist.</description>
+        <uses>All plants on the farm grant a little more XP when harvested.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>1</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>5000</price>
+        <level>8</level>
+        <resale>2500</resale><!-- resale value in dollars -->
+        <gear_xp>55</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>BONES</name>
+        <id>7</id>
+        <description>This ancient skeleton holds a profound symbolic significance... or maybe it just looks cool.</description>
+        <uses>Neighboring plants wither more slowly.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>2</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>7500</price>
+        <level>9</level>
+        <resale>3750</resale><!-- resale value in dollars -->
+        <gear_xp>55</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>PHONOGRAPH</name>
+        <id>8</id>
+        <description>All the crackling and fuzz can be kinda charming... if you're from your grandpa's generation, that is.</description>
+        <uses>Neighboring plants yield more hemp when harvested.</uses>
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>10000</price>
+        <level>9</level>
+        <resale>7500</resale>
+        <gear_xp>65</gear_xp>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>FLAMINGO</name>
+        <id>9</id>
+        <description>This hot pink flamingo knows how to keep things cool. The plants groove on his eerie vibrations!</description>
+        <uses>All plants on the farm yield a little more hemp when harvested.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>1</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>21000</price>
+        <level>10</level>
+        <resale>10500</resale><!-- resale value in dollars -->
+        <gear_xp>65</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>FOUNTAIN</name>
+        <id>10</id>
+        <description>Water spills endlessly from the top of this statue's bowl and seeps into the soil of nearby plants.</description>
+        <uses>Plants in neighboring tiles grant a lot more XP when harvested.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>25000</price>
+        <level>10</level>
+        <resale>12500</resale><!-- resale value in dollars -->
+        <gear_xp>70</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>SPOT LIGHT</name>
+        <id>11</id>
+        <description>A niftier take on the lightbulb. Let your plants photosynthesize in style with a wave of colorful lights... and save energy, too!</description>
+        <uses>Neighboring plants grow more quickly.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>2</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>19500</price>
+        <level>11</level>
+        <resale>9750</resale><!-- resale value in dollars -->
+        <gear_xp>70</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+     <item>
+        <name>BOOMBOX</name>
+        <id>12</id>
+        <description>This little radio has no shame. It'll switch between Pink Floyd and Katy Perry without skipping a beat. The sound stimulates nearby plants!</description>
+        <uses>Neighboring plants yield a lot more hemp when harvested.</uses>
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>3</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>75000</price>
+        <level>11</level>
+        <resale>37500</resale>
+        <gear_xp>80</gear_xp>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>ORNAMENT</name>
+        <id>13</id>
+        <description>Handed down through the ages, this perfectly shaped crystal is the emblem of hypnotic pleasure. It scatters refracted light all over nearby plants.</description>
+        <uses>Neighboring plants wither a lot more slowly.</uses><!-- a short additional description, I guess -->
+		<aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>3</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>60000</price>
+        <level>12</level>
+        <resale>30000</resale><!-- resale value in dollars -->
+        <gear_xp>85</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>SATYR</name>
+        <id>14</id>
+        <description>Oh sweet, it's a Satyr playing music! He only seems to know classic show tunes, but it's better than nothing...</description>
+        <uses>All plants on the farm yield more hemp when harvested.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>100000</price>
+        <level>14</level>
+        <resale>50000</resale><!-- resale value in dollars -->
+        <gear_xp>100</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>HOSE</name>
+        <id>15</id>
+        <description>This flexible tube is easy to use and provides great water pressure. Just turn the spigot!</description>
+        <uses>Neighboring plants grant MUCH more XP when harvested.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>3</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>125000</price>
+        <level>15</level>
+        <resale>100000</resale><!-- resale value in dollars -->
+        <gear_xp>105</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>MIRROR</name>
+        <id>16</id>
+        <description>Capable of harnessing and unleashing severe concentrations of light energy. Not for the faint of heart.</description>
+        <uses>Neighboring plants grow MUCH more quickly.</uses><!-- a short additional description, I guess -->
+        <aoe>neighbor</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>3</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>150000</price>
+        <level>16</level>
+        <resale>100000</resale><!-- resale value in dollars -->
+        <gear_xp>120</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>SPRINKLER</name>
+        <id>17</id>
+        <description>Waters plants through patterns of equal distribution. Simple, yet effective. Who needs rain when you've got one of these?</description>
+        <uses>All plants on the farm grant more XP when harvested.</uses>
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>225000</price>
+        <level>17</level>
+        <resale>125000</resale>
+        <gear_xp>125</gear_xp>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+	<item>
+        <name>MOAI</name>
+        <id>18</id>
+        <description>This monolithic man serves as a communication conduit to the gods of agriculture.</description>
+        <uses>Neighboring plants yield more hemp and XP.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>250000</price>
+        <level>18</level>
+        <resale>112500</resale><!-- resale value in dollars -->
+        <gear_xp>150</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>INCENSE</name>
+        <id>19</id>
+        <description>The rich and powerful aroma of this burning incense wafts all over the farm. It smells... like mystery!</description>
+        <uses>All plants on the farm grow more quickly and wither slowly.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>2</grow_time_reduction_level>
+        <whither_extension_level>2</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>300000</price>
+        <level>19</level>
+        <resale>150000</resale><!-- resale value in dollars -->
+        <gear_xp>200</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>BUDDHA</name>
+        <id>20</id>
+        <description>The statue of this portly, jovial god smiles fortune upon you. Rub his belly for good luck!</description>
+        <uses>All plants on the farm yield more hemp and XP.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <harvest_xp_bonus_level>2</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>2</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>300000</price>
+        <level>20</level>
+        <resale>150000</resale><!-- resale value in dollars -->
+        <gear_xp>500</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+    </item>
+    <item>
+        <name>LIL' HELPER</name>
+        <id>21</id>
+        <description>This chilly little dude is visiting from the North Pole!</description>
+        <uses>All plants on the farm grant MUCH more XP while snowing.</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <!--  note that these values will only be applied on a snow_capable farm, during winter-->
+        <harvest_xp_bonus_level>3</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>500000</price>
+        <level>25</level>
+        <resale>250000</resale><!-- resale value in dollars -->
+        <gear_xp>1000</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+
+        <season>winter</season><!-- testing availability -->
+        <quantity>1</quantity>
+    </item>
+    <item>
+        <name>HATCH</name>
+        <id>22</id>
+        <description>Your standard, everyday, run-of-the-mill hatch. Looks pretty old. Has its serial code, 4815162342, engraved along the side.</description>
+        <uses>Unknown, but seems to invite explorers...</uses><!-- a short additional description, I guess -->
+        <aoe>farm</aoe>
+
+        <type>tool</type>
+
+        <!--  note that these values will only be applied on a snow_capable farm, during winter-->
+        <harvest_xp_bonus_level>0</harvest_xp_bonus_level>
+        <harvest_yield_bonus_level>0</harvest_yield_bonus_level>
+        <grow_time_reduction_level>0</grow_time_reduction_level>
+        <whither_extension_level>0</whither_extension_level>
+
+        <!-- availability thresholds -->
+        <price>1000000</price>   <!-- 1000000 -->
+        <level>35</level>  <!--35-->
+        <resale>500000</resale><!-- resale value in dollars -->
+        <gear_xp>10000</gear_xp> <!-- immediate xp added when placed in cell -->
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+
+        <season></season><!-- testing availability -->
+        <quantity>1</quantity>
+    </item>
+    <!--
+
+    new shorter list 8-20-10
+    PHONOGRAPH
+    BOOMBOX
+    SPRINKLER
+    ORNAMENT
+    INCENSE
+    BONES
+    POND
+    MIRROR
+
+    FOUNTAIN
+    GNOME
+    SATYR
+    FLAMINGO
+    PEACE SIGN
+    FUNGUS
+    SPOT LIGHT
+    MOAI
+
+    HOSE
+    ROCKS
+    HORSESHOES
+    BANANAS
+    HYDRANT
+    PIZZA PIE
+    BUDDHA
+    FLOWERS
+
+     Hemp Mister
+     Rastapus
+     Sprinkler
+     Koi Pond
+     Lava Lamp
+     100W Bulb
+     Tiki Torch
+     Halogen Lamp
+     Fluorescents
+     Mirror
+     Record Player
+     Boombox
+     Satyr
+     Stereo System
+     Rocksteady Sound System
+     Dub Reggae
+     Buddha Statue
+     Crystal Ball
+     Moai
+     Tombstone
+     Ornament
+     Bones
+     Yin Yang Sign
+     Big Crystal
+     Crystal
+     Garden Gnome
+     Rasta Flamingo
+     Rasta Scarecrow
+     Phungus
+     Beehive
+     Barber Pole
+     Beverages
+     Table
+     Wine Rack
+     Pizza
+     Divider
+     Dip Bird
+     TV Set
+     Peace Sign
+     Lantern
+     Tesla Ball
+     Pendulum
+
+
+
+
+
+
+
+
+
+
+    -->
+</gear>
+
+<!--
+STORE
+id: corresponds to gear or plant id, depending on store panel
+price: price!
+level: minimum level at which this item is available for purchase
+
+most of this is being rolled into the actual item data above
+-->
+</config>

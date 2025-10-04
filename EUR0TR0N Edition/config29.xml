@@ -5,6 +5,7 @@ configuration settings:  v29g, modded by:
   / __/ / / / / /_/ / / / / / / / /_/ / / / /  |/ /
  / /___/ /_/ / _, _/ /_/ / / / / _, _/ /_/ / /|  /
 /_____/\____/_/ |_|\____/ /_/ /_/ |_|\____/_/ |_/
+EUR0[bbfc19f0-803a-42f7-ad58-f644305ad3f3]
 -->
 <config>
     <time_server>http://www.key-east.com/time.php</time_server>
@@ -98,7 +99,7 @@ configuration settings:  v29g, modded by:
             <level_multiplyer>1</level_multiplyer>
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>EUROPE DAY!</alert_title>
-            <alert_text>TUNE IN TO THE EUROVISION SONG CONTEST AND CELEBRATE UNITY!</alert_text>
+            <alert_text>TUNE IN TO THE EUROVISION SONG CONTEST AND CELEBRATE UNITY! EUR0TR0N SALUTES YOU!</alert_text>
         </event>
         <event>
             <e_day>11</e_day><!-- 1-31, no offset needed -->
