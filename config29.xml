@@ -16,7 +16,7 @@ configuration settings:  v29g, modded by:
         <stand_sleep_time>20</stand_sleep_time>
         <lie_sleep_time>40</lie_sleep_time>
     </hempy>
-    <money>200</money>
+    <money>25</money>
     <DOUBLE_CLICK_SPEED>300</DOUBLE_CLICK_SPEED><!-- click speed timeout for couble click detection, in 1/1000 of a second -->
     <seasons><!-- season parsing currently hard-wired in the game, below settings are ignored -->
         <season>
@@ -53,7 +53,7 @@ configuration settings:  v29g, modded by:
             <e_day>25</e_day><!-- 1-31, no offset needed -->
             <e_month>12</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
             <award_type>money</award_type> <!--xp,money -->
-            <award_base>100</award_base>
+            <award_base>20</award_base>
             <level_multiplyer>2</level_multiplyer>
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>HAPPY HOLIDAYS!</alert_title>
@@ -73,7 +73,7 @@ configuration settings:  v29g, modded by:
             <e_day>31</e_day><!-- 1-31, no offset needed -->
             <e_month>10</e_month><!-- 1-12, we will convert to correct 0-start designation within the sef -->
             <award_type>money</award_type> <!--xp,money -->
-            <award_base>100</award_base>
+            <award_base>20</award_base>
             <level_multiplyer>5</level_multiplyer>
             <alert_background>blue</alert_background><!-- which color background should we use?-->
             <alert_title>HAPPY HALLOWEEN!</alert_title>
@@ -115,7 +115,7 @@ configuration settings:  v29g, modded by:
         <odds>125</odds><!-- 1 in 125 -->
          <event>
             <award_type>money</award_type>
-            <award_base>250</award_base>
+            <award_base>50</award_base>
             <level_multiplyer>1.5</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -124,7 +124,7 @@ configuration settings:  v29g, modded by:
         </event>
          <event>
             <award_type>money</award_type>
-            <award_base>50</award_base>
+            <award_base>10</award_base>
             <level_multiplyer>1.5</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -133,7 +133,7 @@ configuration settings:  v29g, modded by:
         </event>
          <event>
             <award_type>money</award_type>
-            <award_base>1000</award_base>
+            <award_base>200</award_base>
             <level_multiplyer>2</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -160,7 +160,7 @@ configuration settings:  v29g, modded by:
         </event>
         <event>
             <award_type>money</award_type>
-            <award_base>100</award_base>
+            <award_base>20</award_base>
             <level_multiplyer>3</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -169,7 +169,7 @@ configuration settings:  v29g, modded by:
         </event>
         <event>
             <award_type>money</award_type>
-            <award_base>500</award_base>
+            <award_base>100</award_base>
             <level_multiplyer>3</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -178,7 +178,7 @@ configuration settings:  v29g, modded by:
         </event>
         <event>
             <award_type>money</award_type>
-            <award_base>1000</award_base>
+            <award_base>200</award_base>
             <level_multiplyer>3</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -228,11 +228,11 @@ configuration settings:  v29g, modded by:
 
             <alert_background>blue</alert_background>
             <alert_title>WHOA!</alert_title>
-            <alert_text>YOU FOUND A DOLLAR BILL NESTLED BETWEEN TWO PIECES OF DIRT!</alert_text>
+            <alert_text>YOU FOUND A BANKNOTE NESTLED BETWEEN TWO PIECES OF DIRT!</alert_text>
         </event>
          <event>
             <award_type>money</award_type>
-            <award_base>1000</award_base>
+            <award_base>200</award_base>
             <level_multiplyer>1</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -250,7 +250,7 @@ configuration settings:  v29g, modded by:
         </event>
          <event>
             <award_type>money</award_type>
-            <award_base>50</award_base>
+            <award_base>10</award_base>
             <level_multiplyer>2.5</level_multiplyer>
 
             <alert_background>blue</alert_background>
@@ -304,294 +304,294 @@ configuration settings:  v29g, modded by:
             <water_duration>1.6</water_duration>
             <harvest_duration>2.6</harvest_duration>
             <walk_speed>5</walk_speed>
-			<fluids_amount>200</fluids_amount>
+			<fluids_amount>0</fluids_amount>
         </level>
          <level>
-            <threshold>10</threshold>
+            <threshold>50</threshold>
             <water_duration>1.6</water_duration>
             <harvest_duration>2.5</harvest_duration>
             <walk_speed>6</walk_speed>
-			<fluids_amount>200</fluids_amount>
+			<fluids_amount>0</fluids_amount>
         </level>
         <level>
-            <threshold>75</threshold>
+            <threshold>375</threshold>
             <water_duration>1.6</water_duration>
             <harvest_duration>2.5</harvest_duration>
             <walk_speed>7</walk_speed>
-			<fluids_amount>250</fluids_amount>
+			<fluids_amount>50</fluids_amount>
         </level>
         <level>
-            <threshold>250</threshold>
+            <threshold>1250</threshold>
             <water_duration>1.6</water_duration>
             <harvest_duration>2.4</harvest_duration>
             <walk_speed>7</walk_speed>
-			<fluids_amount>500</fluids_amount>
-        </level>
-        <level>
-            <threshold>500</threshold>
-            <water_duration>1.6</water_duration>
-            <harvest_duration>2.3</harvest_duration>
-            <walk_speed>7</walk_speed>
-			<fluids_amount>600</fluids_amount>
-        </level>
-        <level>
-            <threshold>1000</threshold>
-            <water_duration>1.6</water_duration>
-            <harvest_duration>2.2</harvest_duration>
-            <walk_speed>8</walk_speed>
-			<fluids_amount>700</fluids_amount>
-        </level>
-        <level>
-            <threshold>1750</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>2</harvest_duration>
-            <walk_speed>8</walk_speed>
-			<fluids_amount>800</fluids_amount>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
             <threshold>2500</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.8</harvest_duration>
-            <walk_speed>8</walk_speed>
-			<fluids_amount>900</fluids_amount>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.3</harvest_duration>
+            <walk_speed>7</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
-            <threshold>3500</threshold>
+            <threshold>5000</threshold>
+            <water_duration>1.6</water_duration>
+            <harvest_duration>2.2</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>100</fluids_amount>
+        </level>
+        <level>
+            <threshold>8750</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>2</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>100</fluids_amount>
+        </level>
+        <level>
+            <threshold>12500</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.8</harvest_duration>
             <walk_speed>8</walk_speed>
-			<fluids_amount>900</fluids_amount>
+			<fluids_amount>100</fluids_amount>
+        </level>
+        <level>
+            <threshold>17500</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.8</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level> <!-- level 10 -->
-            <threshold>5000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.6</harvest_duration>
-            <walk_speed>8</walk_speed>
-			<fluids_amount>1000</fluids_amount>
-        </level>
-        <level>
-            <threshold>7000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.6</harvest_duration>
-            <walk_speed>8</walk_speed>
-			<fluids_amount>1100</fluids_amount>
-        </level>
-        <level>
-            <threshold>10000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>8</walk_speed>
-			<fluids_amount>1200</fluids_amount>
-        </level>
-        <level>
-            <threshold>14000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>9</walk_speed>
-			<fluids_amount>1300</fluids_amount>
-        </level>
-        <level>
-            <threshold>19000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>9</walk_speed>
-			<fluids_amount>1400</fluids_amount>
-        </level>
-        <level>
             <threshold>25000</threshold>
             <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>9</walk_speed>
-			<fluids_amount>1500</fluids_amount>
+            <harvest_duration>1.6</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
-            <threshold>32000</threshold>
+            <threshold>35000</threshold>
             <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>10</walk_speed>
-			<fluids_amount>1600</fluids_amount>
+            <harvest_duration>1.6</harvest_duration>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
-            <threshold>40000</threshold>
+            <threshold>50000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
-            <walk_speed>10</walk_speed>
-			<fluids_amount>1700</fluids_amount>
+            <walk_speed>8</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
-            <threshold>49000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>10</walk_speed>
-			<fluids_amount>1800</fluids_amount>
-        </level>
-        <level>
-            <threshold>59000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>11</walk_speed>
-			<fluids_amount>1900</fluids_amount>
-        </level>
-        <level>  <!-- level 20 -->
             <threshold>70000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
-            <walk_speed>11</walk_speed>
-			<fluids_amount>2000</fluids_amount>
-        </level>
-        <level>
-            <threshold>82000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>11</walk_speed>
-			<fluids_amount>2100</fluids_amount>
+            <walk_speed>9</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
             <threshold>95000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
-            <walk_speed>12</walk_speed>
-			<fluids_amount>2200</fluids_amount>
+            <walk_speed>9</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
-            <threshold>110000</threshold>
+            <threshold>125000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
-            <walk_speed>12</walk_speed>
-			<fluids_amount>2300</fluids_amount>
-        </level>
-        <level>
-            <threshold>130000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>12</walk_speed>
-			<fluids_amount>2400</fluids_amount>
-        </level>
-        <level>  <!-- level 25 -->
-            <threshold>160000</threshold>
-            <water_duration>1.5</water_duration>
-            <harvest_duration>1.5</harvest_duration>
-            <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+            <walk_speed>9</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
             <threshold>190000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
-            <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+            <walk_speed>10</walk_speed>
+			<fluids_amount>100</fluids_amount>
         </level>
         <level>
-            <threshold>220000</threshold>
+            <threshold>200000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>10</walk_speed>
+			<fluids_amount>100</fluids_amount>
+        </level>
+        <level>
+            <threshold>245000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>10</walk_speed>
+			<fluids_amount>100</fluids_amount>
+        </level>
+        <level>
+            <threshold>295000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>11</walk_speed>
+			<fluids_amount>100</fluids_amount>
+        </level>
+        <level>  <!-- level 20 -->
+            <threshold>350000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>11</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>410000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>11</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>475000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>250000</threshold>
+            <threshold>550000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>285000</threshold>
+            <threshold>650000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>  <!-- level 25 -->
+            <threshold>800000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>950000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>1100000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>1250000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>200</fluids_amount>
+        </level>
+        <level>
+            <threshold>1400000</threshold>
+            <water_duration>1.5</water_duration>
+            <harvest_duration>1.5</harvest_duration>
+            <walk_speed>12</walk_speed>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>    <!-- level 30 -->
-            <threshold>320000</threshold>
+            <threshold>1600000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>360000</threshold>
+            <threshold>1800000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>405000</threshold>
+            <threshold>2005000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>455500</threshold>
+            <threshold>2255500</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>506500</threshold>
+            <threshold>2506500</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>2500</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level> <!-- level 35 -->
-            <threshold>570000</threshold>
+            <threshold>2850000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>635000</threshold>
+            <threshold>3155000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>705000</threshold>
+            <threshold>3505000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>780000</threshold>
+            <threshold>3900000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>865000</threshold>
+            <threshold>4305000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level> <!-- level 40 -->
-            <threshold>1000000</threshold>
+            <threshold>5000000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>1500000</threshold>
+            <threshold>7500000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
         <level>
-            <threshold>2500000</threshold>
+            <threshold>12500000</threshold>
             <water_duration>1.5</water_duration>
             <harvest_duration>1.5</harvest_duration>
             <walk_speed>12</walk_speed>
-			<fluids_amount>5000</fluids_amount>
+			<fluids_amount>200</fluids_amount>
         </level>
     </xp_levels>
     <tile_width>126</tile_width>
