@@ -1078,6 +1078,39 @@ all plant types
         <new_seed>false</new_seed>
     </seed>
     <seed>
+        <name>Sativo</name>
+        <description>Your basic small green Verde. The thick stalk and arms on this plant are often crushed and used as wood pulp.</description>
+        <framenum>27</framenum>
+        <yield_type>1</yield_type><!-- use the ids created in 'Plants' above -->
+        <yield_num>20</yield_num>
+        <yield_bonus1>5</yield_bonus1>
+        <yield_bonus2>10</yield_bonus2>
+        <yield_bonus3>15</yield_bonus3>
+        <grow_time>2</grow_time>  <!--5-->
+        <grow_mod_level1>1.6</grow_mod_level1>
+        <grow_mod_level2>1.2</grow_mod_level2>
+        <grow_mod_level3>1</grow_mod_level3>
+        <grow_time_min>1</grow_time_min> <!-- 2 -->
+        <wilt_time>30</wilt_time>  <!-- 10 -->
+        <wilt_mod_level1>15</wilt_mod_level1>
+        <wilt_mod_level2>30</wilt_mod_level2>
+        <wilt_mod_level3>60</wilt_mod_level3>
+        <!-- effects of gear on this plant -->
+        <light>1.25</light>
+        <sound>0.75</sound> <!--0.75 -->
+        <!-- availability thresholds -->
+        <price>250</price>
+        <level>1</level>
+        <!-- store display tracking -->
+        <displayed>true</displayed>
+        <harvest_xp>5</harvest_xp>
+        <harvest_xp_bonus1>5</harvest_xp_bonus1>
+        <harvest_xp_bonus2>10</harvest_xp_bonus2>
+        <harvest_xp_bonus3>15</harvest_xp_bonus3>
+        <harvest_xp_bonus_rain>5</harvest_xp_bonus_rain>
+        <new_seed>false</new_seed>
+    </seed>
+    <seed>
         <name>Tri-Sativo</name>
         <description>A mid-sized crop of green-leaved Verde. This star-shaped plant has a strong, deep root system and makes an efficient biofuel.</description>
         <framenum>3</framenum>
